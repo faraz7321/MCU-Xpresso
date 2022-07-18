@@ -17,11 +17,11 @@
  * Definitions
  ******************************************************************************/
 #define EXAMPLE_ECSPI_MASTER_BASEADDR ECSPI2
-#define EXAMPLE_ECSPI_DEALY_COUNT     1000000
+#define EXAMPLE_ECSPI_DEALY_COUNT 1000000
 #define ECSPI_MASTER_CLK_FREQ                                                                 \
     (CLOCK_GetPllFreq(kCLOCK_SystemPll1Ctrl) / (CLOCK_GetRootPreDivider(kCLOCK_RootEcspi2)) / \
      (CLOCK_GetRootPostDivider(kCLOCK_RootEcspi2)))
-#define TRANSFER_SIZE     64U     /*! Transfer dataSize */
+#define TRANSFER_SIZE 64U         /*! Transfer dataSize */
 #define TRANSFER_BAUDRATE 500000U /*! Transfer baudrate - 500k */
 
 /*******************************************************************************
@@ -37,7 +37,7 @@ uint32_t masterRxData[TRANSFER_SIZE] = {0U};
 uint32_t masterTxData[TRANSFER_SIZE] = {0U};
 
 ecspi_master_handle_t g_m_handle;
-volatile bool isTransferCompleted  = false;
+volatile bool isTransferCompleted = false;
 volatile uint32_t g_systickCounter = 20U;
 /*******************************************************************************
  * Code
@@ -135,12 +135,15 @@ int main(void)
         }
         PRINTF("\r\n");
 
+        /* This example uses espi loopback by connecting
+        MISO and MOSI physically on the board */
+
         /* Start master transfer, send data to slave */
         isTransferCompleted = false;
-        masterXfer.txData   = masterTxData;
-        masterXfer.rxData   = NULL;
+        masterXfer.txData = masterTxData;
+        masterXfer.rxData = masterRxData; // provide Rx buffer
         masterXfer.dataSize = TRANSFER_SIZE;
-        masterXfer.channel  = kECSPI_Channel0;
+        masterXfer.channel = kECSPI_Channel0;
         ECSPI_MasterTransferNonBlocking(EXAMPLE_ECSPI_MASTER_BASEADDR, &g_m_handle, &masterXfer);
 
         /* Wait transfer complete */
@@ -163,10 +166,10 @@ int main(void)
 
         /* Start master transfer, receive data from slave */
         isTransferCompleted = false;
-        masterXfer.txData   = NULL;
-        masterXfer.rxData   = masterRxData;
+        masterXfer.txData = masterTxData; // provide Tx buffer
+        masterXfer.rxData = masterRxData;
         masterXfer.dataSize = TRANSFER_SIZE;
-        masterXfer.channel  = kECSPI_Channel0;
+        masterXfer.channel = kECSPI_Channel0;
         PRINTF("Start receive data from slave.\r\n");
         ECSPI_MasterTransferNonBlocking(EXAMPLE_ECSPI_MASTER_BASEADDR, &g_m_handle, &masterXfer);
 
