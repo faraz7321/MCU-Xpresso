@@ -1,8 +1,4 @@
 # NXP IMX8MM-EVK
-# Implement Spark Stack on MCUXpresso SDK
-
-
-# NXP IMX8MM-EVK
 ## Evaluation kit
 - [EVK][1]
 
