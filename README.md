@@ -62,9 +62,9 @@ Change username and directory:
 
 #### Testing Examples
 ##### ECSPI Driver
-Interrupt B2B Transfer master as loopback using single board.
-Connect MOSI and MISO pins physically on board (J1003-PIN_19-ECSPI2_MOSI & J1003-PIN_21-ECSPI2_MISO ).
-Edition in driver code:
+- Interrupt B2B Transfer master as loopback using single board.
+- Connect MOSI and MISO pins physically on board (J1003-PIN_19-ECSPI2_MOSI & J1003-PIN_21-ECSPI2_MISO ).
+- Edition in driver code:
 > Assign masterTxData and masterRxData buffer to escpi_transfer_t object.
 
 ##### GPIO Driver
