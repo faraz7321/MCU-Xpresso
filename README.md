@@ -1,5 +1,5 @@
-- # NXP IMX8MM-EVK
-- # Implement Spark Stack on MCUXpresso SDK
+# NXP IMX8MM-EVK
+# Implement Spark Stack on MCUXpresso SDK
 
 
 # NXP IMX8MM-EVK
