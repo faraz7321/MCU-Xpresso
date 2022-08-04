@@ -174,13 +174,11 @@ static void ECSPI_SendTransfer(ECSPI_Type *base, ecspi_master_handle_t *handle)
     assert(base != NULL);
     assert(handle != NULL);
 
-    uint32_t dataCounts       = 0U;
+    uint32_t dataCounts = 0U;
     uint32_t txRemainingBytes = (uint32_t)(handle->txRemainingBytes);
     /* Caculate the data size to send */
     dataCounts =
-        ((uint32_t)FSL_FEATURE_ECSPI_TX_FIFO_SIZEn(base) - (uint32_t)ECSPI_GetTxFifoCount(base)) < txRemainingBytes ?
-            ((uint32_t)FSL_FEATURE_ECSPI_TX_FIFO_SIZEn(base) - (uint32_t)ECSPI_GetTxFifoCount(base)) :
-            txRemainingBytes;
+        ((uint32_t)FSL_FEATURE_ECSPI_TX_FIFO_SIZEn(base) - (uint32_t)ECSPI_GetTxFifoCount(base)) < txRemainingBytes ? ((uint32_t)FSL_FEATURE_ECSPI_TX_FIFO_SIZEn(base) - (uint32_t)ECSPI_GetTxFifoCount(base)) : txRemainingBytes;
     while ((dataCounts--) != 0UL)
     {
         ECSPI_WriteNonBlocking(base, handle->txData, 1);
@@ -213,12 +211,12 @@ static void ECSPI_GetDefaultChannelConfig(ecspi_channel_config_t *config)
     /* Initializes the configure structure to zero. */
     (void)memset(config, 0, sizeof(*config));
 
-    config->channelMode           = kECSPI_Slave;                    /*!< ECSPI peripheral operates in slave mode.*/
-    config->clockInactiveState    = kECSPI_ClockInactiveStateLow;    /*!< Clock line (SCLK) inactive state */
+    config->channelMode = kECSPI_Slave;                              /*!< ECSPI peripheral operates in slave mode.*/
+    config->clockInactiveState = kECSPI_ClockInactiveStateLow;       /*!< Clock line (SCLK) inactive state */
     config->dataLineInactiveState = kECSPI_DataLineInactiveStateLow; /*!< Data line (MOSI&MISO) inactive state */
-    config->chipSlectActiveState  = kECSPI_ChipSelectActiveStateLow; /*!< Chip select(SS) line active state */
-    config->polarity              = kECSPI_PolarityActiveHigh;       /*!< Clock polarity */
-    config->phase                 = kECSPI_ClockPhaseFirstEdge;      /*!< clock phase */
+    config->chipSlectActiveState = kECSPI_ChipSelectActiveStateLow;  /*!< Chip select(SS) line active state */
+    config->polarity = kECSPI_PolarityActiveHigh;                    /*!< Clock polarity */
+    config->phase = kECSPI_ClockPhaseFirstEdge;                      /*!< clock phase */
 }
 
 /*!
@@ -241,19 +239,19 @@ void ECSPI_MasterGetDefaultConfig(ecspi_master_config_t *config)
     /* Initializes the configure structure to zero. */
     (void)memset(config, 0, sizeof(*config));
 
-    config->channel           = kECSPI_Channel0;
-    config->burstLength       = 8;
+    config->channel = kECSPI_Channel0;
+    config->burstLength = 8;
     config->samplePeriodClock = kECSPI_spiClock;
-    config->baudRate_Bps      = 500000;
-    config->chipSelectDelay   = 0;
-    config->samplePeriod      = 0;
-    config->txFifoThreshold   = 1;
-    config->rxFifoThreshold   = 0;
+    config->baudRate_Bps = 500000;
+    config->chipSelectDelay = 0;
+    config->samplePeriod = 0;
+    config->txFifoThreshold = 1;
+    config->rxFifoThreshold = 0;
     /* Default configuration of channel */
     ECSPI_GetDefaultChannelConfig(&config->channelConfig);
     /*!< ECSPI peripheral operates in slave mode.*/
     config->channelConfig.channelMode = kECSPI_Master;
-    config->enableLoopback            = false;
+    config->enableLoopback = false;
 }
 
 /*!
@@ -324,7 +322,7 @@ void ECSPI_SlaveGetDefaultConfig(ecspi_slave_config_t *config)
     (void)memset(config, 0, sizeof(*config));
     config->channel = kECSPI_Channel0;
 
-    config->burstLength     = 8;
+    config->burstLength = 8;
     config->txFifoThreshold = 1;
     config->rxFifoThreshold = 0;
     /* Set default channel configuration */
@@ -403,8 +401,8 @@ void ECSPI_SetBaudRate(ECSPI_Type *base, uint32_t baudRate_Bps, uint32_t srcCloc
     uint8_t bestPreDividerValue = 0U, preDividerValue = 0U;
     uint8_t bestPostDividerValue = 0U, postDividerValue = 0U;
     uint32_t realBaudrate = 0U;
-    uint32_t diff         = 0xFFFFFFFFU;
-    uint32_t min_diff     = 0xFFFFFFFFU;
+    uint32_t diff = 0xFFFFFFFFU;
+    uint32_t min_diff = 0xFFFFFFFFU;
 
     for (preDividerValue = 0U; preDividerValue < 16U; preDividerValue++)
     {
@@ -426,8 +424,8 @@ void ECSPI_SetBaudRate(ECSPI_Type *base, uint32_t baudRate_Bps, uint32_t srcCloc
                 diff = realBaudrate - baudRate_Bps;
                 if (diff < min_diff)
                 {
-                    min_diff             = diff;
-                    bestPreDividerValue  = preDividerValue;
+                    min_diff = diff;
+                    bestPreDividerValue = preDividerValue;
                     bestPostDividerValue = postDividerValue;
                 }
             }
@@ -436,8 +434,8 @@ void ECSPI_SetBaudRate(ECSPI_Type *base, uint32_t baudRate_Bps, uint32_t srcCloc
                 diff = baudRate_Bps - realBaudrate;
                 if (diff < min_diff)
                 {
-                    min_diff             = diff;
-                    bestPreDividerValue  = preDividerValue;
+                    min_diff = diff;
+                    bestPreDividerValue = preDividerValue;
                     bestPostDividerValue = postDividerValue;
                 }
             }
@@ -463,44 +461,44 @@ void ECSPI_SetChannelConfig(ECSPI_Type *base, ecspi_channel_source_t channel, co
 {
     switch (channel)
     {
-        case kECSPI_Channel0:
-            base->CONREG |= ECSPI_CONREG_CHANNEL_MODE(config->channelMode);
-            base->CONFIGREG |= (ECSPI_CONFIGREG_SCLK_CTL(config->clockInactiveState) |
-                                ECSPI_CONFIGREG_DATA_CTL(config->dataLineInactiveState) |
-                                ECSPI_CONFIGREG_SS_POL(config->chipSlectActiveState) |
-                                ECSPI_CONFIGREG_SCLK_POL(config->polarity) | ECSPI_CONFIGREG_SCLK_PHA(config->phase));
-            break;
+    case kECSPI_Channel0:
+        base->CONREG |= ECSPI_CONREG_CHANNEL_MODE(config->channelMode);
+        base->CONFIGREG |= (ECSPI_CONFIGREG_SCLK_CTL(config->clockInactiveState) |
+                            ECSPI_CONFIGREG_DATA_CTL(config->dataLineInactiveState) |
+                            ECSPI_CONFIGREG_SS_POL(config->chipSlectActiveState) |
+                            ECSPI_CONFIGREG_SCLK_POL(config->polarity) | ECSPI_CONFIGREG_SCLK_PHA(config->phase));
+        break;
 
-        case kECSPI_Channel1:
-            base->CONREG |= ECSPI_CONREG_CHANNEL_MODE(config->channelMode) << 1U;
-            base->CONFIGREG |=
-                ((ECSPI_CONFIGREG_SCLK_CTL(config->clockInactiveState) << 1U) |
-                 (ECSPI_CONFIGREG_DATA_CTL(config->dataLineInactiveState) << 1U) |
-                 (ECSPI_CONFIGREG_SS_POL(config->chipSlectActiveState) << 1U) |
-                 (ECSPI_CONFIGREG_SCLK_POL(config->polarity) << 1U) | (ECSPI_CONFIGREG_SCLK_PHA(config->phase) << 1U));
-            break;
+    case kECSPI_Channel1:
+        base->CONREG |= ECSPI_CONREG_CHANNEL_MODE(config->channelMode) << 1U;
+        base->CONFIGREG |=
+            ((ECSPI_CONFIGREG_SCLK_CTL(config->clockInactiveState) << 1U) |
+             (ECSPI_CONFIGREG_DATA_CTL(config->dataLineInactiveState) << 1U) |
+             (ECSPI_CONFIGREG_SS_POL(config->chipSlectActiveState) << 1U) |
+             (ECSPI_CONFIGREG_SCLK_POL(config->polarity) << 1U) | (ECSPI_CONFIGREG_SCLK_PHA(config->phase) << 1U));
+        break;
 
-        case kECSPI_Channel2:
-            base->CONREG |= ECSPI_CONREG_CHANNEL_MODE(config->channelMode) << 2;
-            base->CONFIGREG |=
-                ((ECSPI_CONFIGREG_SCLK_CTL(config->clockInactiveState) << 2) |
-                 (ECSPI_CONFIGREG_DATA_CTL(config->dataLineInactiveState) << 2) |
-                 (ECSPI_CONFIGREG_SS_POL(config->chipSlectActiveState) << 2) |
-                 (ECSPI_CONFIGREG_SCLK_POL(config->polarity) << 2) | (ECSPI_CONFIGREG_SCLK_PHA(config->phase) << 2));
-            break;
+    case kECSPI_Channel2:
+        base->CONREG |= ECSPI_CONREG_CHANNEL_MODE(config->channelMode) << 2;
+        base->CONFIGREG |=
+            ((ECSPI_CONFIGREG_SCLK_CTL(config->clockInactiveState) << 2) |
+             (ECSPI_CONFIGREG_DATA_CTL(config->dataLineInactiveState) << 2) |
+             (ECSPI_CONFIGREG_SS_POL(config->chipSlectActiveState) << 2) |
+             (ECSPI_CONFIGREG_SCLK_POL(config->polarity) << 2) | (ECSPI_CONFIGREG_SCLK_PHA(config->phase) << 2));
+        break;
 
-        case kECSPI_Channel3:
-            base->CONREG |= ECSPI_CONREG_CHANNEL_MODE(config->channelMode) << 3;
-            base->CONFIGREG |=
-                ((ECSPI_CONFIGREG_SCLK_CTL(config->clockInactiveState) << 3) |
-                 (ECSPI_CONFIGREG_DATA_CTL(config->dataLineInactiveState) << 3) |
-                 (ECSPI_CONFIGREG_SS_POL(config->chipSlectActiveState) << 3) |
-                 (ECSPI_CONFIGREG_SCLK_POL(config->polarity) << 3) | (ECSPI_CONFIGREG_SCLK_PHA(config->phase) << 3));
-            break;
+    case kECSPI_Channel3:
+        base->CONREG |= ECSPI_CONREG_CHANNEL_MODE(config->channelMode) << 3;
+        base->CONFIGREG |=
+            ((ECSPI_CONFIGREG_SCLK_CTL(config->clockInactiveState) << 3) |
+             (ECSPI_CONFIGREG_DATA_CTL(config->dataLineInactiveState) << 3) |
+             (ECSPI_CONFIGREG_SS_POL(config->chipSlectActiveState) << 3) |
+             (ECSPI_CONFIGREG_SCLK_POL(config->polarity) << 3) | (ECSPI_CONFIGREG_SCLK_PHA(config->phase) << 3));
+        break;
 
-        default:
-            assert(false);
-            break;
+    default:
+        assert(false);
+        break;
     }
 }
 
@@ -544,6 +542,7 @@ status_t ECSPI_WriteBlocking(ECSPI_Type *base, uint32_t *buffer, size_t size)
         /* Write data to tx register */
         if (NULL != buffer)
         {
+            // base->TXDATA = *buffer++;
             ECSPI_WriteData(base, *buffer++);
         }
         else
@@ -560,7 +559,7 @@ static status_t ECSPI_ReadBlocking(ECSPI_Type *base, uint32_t *buffer, size_t si
     assert(base != NULL);
 
     uint32_t state = 0U;
-    size_t i       = 0U;
+    size_t i = 0U;
 #if SPI_RETRY_TIMES
     uint32_t waitTimes;
 #endif
@@ -631,9 +630,9 @@ void ECSPI_MasterTransferCreateHandle(ECSPI_Type *base,
 
     /* Initialize the handle */
     s_ecspiHandle[instance] = handle;
-    handle->callback        = callback;
-    handle->userData        = userData;
-    s_ecspiMasterIsr        = ECSPI_MasterTransferHandleIRQ;
+    handle->callback = callback;
+    handle->userData = userData;
+    s_ecspiMasterIsr = ECSPI_MasterTransferHandleIRQ;
 
     /* Enable ECSPI NVIC */
     (void)EnableIRQ(s_ecspiIRQ[instance]);
@@ -654,7 +653,7 @@ status_t ECSPI_MasterTransferBlocking(ECSPI_Type *base, ecspi_transfer_t *xfer)
 
     status_t state;
     uint32_t burstLength = 0U;
-    uint32_t dataCounts  = 0U;
+    uint32_t dataCounts = 0U;
     /* Check if the argument is legal */
     if ((xfer->txData == NULL) && (xfer->rxData == NULL))
     {
@@ -669,7 +668,7 @@ status_t ECSPI_MasterTransferBlocking(ECSPI_Type *base, ecspi_transfer_t *xfer)
     ECSPI_SetChannelSelect(base, xfer->channel);
     /* Caculate the data size need to be send for one burst */
     burstLength = ((base->CONREG & ECSPI_CONREG_BURST_LENGTH_MASK) >> ECSPI_CONREG_BURST_LENGTH_SHIFT) + 1UL;
-    dataCounts  = ((burstLength % 32UL) != 0UL) ? (burstLength / 32UL + 1UL) : (burstLength / 32UL);
+    dataCounts = ((burstLength % 32UL) != 0UL) ? (burstLength / 32UL + 1UL) : (burstLength / 32UL);
 
     while (xfer->dataSize > 0UL)
     {
@@ -734,10 +733,10 @@ status_t ECSPI_MasterTransferNonBlocking(ECSPI_Type *base, ecspi_master_handle_t
     }
 
     /* Set the handle information */
-    handle->channel          = xfer->channel;
-    handle->txData           = xfer->txData;
-    handle->rxData           = xfer->rxData;
-    handle->transferSize     = xfer->dataSize;
+    handle->channel = xfer->channel;
+    handle->txData = xfer->txData;
+    handle->rxData = xfer->rxData;
+    handle->transferSize = xfer->dataSize;
     handle->txRemainingBytes = xfer->dataSize;
     handle->rxRemainingBytes = xfer->dataSize;
 

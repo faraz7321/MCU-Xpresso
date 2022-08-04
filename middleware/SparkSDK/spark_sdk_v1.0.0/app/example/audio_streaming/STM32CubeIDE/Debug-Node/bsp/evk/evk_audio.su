@@ -1,0 +1,14 @@
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/hardware/evk/evk_audio.c:413:13:sai_dma_start_it	20	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/hardware/evk/evk_audio.c:470:13:sai_dma_tx_complete_callback	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/hardware/evk/evk_audio.c:479:13:sai_dma_rx_complete_callback	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/hardware/evk/evk_audio.c:101:6:evk_audio_i2c_write_byte_blocking	24	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/hardware/evk/evk_audio.c:111:6:evk_audio_i2c_read_byte_blocking	24	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/hardware/evk/evk_audio.c:116:6:evk_audio_sai_configuration	232	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/hardware/evk/evk_audio.c:130:6:evk_audio_sai_write_non_blocking	16	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/hardware/evk/evk_audio.c:143:6:evk_audio_sai_read_non_blocking	24	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/hardware/evk/evk_audio.c:156:6:evk_audio_set_sai_tx_dma_cplt_callback	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/hardware/evk/evk_audio.c:161:6:evk_audio_set_sai_rx_dma_cplt_callback	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/hardware/evk/evk_audio.c:166:6:evk_audio_sai_start_write_non_blocking	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/hardware/evk/evk_audio.c:171:6:evk_audio_sai_start_read_non_blocking	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/hardware/evk/evk_audio.c:176:6:evk_audio_sai_stop_write_non_blocking	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/hardware/evk/evk_audio.c:183:6:evk_audio_sai_stop_read_non_blocking	0	static

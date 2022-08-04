@@ -1,0 +1,4 @@
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/audio/processing/audio_volume.c:26:6:audio_volume_init	8	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/audio/processing/audio_volume.c:35:6:audio_volume_deinit	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/audio/processing/audio_volume.c:42:10:audio_volume_ctrl	8	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/audio/processing/audio_volume.c:65:10:audio_volume_process	24	static

@@ -1,0 +1,15 @@
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/lib/spark/queue/queue.c:24:6:queue_init	16	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/lib/spark/queue/queue.c:31:10:queue_init_pool	20	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/lib/spark/queue/queue.c:64:6:queue_init_queue	16	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/lib/spark/queue/queue.c:80:15:queue_get_free_node	16	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/lib/spark/queue/queue.c:99:15:queue_dequeue_node	16	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/lib/spark/queue/queue.c:121:6:queue_enqueue_node	24	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/lib/spark/queue/queue.c:85:6:queue_free_node	8	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/lib/spark/queue/queue.c:144:6:queue_enqueue_at_head	24	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/lib/spark/queue/queue.c:167:15:queue_get_node	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/lib/spark/queue/queue.c:172:10:queue_get_length	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/lib/spark/queue/queue.c:177:10:queue_get_limit	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/lib/spark/queue/queue.c:182:6:queue_flush	24	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/lib/spark/queue/queue.c:203:6:queue_unlink	16	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/lib/spark/queue/queue.c:230:6:queue_get_stats	4	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/lib/spark/queue/queue.c:254:6:queue_inc_copy_count	8	static

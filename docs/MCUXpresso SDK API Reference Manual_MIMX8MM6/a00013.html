@@ -32,7 +32,7 @@
   <td id="projectlogo"><img alt="Logo" src="fs_logo.gif"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">MCUXpresso SDK API Reference Manual
-   &#160;<span id="projectnumber">Rev 2.12.0</span>
+   &#160;<span id="projectnumber">Rev 2.11.0</span>
    </div>
    <div id="projectbrief">NXP Semiconductors</div>
   </td>
@@ -127,10 +127,10 @@ Driver version</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
 DMA Transactional</h2></td></tr>
-<tr class="memitem:ga8a16bd7cef1e9b4a2d56363201f7771d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00013.html#ga8a16bd7cef1e9b4a2d56363201f7771d">ECSPI_MasterTransferCreateHandleSDMA</a> (ECSPI_Type *base, ecspi_sdma_handle_t *handle, <a class="el" href="a00013.html#gac78ed0c6c51de2548cc04a581c7557cd">ecspi_sdma_callback_t</a> callback, void *userData, <a class="el" href="a00022.html#a00186">sdma_handle_t</a> *txHandle, <a class="el" href="a00022.html#a00186">sdma_handle_t</a> *rxHandle, uint32_t eventSourceTx, uint32_t eventSourceRx, uint32_t TxChannel, uint32_t RxChannel)</td></tr>
+<tr class="memitem:ga8a16bd7cef1e9b4a2d56363201f7771d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00013.html#ga8a16bd7cef1e9b4a2d56363201f7771d">ECSPI_MasterTransferCreateHandleSDMA</a> (ECSPI_Type *base, ecspi_sdma_handle_t *handle, <a class="el" href="a00013.html#gac78ed0c6c51de2548cc04a581c7557cd">ecspi_sdma_callback_t</a> callback, void *userData, <a class="el" href="a00022.html#a00185">sdma_handle_t</a> *txHandle, <a class="el" href="a00022.html#a00185">sdma_handle_t</a> *rxHandle, uint32_t eventSourceTx, uint32_t eventSourceRx, uint32_t TxChannel, uint32_t RxChannel)</td></tr>
 <tr class="memdesc:ga8a16bd7cef1e9b4a2d56363201f7771d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the ECSPI master SDMA handle.  <a href="#ga8a16bd7cef1e9b4a2d56363201f7771d">More...</a><br/></td></tr>
 <tr class="separator:ga8a16bd7cef1e9b4a2d56363201f7771d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa19b1a31d8bbbde080f6bdda3b1ebc08"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00013.html#gaa19b1a31d8bbbde080f6bdda3b1ebc08">ECSPI_SlaveTransferCreateHandleSDMA</a> (ECSPI_Type *base, ecspi_sdma_handle_t *handle, <a class="el" href="a00013.html#gac78ed0c6c51de2548cc04a581c7557cd">ecspi_sdma_callback_t</a> callback, void *userData, <a class="el" href="a00022.html#a00186">sdma_handle_t</a> *txHandle, <a class="el" href="a00022.html#a00186">sdma_handle_t</a> *rxHandle, uint32_t eventSourceTx, uint32_t eventSourceRx, uint32_t TxChannel, uint32_t RxChannel)</td></tr>
+<tr class="memitem:gaa19b1a31d8bbbde080f6bdda3b1ebc08"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00013.html#gaa19b1a31d8bbbde080f6bdda3b1ebc08">ECSPI_SlaveTransferCreateHandleSDMA</a> (ECSPI_Type *base, ecspi_sdma_handle_t *handle, <a class="el" href="a00013.html#gac78ed0c6c51de2548cc04a581c7557cd">ecspi_sdma_callback_t</a> callback, void *userData, <a class="el" href="a00022.html#a00185">sdma_handle_t</a> *txHandle, <a class="el" href="a00022.html#a00185">sdma_handle_t</a> *rxHandle, uint32_t eventSourceTx, uint32_t eventSourceRx, uint32_t TxChannel, uint32_t RxChannel)</td></tr>
 <tr class="memdesc:gaa19b1a31d8bbbde080f6bdda3b1ebc08"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the ECSPI Slave SDMA handle.  <a href="#gaa19b1a31d8bbbde080f6bdda3b1ebc08">More...</a><br/></td></tr>
 <tr class="separator:gaa19b1a31d8bbbde080f6bdda3b1ebc08"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga507a090a4a4d88216e7a4037324131b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="a00105.html#gaaabdaf7ee58ca7269bd4bf24efcde092">status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00013.html#ga507a090a4a4d88216e7a4037324131b4">ECSPI_MasterTransferSDMA</a> (ECSPI_Type *base, ecspi_sdma_handle_t *handle, <a class="el" href="a00012.html#a00154">ecspi_transfer_t</a> *xfer)</td></tr>
@@ -167,11 +167,11 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a000
 <tr class="memdesc:a5b67c5fb9f537d95051a35e419bc6c33"><td class="mdescLeft">&#160;</td><td class="mdescRight">Receive transfer finished. <br/></td></tr>
 <tr class="separator:a5b67c5fb9f537d95051a35e419bc6c33"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac3362fdc25ba2989c4bb41931c4be82"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aac3362fdc25ba2989c4bb41931c4be82"></a>
-<a class="el" href="a00022.html#a00186">sdma_handle_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00013.html#aac3362fdc25ba2989c4bb41931c4be82">txSdmaHandle</a></td></tr>
+<a class="el" href="a00022.html#a00185">sdma_handle_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00013.html#aac3362fdc25ba2989c4bb41931c4be82">txSdmaHandle</a></td></tr>
 <tr class="memdesc:aac3362fdc25ba2989c4bb41931c4be82"><td class="mdescLeft">&#160;</td><td class="mdescRight">DMA handler for ECSPI send. <br/></td></tr>
 <tr class="separator:aac3362fdc25ba2989c4bb41931c4be82"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a11480ca53b85fd875e4baa46103463e8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a11480ca53b85fd875e4baa46103463e8"></a>
-<a class="el" href="a00022.html#a00186">sdma_handle_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00013.html#a11480ca53b85fd875e4baa46103463e8">rxSdmaHandle</a></td></tr>
+<a class="el" href="a00022.html#a00185">sdma_handle_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00013.html#a11480ca53b85fd875e4baa46103463e8">rxSdmaHandle</a></td></tr>
 <tr class="memdesc:a11480ca53b85fd875e4baa46103463e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">DMA handler for ECSPI receive. <br/></td></tr>
 <tr class="separator:a11480ca53b85fd875e4baa46103463e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad031f81d842bd5f28cf56288e17e19d3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad031f81d842bd5f28cf56288e17e19d3"></a>
@@ -256,13 +256,13 @@ uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="a00022.html#a00186">sdma_handle_t</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="a00022.html#a00185">sdma_handle_t</a> *&#160;</td>
           <td class="paramname"><em>txHandle</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="a00022.html#a00186">sdma_handle_t</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="a00022.html#a00185">sdma_handle_t</a> *&#160;</td>
           <td class="paramname"><em>rxHandle</em>, </td>
         </tr>
         <tr>
@@ -346,13 +346,13 @@ uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="a00022.html#a00186">sdma_handle_t</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="a00022.html#a00185">sdma_handle_t</a> *&#160;</td>
           <td class="paramname"><em>txHandle</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="a00022.html#a00186">sdma_handle_t</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="a00022.html#a00185">sdma_handle_t</a> *&#160;</td>
           <td class="paramname"><em>rxHandle</em>, </td>
         </tr>
         <tr>

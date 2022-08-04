@@ -1,4 +1,4 @@
-include_guard()
+include_guard(GLOBAL)
 message("middleware_multicore_rpmsg_lite_freertos component is included.")
 
 if(CONFIG_USE_middleware_freertos-kernel_MIMX8MM6)

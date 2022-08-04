@@ -1,0 +1,4 @@
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/audio/processing/audio_src_cmsis.c:45:6:audio_src_cmsis_init	24	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/audio/processing/audio_src_cmsis.c:78:6:audio_src_cmsis_deinit	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/audio/processing/audio_src_cmsis.c:83:10:audio_src_cmsis_ctrl	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/audio/processing/audio_src_cmsis.c:92:10:audio_src_cmsis_process	16	static

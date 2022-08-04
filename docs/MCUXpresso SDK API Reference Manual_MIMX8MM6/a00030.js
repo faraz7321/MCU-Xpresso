@@ -1,6 +1,6 @@
 var a00030 =
 [
-    [ "wm8524_handle_t", "a00030.html#a00202", [
+    [ "wm8524_handle_t", "a00030.html#a00201", [
       [ "config", "a00030.html#ab7cc533307c3f5d10e7d93efb80eb22e", null ]
     ] ],
     [ "FSL_WM8524_DRIVER_VERSION", "a00030.html#ga35fc5ea7698d930571d7917506e5afb0", null ],

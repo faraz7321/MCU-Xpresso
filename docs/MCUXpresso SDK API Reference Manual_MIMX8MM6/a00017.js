@@ -28,17 +28,16 @@ var a00017 =
       [ "noiseFilterAdjustment", "a00017.html#aa9df6cdbf47ef4eaf06f29bff548a8bd", null ],
       [ "noiseGain", "a00017.html#ade6a68f4d654916e434895fea2479757", null ]
     ] ],
-    [ "pdm_hwvad_zero_cross_detector_t", "a00017.html#a00166", [
+    [ "pdm_hwvad_zero_cross_detector_t", "a00017.html#a00165", [
       [ "enableAutoThreshold", "a00017.html#a85356b87a791c5cf53a4193869d3fd3e", null ],
       [ "zcdAnd", "a00017.html#a3c5f375530d6bf5ee157480f709f46c7", null ],
       [ "threshold", "a00017.html#a4e2528d882836eea6a8387efd9cacf19", null ],
       [ "adjustmentThreshold", "a00017.html#add34bccb6c0392bdea758735e72b1ec8", null ]
     ] ],
-    [ "pdm_transfer_t", "a00017.html#a00167", [
+    [ "pdm_transfer_t", "a00017.html#a00166", [
       [ "data", "a00017.html#a4ba616d801fccc52f3d73364746f677b", null ],
       [ "dataSize", "a00017.html#a8af478d5a7369fc2c00715231fe34467", null ]
     ] ],
-    [ "pdm_hwvad_notification_t", "a00017.html#a00165", null ],
     [ "pdm_handle_t", "a00017.html#a00136", [
       [ "state", "a00017.html#ab2b16dd293c06768cbca8eea7a37a514", null ],
       [ "callback", "a00017.html#a9930728ef1b19dc11541c140bace0cc3", null ],
@@ -54,17 +53,14 @@ var a00017 =
     ] ],
     [ "FSL_PDM_DRIVER_VERSION", "a00017.html#ga3cb4702a9e581e2633e1c1bb3c63801f", null ],
     [ "PDM_XFER_QUEUE_SIZE", "a00017.html#ga04b7c7654ce66f908e162bac8c78ffb1", null ],
-    [ "pdm_transfer_callback_t", "a00017.html#gaf29cd20432f325217c7c12e59638416c", null ],
-    [ "pdm_hwvad_callback_t", "a00017.html#gadd2a341c59f5f8c4c619b62c4ebc4dcd", [
+    [ "pdm_transfer_callback_t", "a00017.html#gaf29cd20432f325217c7c12e59638416c", [
       [ "kStatus_PDM_Busy", "a00017.html#ggabc5c98fcc1211af2b80116dd6e0a035da7fd57efdf5fd862d82ad3ddc4061995b", null ],
       [ "kStatus_PDM_CLK_LOW", "a00017.html#ggabc5c98fcc1211af2b80116dd6e0a035dad8106fba77ad8b2ae3d1bf8ad844c28a", null ],
       [ "kStatus_PDM_FIFO_ERROR", "a00017.html#ggabc5c98fcc1211af2b80116dd6e0a035dac8731f691ed5f103dc9dbed6a9d16e34", null ],
       [ "kStatus_PDM_QueueFull", "a00017.html#ggabc5c98fcc1211af2b80116dd6e0a035da852dac50df76ac041f7957defb71e418", null ],
       [ "kStatus_PDM_Idle", "a00017.html#ggabc5c98fcc1211af2b80116dd6e0a035dad838969e71909e93ae67e4442bd708d4", null ],
       [ "kStatus_PDM_Output_ERROR", "a00017.html#ggabc5c98fcc1211af2b80116dd6e0a035daf84c6de81d1988497b194e68879ee6e7", null ],
-      [ "kStatus_PDM_ChannelConfig_Failed", "a00017.html#ggabc5c98fcc1211af2b80116dd6e0a035dadbbcb06d87bf89f8261aeac797bd00a7", null ],
-      [ "kStatus_PDM_HWVAD_VoiceDetected", "a00017.html#ggabc5c98fcc1211af2b80116dd6e0a035dacecab396522a28825b2659f409cf88e9", null ],
-      [ "kStatus_PDM_HWVAD_Error", "a00017.html#ggabc5c98fcc1211af2b80116dd6e0a035da8c976cbaec7a3ae9270e4bc4f6cba2fc", null ]
+      [ "kStatus_PDM_ChannelConfig_Failed", "a00017.html#ggabc5c98fcc1211af2b80116dd6e0a035dadbbcb06d87bf89f8261aeac797bd00a7", null ]
     ] ],
     [ "_pdm_interrupt_enable", "a00017.html#ga96a0bbb4423bd38dbbd5e0a84a1ca74e", [
       [ "kPDM_ErrorInterruptEnable", "a00017.html#gga96a0bbb4423bd38dbbd5e0a84a1ca74ea82f28d19050e81b6d92fa779d2de3bfa", null ],
@@ -218,7 +214,6 @@ var a00017 =
     [ "PDM_ReadData", "a00017.html#gaf66f5264e66875b2d4786949f4eb6bba", null ],
     [ "PDM_ReadNonBlocking", "a00017.html#ga548b9fc4ea5ad73068def9e195f603a0", null ],
     [ "PDM_ReadFifo", "a00017.html#gadde217f06f92f47ff53019886484c2f1", null ],
-    [ "PDM_SetChannelGain", "a00017.html#ga2ef68273c6842bb86934f73abf5d8619", null ],
     [ "PDM_SetHwvadConfig", "a00017.html#ga27652667902f3259ff618fce1414410e", null ],
     [ "PDM_ForceHwvadOutputDisable", "a00017.html#gae810ba57ae4d67636623376d244ffc2b", null ],
     [ "PDM_ResetHwvad", "a00017.html#ga95356e503178292eafd366438da3250a", null ],
@@ -238,7 +233,6 @@ var a00017 =
     [ "PDM_SetHwvadInternalFilterStatus", "a00017.html#gae03514f220df836a75b84980d817919f", null ],
     [ "PDM_SetHwvadInEnvelopeBasedMode", "a00017.html#gaf8577c2175f951d1a167bbf72285824a", null ],
     [ "PDM_SetHwvadInEnergyBasedMode", "a00017.html#gaa8cc50024bfa7741936df081c6952227", null ],
-    [ "PDM_EnableHwvadInterruptCallback", "a00017.html#ga31859f85d59073a5a0cb55c13b3d5e37", null ],
     [ "PDM_TransferCreateHandle", "a00017.html#ga592db7e89ce085fab3ad50a95d9e203a", null ],
     [ "PDM_TransferSetChannelConfig", "a00017.html#gaad4d95fc6dabf22e7bb5f6011cfd8f6f", null ],
     [ "PDM_TransferReceiveNonBlocking", "a00017.html#ga619b2cd8f98911c261d034965195d2d9", null ],

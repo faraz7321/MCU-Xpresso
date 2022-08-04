@@ -1,0 +1,5 @@
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/lib/third-party/stmicroelectronics/stm32_mw_usb_device/Class/CDC/Src/usbd_cdc_if_template.c:98:15:TEMPLATE_Init	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/lib/third-party/stmicroelectronics/stm32_mw_usb_device/Class/CDC/Src/usbd_cdc_if_template.c:129:15:TEMPLATE_Control	4	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/lib/third-party/stmicroelectronics/stm32_mw_usb_device/Class/CDC/Src/usbd_cdc_if_template.c:206:15:TEMPLATE_Receive	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/lib/third-party/stmicroelectronics/stm32_mw_usb_device/Class/CDC/Src/usbd_cdc_if_template.c:226:15:TEMPLATE_TransmitCplt	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/lib/third-party/stmicroelectronics/stm32_mw_usb_device/Class/CDC/Src/usbd_cdc_if_template.c:112:15:TEMPLATE_DeInit	0	static

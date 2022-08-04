@@ -1,0 +1,5 @@
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/audio/module/audio_mixer_module.c:19:23:audio_mixer_module_init	16	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/audio/module/audio_mixer_module.c:53:6:audio_mixer_module_mix_packets	32	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/audio/module/audio_mixer_module.c:62:6:audio_mixer_module_append_samples	16	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/audio/module/audio_mixer_module.c:76:6:audio_mixer_module_append_silence	16	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/audio/module/audio_mixer_module.c:90:6:audio_mixer_module_handle_remainder	32	static

@@ -1,0 +1,3 @@
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/api/swc_stats.c:17:19:swc_connection_update_stats	16	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/api/swc_stats.c:67:5:swc_connection_format_stats	128	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/api/swc_stats.c:131:6:swc_connection_reset_stats	8	static

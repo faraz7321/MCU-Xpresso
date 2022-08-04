@@ -61,6 +61,10 @@ include(utility_debug_console_lite_MIMX8MM6)
 
 include(utility_assert_lite_MIMX8MM6)
 
+include(driver_ecspi_MIMX8MM6)
+
+include(driver_igpio_MIMX8MM6)
+
 include(driver_clock_MIMX8MM6)
 
 include(driver_common_MIMX8MM6)

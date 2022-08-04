@@ -1,4 +1,4 @@
-include_guard()
+include_guard(GLOBAL)
 message("CMSIS_Driver_Include_I2C component is included.")
 
 

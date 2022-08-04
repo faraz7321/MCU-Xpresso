@@ -1,0 +1,2 @@
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/hardware/evk/evk_power.c:15:6:evk_set_board_voltage	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/hardware/evk/evk_power.c:25:6:evk_power_shutdown_and_wake_up	16	static

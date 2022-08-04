@@ -1,0 +1,7 @@
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/hardware/evk/usb_device/app/usbd_desc.c:211:11:USBD_CDC_DeviceDescriptor	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/hardware/evk/usb_device/app/usbd_desc.c:224:11:USBD_CDC_LangIDStrDescriptor	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/hardware/evk/usb_device/app/usbd_desc.c:256:11:USBD_CDC_ManufacturerStrDescriptor	8	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/hardware/evk/usb_device/app/usbd_desc.c:237:11:USBD_CDC_ProductStrDescriptor	8	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/hardware/evk/usb_device/app/usbd_desc.c:291:11:USBD_CDC_ConfigStrDescriptor	8	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/hardware/evk/usb_device/app/usbd_desc.c:310:11:USBD_CDC_InterfaceStrDescriptor	8	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/hardware/evk/usb_device/app/usbd_desc.c:269:11:USBD_CDC_SerialStrDescriptor	12	static

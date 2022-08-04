@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2013-2020 Arm Limited. All rights reserved.
+ * Copyright (c) 2013-2018 Arm Limited. All rights reserved.
  *
  * SPDX-License-Identifier: Apache-2.0
  *
@@ -38,33 +38,30 @@ static const ARM_SAI_CAPABILITIES DriverCapabilities = {
     0, /* supports Mono mode */
     0, /* supports Companding */
     0, /* supports MCLK (Master Clock) pin */
-    0, /* supports Frame error event: \ref ARM_SAI_EVENT_FRAME_ERROR */
-    0  /* reserved (must be zero) */
+    0  /* supports Frame error event: \ref ARM_SAI_EVENT_FRAME_ERROR */
 };
 
 //
 //  Functions
 //
 
-static ARM_DRIVER_VERSION ARM_SAI_GetVersion (void)
-{
-  return DriverVersion;
-}
-
-static ARM_SAI_CAPABILITIES ARM_SAI_GetCapabilities (void)
-{
-  return DriverCapabilities;
-}
-
-static int32_t ARM_SAI_Initialize (ARM_SAI_SignalEvent_t cb_event)
+ARM_DRIVER_VERSION ARM_SAI_GetVersion (void)
 {
 }
 
-static int32_t ARM_SAI_Uninitialize (void)
+ARM_SAI_CAPABILITIES ARM_SAI_GetCapabilities (void)
 {
 }
 
-static int32_t ARM_SAI_PowerControl (ARM_POWER_STATE state)
+int32_t ARM_SAI_Initialize (ARM_SAI_SignalEvent_t cb_event)
+{
+}
+
+int32_t ARM_SAI_Uninitialize (void)
+{
+}
+
+int32_t ARM_SAI_PowerControl (ARM_POWER_STATE state)
 {
     switch (state)
     {
@@ -76,44 +73,44 @@ static int32_t ARM_SAI_PowerControl (ARM_POWER_STATE state)
 
     case ARM_POWER_FULL:
         break;
+
+    default:
+        return ARM_DRIVER_ERROR_UNSUPPORTED;
     }
-    return ARM_DRIVER_OK;
 }
 
-static int32_t ARM_SAI_Send (const void *data, uint32_t num)
+int32_t ARM_SAI_Send (const void *data, uint32_t num)
 {
 }
 
-static int32_t ARM_SAI_Receive (void *data, uint32_t num)
+int32_t ARM_SAI_Receive (void *data, uint32_t num)
 {
 }
 
-static uint32_t ARM_SAI_GetTxCount (void)
+uint32_t ARM_SAI_GetTxCount (void)
 {
 }
 
-static uint32_t ARM_SAI_GetRxCount (void)
+uint32_t ARM_SAI_GetRxCount (void)
 {
 }
 
-static int32_t ARM_SAI_Control (uint32_t control, uint32_t arg1, uint32_t arg2)
+int32_t ARM_SAI_Control (uint32_t control, uint32_t arg1, uint32_t arg2)
 {
 }
 
-static ARM_SAI_STATUS ARM_SAI_GetStatus (void)
+ARM_SAI_STATUS ARM_SAI_GetStatus (void)
 {
 }
 
-static void ARM_SAI_SignalEvent(uint32_t event)
+void ARM_SAI_SignalEvent(uint32_t event)
 {
     // function body
 }
 
 // End SAI Interface
 
-extern \
-ARM_DRIVER_SAI Driver_SAI0;
-ARM_DRIVER_SAI Driver_SAI0 = {
+ARM_DRIVER_SAI Driver_SAI = {
     ARM_SAI_GetVersion,
     ARM_SAI_GetCapabilities,
     ARM_SAI_Initialize,

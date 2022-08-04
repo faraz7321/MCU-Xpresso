@@ -1,6 +1,6 @@
 var a00025 =
 [
-    [ "tmu_thresold_config_t", "a00025.html#a00196", [
+    [ "tmu_thresold_config_t", "a00025.html#a00195", [
       [ "immediateThresoldEnable", "a00025.html#a26dcfbd2e1b2358536423c97a932b220", null ],
       [ "AverageThresoldEnable", "a00025.html#a269f4768530d6a95fd23ad2bce651cde", null ],
       [ "AverageCriticalThresoldEnable", "a00025.html#ae3422784818643c5e78ab9b2b545204b", null ],
@@ -8,10 +8,10 @@ var a00025 =
       [ "averageThresoldValue", "a00025.html#aee4703600e7bae9134b7fb717071a3d0", null ],
       [ "averageCriticalThresoldValue", "a00025.html#a36c49c9978a39decb657e72026189754", null ]
     ] ],
-    [ "tmu_interrupt_status_t", "a00025.html#a00195", [
+    [ "tmu_interrupt_status_t", "a00025.html#a00194", [
       [ "interruptDetectMask", "a00025.html#ab43148d3beb8ceff37928791119ccad5", null ]
     ] ],
-    [ "tmu_config_t", "a00025.html#a00194", [
+    [ "tmu_config_t", "a00025.html#a00193", [
       [ "averageLPF", "a00025.html#a19cb414c5a89d06931bb5d3f48ba64c2", null ]
     ] ],
     [ "FSL_TMU_DRIVER_VERSION", "a00025.html#gaeb1fc20d716a24f048c7a5ac29948086", null ],

@@ -1,0 +1,4 @@
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/hardware/evk/evk_flash.c:21:5:evk_lfs_read	8	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/hardware/evk/evk_flash.c:30:5:evk_lfs_prog	24	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/hardware/evk/evk_flash.c:58:5:evk_lfs_erase	32	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/hardware/evk/evk_flash.c:76:5:evk_lfs_sync	0	static

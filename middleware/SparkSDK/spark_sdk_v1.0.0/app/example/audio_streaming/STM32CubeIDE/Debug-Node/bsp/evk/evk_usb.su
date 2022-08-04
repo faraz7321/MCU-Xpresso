@@ -1,0 +1,3 @@
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/hardware/evk/evk_usb.c:14:6:evk_is_usb_detected	8	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/hardware/evk/evk_usb.c:23:6:evk_usb_enter_critical	0	static,ignoring_inline_asm
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/hardware/evk/evk_usb.c:28:6:evk_usb_exit_critical	0	static,ignoring_inline_asm

@@ -1,0 +1,16 @@
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/phy/sr1000/sr_calib.c:428:16:sr_calib_v1_find_new_dcro_code	12	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/phy/sr1000/sr_calib.c:515:16:sr_calib_v2_clean_up_freq_table	120	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/phy/sr1000/sr_calib.c:631:13:use_calib_v1	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/phy/sr1000/sr_calib.c:559:13:sr_calib_v2_apply_vcro_offsets.isra	4	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/phy/sr1000/sr_calib.c:484:13:sr_calib_v1_fill_new_dcro_codes_table.isra	32	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/phy/sr1000/sr_calib.c:383:13:sr_calib_fill_freq_table	56	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/phy/sr1000/sr_calib.c:59:6:sr_calib_init	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/phy/sr1000/sr_calib.c:101:9:sr_calib_vref_tune_offset	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/phy/sr1000/sr_calib.c:116:9:sr_calib_tune_delay_line	40	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/phy/sr1000/sr_calib.c:164:10:sr_calib_code_to_frequency	24	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/phy/sr1000/sr_calib.c:195:14:sr_calib_frequency_to_code	40	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/phy/sr1000/sr_calib.c:254:6:sr_calib_run_frequency_calibration	104	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/phy/sr1000/sr_calib.c:69:6:sr_calibrate	24	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/phy/sr1000/sr_calib.c:320:9:sr_calib_get_lna_peak	8	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/phy/sr1000/sr_calib.c:349:9:sr_calib_get_next_dcro_code	24	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/phy/sr1000/sr_calib.c:377:9:sr_calib_v1_in_use	0	static

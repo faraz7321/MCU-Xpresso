@@ -1,0 +1,14 @@
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/link/link_scheduler.c:19:6:link_scheduler_init	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/link/link_scheduler.c:29:6:link_scheduler_reset	4	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/link/link_scheduler.c:41:9:link_scheduler_increment_time_slot	16	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/link/link_scheduler.c:71:6:link_scheduler_set_time_slot_i	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/link/link_scheduler.c:76:6:link_scheduler_enable_tx	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/link/link_scheduler.c:81:6:link_scheduler_disable_tx	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/link/link_scheduler.c:86:13:link_scheduler_get_current_timeslot	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/link/link_scheduler.c:91:9:link_scheduler_get_total_timeslot_count	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/link/link_scheduler.c:96:9:link_scheduler_get_next_timeslot_index	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/link/link_scheduler.c:101:10:link_scheduler_get_sleep_time	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/link/link_scheduler.c:106:6:link_scheduler_set_first_time_slot	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/link/link_scheduler.c:113:6:link_scheduler_reset_sleep_time	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/link/link_scheduler.c:118:6:link_scheduler_set_mismatch	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/link/link_scheduler.c:123:6:link_scheduler_get_mismatch	0	static

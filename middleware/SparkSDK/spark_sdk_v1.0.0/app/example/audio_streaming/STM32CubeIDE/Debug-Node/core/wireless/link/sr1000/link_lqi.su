@@ -1,0 +1,15 @@
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/link/sr1000/link_lqi.c:14:6:link_lqi_init	16	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/link/sr1000/link_lqi.c:20:9:link_lqi_get_inst_phase_offset	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/link/sr1000/link_lqi.c:28:10:link_lqi_get_sent_count	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/link/sr1000/link_lqi.c:33:10:link_lqi_get_ack_count	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/link/sr1000/link_lqi.c:38:10:link_lqi_get_nack_count	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/link/sr1000/link_lqi.c:43:10:link_lqi_get_received_count	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/link/sr1000/link_lqi.c:48:10:link_lqi_get_rejected_count	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/link/sr1000/link_lqi.c:53:10:link_lqi_get_lost_count	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/link/sr1000/link_lqi.c:58:10:link_lqi_get_total_count	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/link/sr1000/link_lqi.c:63:10:link_lqi_get_avg_rssi_tenth_db	8	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/link/sr1000/link_lqi.c:80:10:link_lqi_get_avg_rnsi_tenth_db	8	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/link/sr1000/link_lqi.c:97:10:link_lqi_get_inst_rnsi	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/link/sr1000/link_lqi.c:102:10:link_lqi_get_inst_rnsi_tenth_db	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/link/sr1000/link_lqi.c:107:10:link_lqi_get_inst_rssi	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/link/sr1000/link_lqi.c:112:10:link_lqi_get_inst_rssi_tenth_db	0	static

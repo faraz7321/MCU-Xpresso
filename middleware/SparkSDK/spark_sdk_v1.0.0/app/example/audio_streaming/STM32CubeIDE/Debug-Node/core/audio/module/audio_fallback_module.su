@@ -1,0 +1,11 @@
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/audio/module/audio_fallback_module.c:30:6:audio_fallback_module_init	16	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/audio/module/audio_fallback_module.c:53:6:fallback_gate_is_fallback_on	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/audio/module/audio_fallback_module.c:67:6:fallback_gate_is_fallback_off	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/audio/module/audio_fallback_module.c:77:6:fallback_gate_fallback_detect	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/audio/module/audio_fallback_module.c:93:6:fallback_set_rx_link_margin	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/audio/module/audio_fallback_module.c:99:6:fallback_update_state	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/audio/module/audio_fallback_module.c:160:6:fallback_update_stats	16	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/audio/module/audio_fallback_module.c:166:6:fallback_is_active	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/audio/module/audio_fallback_module.c:171:6:fallback_set_fallback_flag	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/audio/module/audio_fallback_module.c:177:6:fallback_clear_fallback_flag	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/audio/module/audio_fallback_module.c:182:10:fallback_get_fallback_count	0	static

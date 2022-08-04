@@ -1,0 +1,6 @@
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/link/link_channel_hopping.c:98:13:generate_freq_table	16	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/link/link_channel_hopping.c:21:6:link_channel_hopping_init	56	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/link/link_channel_hopping.c:50:6:link_channel_hopping_increment_sequence	8	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/link/link_channel_hopping.c:57:6:link_channel_hopping_set_seq_index	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/link/link_channel_hopping.c:62:9:link_channel_hopping_get_seq_index	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/link/link_channel_hopping.c:67:10:link_channel_hopping_get_channel	0	static

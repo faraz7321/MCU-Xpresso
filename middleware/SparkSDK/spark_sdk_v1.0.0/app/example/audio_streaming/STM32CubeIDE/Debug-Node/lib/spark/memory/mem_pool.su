@@ -1,0 +1,4 @@
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/lib/spark/memory/mem_pool.c:14:6:mem_pool_init	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/lib/spark/memory/mem_pool.c:23:7:mem_pool_malloc	16	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/lib/spark/memory/mem_pool.c:41:6:mem_pool_free	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/lib/spark/memory/mem_pool.c:48:10:mem_pool_get_allocated_bytes	0	static

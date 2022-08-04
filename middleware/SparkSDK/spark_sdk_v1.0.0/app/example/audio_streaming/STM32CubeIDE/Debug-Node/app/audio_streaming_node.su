@@ -1,0 +1,7 @@
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/app/example/audio_streaming/audio_streaming_node.c:496:13:audio_i2s_tx_complete_cb	16	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/app/example/audio_streaming/audio_streaming_node.c:485:13:volume_down	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/app/example/audio_streaming/audio_streaming_node.c:475:13:volume_up	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/app/example/audio_streaming/audio_streaming_node.c:129:13:conn_rx_success_callback	16	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/app/example/audio_streaming/audio_streaming_node.c:509:13:audio_i2s_rx_complete_cb	16	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/app/example/audio_streaming/audio_streaming_node.c:118:13:conn_tx_success_callback	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/app/example/audio_streaming/audio_streaming_node.c:79:5:main	320	static

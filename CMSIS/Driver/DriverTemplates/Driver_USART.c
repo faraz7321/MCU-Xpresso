@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2013-2020 Arm Limited. All rights reserved.
+ * Copyright (c) 2013-2018 Arm Limited. All rights reserved.
  *
  * SPDX-License-Identifier: Apache-2.0
  *
@@ -18,7 +18,7 @@
 
 #include "Driver_USART.h"
 
-#define ARM_USART_DRV_VERSION    ARM_DRIVER_VERSION_MAJOR_MINOR(1, 0)  /* driver version */
+#define ARM_USART_DRV_VERSION    ARM_DRIVER_VERSION_MAJOR_MINOR(2, 0)  /* driver version */
 
 /* Driver Version */
 static const ARM_DRIVER_VERSION DriverVersion = { 
@@ -48,33 +48,30 @@ static const ARM_USART_CAPABILITIES DriverCapabilities = {
     0, /* Signal CTS change event: \ref ARM_USART_EVENT_CTS */
     0, /* Signal DSR change event: \ref ARM_USART_EVENT_DSR */
     0, /* Signal DCD change event: \ref ARM_USART_EVENT_DCD */
-    0, /* Signal RI change event: \ref ARM_USART_EVENT_RI */
-    0  /* Reserved (must be zero) */
+    0  /* Signal RI change event: \ref ARM_USART_EVENT_RI */
 };
 
 //
 //   Functions
 //
 
-static ARM_DRIVER_VERSION ARM_USART_GetVersion(void)
-{
-  return DriverVersion;
-}
-
-static ARM_USART_CAPABILITIES ARM_USART_GetCapabilities(void)
-{
-  return DriverCapabilities;
-}
-
-static int32_t ARM_USART_Initialize(ARM_USART_SignalEvent_t cb_event)
+ARM_DRIVER_VERSION ARM_USART_GetVersion(void)
 {
 }
 
-static int32_t ARM_USART_Uninitialize(void)
+ARM_USART_CAPABILITIES ARM_USART_GetCapabilities(void)
 {
 }
 
-static int32_t ARM_USART_PowerControl(ARM_POWER_STATE state)
+int32_t ARM_USART_Initialize(ARM_USART_SignalEvent_t cb_event)
+{
+}
+
+int32_t ARM_USART_Uninitialize(void)
+{
+}
+
+int32_t ARM_USART_PowerControl(ARM_POWER_STATE state)
 {
     switch (state)
     {
@@ -86,56 +83,56 @@ static int32_t ARM_USART_PowerControl(ARM_POWER_STATE state)
 
     case ARM_POWER_FULL:
         break;
+
+    default:
+        return ARM_DRIVER_ERROR_UNSUPPORTED;
     }
-    return ARM_DRIVER_OK;
 }
 
-static int32_t ARM_USART_Send(const void *data, uint32_t num)
+int32_t ARM_USART_Send(const void *data, uint32_t num)
 {
 }
 
-static int32_t ARM_USART_Receive(void *data, uint32_t num)
+int32_t ARM_USART_Receive(void *data, uint32_t num)
 {
 }
 
-static int32_t ARM_USART_Transfer(const void *data_out, void *data_in, uint32_t num)
+int32_t ARM_USART_Transfer(const void *data_out, void *data_in, uint32_t num)
 {
 }
 
-static uint32_t ARM_USART_GetTxCount(void)
+uint32_t ARM_USART_GetTxCount(void)
 {
 }
 
-static uint32_t ARM_USART_GetRxCount(void)
+uint32_t ARM_USART_GetRxCount(void)
 {
 }
 
-static int32_t ARM_USART_Control(uint32_t control, uint32_t arg)
+int32_t ARM_USART_Control(uint32_t control, uint32_t arg)
 {
 }
 
-static ARM_USART_STATUS ARM_USART_GetStatus(void)
+ARM_USART_STATUS ARM_USART_GetStatus(void)
 {
 }
 
-static int32_t ARM_USART_SetModemControl(ARM_USART_MODEM_CONTROL control)
+int32_t ARM_USART_SetModemControl(ARM_USART_MODEM_CONTROL control)
 {
 }
 
-static ARM_USART_MODEM_STATUS ARM_USART_GetModemStatus(void)
+ARM_USART_MODEM_STATUS ARM_USART_GetModemStatus(void)
 {
 }
 
-static void ARM_USART_SignalEvent(uint32_t event)
+void ARM_USART_SignalEvent(uint32_t event)
 {
     // function body
 }
 
 // End USART Interface
 
-extern \
-ARM_DRIVER_USART Driver_USART0;
-ARM_DRIVER_USART Driver_USART0 = {
+ARM_DRIVER_USART Driver_USART = {
     ARM_USART_GetVersion,
     ARM_USART_GetCapabilities,
     ARM_USART_Initialize,

@@ -1,0 +1,8 @@
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/interface/app/audio_streaming/iface_audio_streaming_evk.c:135:13:usb_connect_callback	8	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/interface/app/audio_streaming/iface_audio_streaming_evk.c:23:6:iface_board_init	8	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/interface/app/audio_streaming/iface_audio_streaming_evk.c:30:6:iface_audio_coord_init	32	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/interface/app/audio_streaming/iface_audio_streaming_evk.c:58:6:iface_audio_node_init	32	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/interface/app/audio_streaming/iface_audio_streaming_evk.c:86:6:iface_set_sai_complete_callback	8	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/interface/app/audio_streaming/iface_audio_streaming_evk.c:92:6:iface_button_handling	24	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/interface/app/audio_streaming/iface_audio_streaming_evk.c:122:6:iface_tx_conn_status	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/interface/app/audio_streaming/iface_audio_streaming_evk.c:127:6:iface_rx_conn_status	0	static

@@ -1,0 +1,26 @@
+Scanning dependencies of target ecspi_interrupt_b2b_transfer_master.elf
+[ 10%] Building C object CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/boards/evkmimx8mm/driver_examples/ecspi/interrupt_b2b_transfer/master/board.c.obj
+[  5%] Building C object CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/boards/evkmimx8mm/driver_examples/ecspi/interrupt_b2b_transfer/master/ecspi_interrupt_b2b_transfer_master.c.obj
+[ 15%] Building C object CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/boards/evkmimx8mm/driver_examples/ecspi/interrupt_b2b_transfer/master/pin_mux.c.obj
+[ 21%] Building C object CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/boards/evkmimx8mm/driver_examples/ecspi/interrupt_b2b_transfer/master/clock_config.c.obj
+[ 26%] Building C object CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/boards/evkmimx8mm/driver_examples/ecspi/interrupt_b2b_transfer/master/empty_rsc_table.c.obj
+[ 31%] Building C object CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/utilities/debug_console_lite/fsl_debug_console.c.obj
+[ 36%] Building C object CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_common.c.obj
+[ 42%] Building C object CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/components/uart/fsl_adapter_iuart.c.obj
+[ 47%] Building C object CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_clock.c.obj
+[ 52%] Building C object CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_uart.c.obj
+[ 57%] Building C object CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/utilities/debug_console_lite/fsl_assert.c.obj
+[ 63%] Building C object CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_common_arm.c.obj
+[ 68%] Building C object CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_ecspi.c.obj
+[ 73%] Building C object CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_rdc.c.obj
+[ 78%] Building C object CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/components/lists/fsl_component_generic_list.c.obj
+[ 84%] Building ASM object CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/gcc/startup_MIMX8MM6_cm4.S.obj
+[ 89%] Building C object CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/system_MIMX8MM6_cm4.c.obj
+[ 94%] Building C object CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/utilities/fsl_sbrk.c.obj
+[100%] Linking C executable release/ecspi_interrupt_b2b_transfer_master.elf
+Memory region         Used Size  Region Size  %age Used
+    m_interrupts:         576 B        576 B    100.00%
+          m_text:        8012 B     130496 B      6.14%
+          m_data:        2800 B       128 KB      2.14%
+         m_data2:          0 GB        16 MB      0.00%
+[100%] Built target ecspi_interrupt_b2b_transfer_master.elf

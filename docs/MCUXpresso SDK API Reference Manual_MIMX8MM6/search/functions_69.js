@@ -35,6 +35,6 @@ var searchData=
   ['i2c_5fslavetransferhandleirq',['I2C_SlaveTransferHandleIRQ',['../a00016.html#ga097c0b20503381de44cccba311dcf236',1,'fsl_i2c.h']]],
   ['i2c_5fslavetransfernonblocking',['I2C_SlaveTransferNonBlocking',['../a00016.html#gaa387d81ea08a9d4b39cfeb3dfec505f7',1,'fsl_i2c.h']]],
   ['i2c_5fslavewriteblocking',['I2C_SlaveWriteBlocking',['../a00016.html#ga280404c6b1ede542f2c1c20bd382869c',1,'fsl_i2c.h']]],
-  ['iomuxc_5fsetpinconfig',['IOMUXC_SetPinConfig',['../a00104.html#gab3a7a0682e5b7b5b767ef3ab6a0fc4a7',1,'fsl_iomuxc.h']]],
-  ['iomuxc_5fsetpinmux',['IOMUXC_SetPinMux',['../a00104.html#ga2a06ea5ea4921387c0346b3e39b0a8f9',1,'fsl_iomuxc.h']]]
+  ['iomuxc_5fsetpinconfig',['IOMUXC_SetPinConfig',['../a00104.html#gab7a6f9e42bd00d9e80457b53712748de',1,'fsl_iomuxc.h']]],
+  ['iomuxc_5fsetpinmux',['IOMUXC_SetPinMux',['../a00104.html#gaff65bf655b0d541b868b4a9d15415ce8',1,'fsl_iomuxc.h']]]
 ];

@@ -1,0 +1,10 @@
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/protocol_stack/sr1000/single_radio/wps_phy.c:14:6:wps_phy_init	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/protocol_stack/sr1000/single_radio/wps_phy.c:19:6:wps_phy_connect	24	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/protocol_stack/sr1000/single_radio/wps_phy.c:36:6:wps_phy_disconnect	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/protocol_stack/sr1000/single_radio/wps_phy.c:41:21:wps_phy_get_main_signal	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/protocol_stack/sr1000/single_radio/wps_phy.c:46:21:wps_phy_get_auto_signal	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/protocol_stack/sr1000/single_radio/wps_phy.c:51:6:wps_phy_set_main_xlayer	16	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/protocol_stack/sr1000/single_radio/wps_phy.c:57:6:wps_phy_set_auto_xlayer	16	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/protocol_stack/sr1000/single_radio/wps_phy.c:65:6:wps_phy_end_process	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/protocol_stack/sr1000/single_radio/wps_phy.c:72:6:wps_phy_write_register	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/protocol_stack/sr1000/single_radio/wps_phy.c:77:6:wps_phy_read_register	0	static

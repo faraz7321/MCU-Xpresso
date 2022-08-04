@@ -1,4 +1,4 @@
-include_guard()
+include_guard(GLOBAL)
 message("CMSIS_Driver_Include_USART component is included.")
 
 

@@ -1,4 +1,4 @@
-include_guard()
+include_guard(GLOBAL)
 message("middleware_multicore_rpmsg_lite_imx8mm_m4_freertos component is included.")
 
 target_sources(${MCUX_SDK_PROJECT_NAME} PRIVATE

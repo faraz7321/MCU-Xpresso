@@ -1,0 +1,6 @@
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/lib/third-party/stmicroelectronics/stm32_mw_usb_device/Core/Src/usbd_ctlreq.c:100:20:USBD_StdDevReq	32	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/lib/third-party/stmicroelectronics/stm32_mw_usb_device/Core/Src/usbd_ctlreq.c:163:20:USBD_StdItfReq	16	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/lib/third-party/stmicroelectronics/stm32_mw_usb_device/Core/Src/usbd_ctlreq.c:214:20:USBD_StdEPReq	16	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/lib/third-party/stmicroelectronics/stm32_mw_usb_device/Core/Src/usbd_ctlreq.c:839:6:USBD_ParseSetupRequest	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/lib/third-party/stmicroelectronics/stm32_mw_usb_device/Core/Src/usbd_ctlreq.c:868:6:USBD_CtlError	8	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/lib/third-party/stmicroelectronics/stm32_mw_usb_device/Core/Src/usbd_ctlreq.c:885:6:USBD_GetString	8	static

@@ -1,0 +1,15 @@
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/driver/spark/max98091/max98091.c:716:13:configure_biquad_coefficients.constprop	16	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/driver/spark/max98091/max98091.c:59:6:max98091_init	32	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/driver/spark/max98091/max98091.c:135:6:max98091_reset_codec	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/driver/spark/max98091/max98091.c:144:6:max98091_hp_increase_volume	16	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/driver/spark/max98091/max98091.c:161:6:max98091_hp_decrease_volume	16	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/driver/spark/max98091/max98091.c:178:6:max98091_unmute_volume	4	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/driver/spark/max98091/max98091.c:185:6:max98091_mute_volume	4	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/driver/spark/max98091/max98091.c:192:6:max98091_hp_set_volume	16	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/driver/spark/max98091/max98091.c:207:6:max98091_is_microphone_present	16	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/driver/spark/max98091/max98091.c:216:6:max98091_is_jack_present	24	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/driver/spark/max98091/max98091.c:226:6:max98091_enable_mic_trrs	16	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/driver/spark/max98091/max98091.c:235:6:max98091_disable_mic_trrs	16	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/driver/spark/max98091/max98091.c:244:6:max98091_enable_output	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/driver/spark/max98091/max98091.c:258:6:max98091_disable_output	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/driver/spark/max98091/max98091.c:263:6:max98091_reset_codec_irq	16	static

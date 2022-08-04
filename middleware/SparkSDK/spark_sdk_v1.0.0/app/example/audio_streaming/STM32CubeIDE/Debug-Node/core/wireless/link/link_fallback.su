@@ -1,0 +1,2 @@
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/link/sr1000/link_fallback.c:14:6:link_fallback_init	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/link/sr1000/link_fallback.c:20:9:link_fallback_get_channel_index	4	static

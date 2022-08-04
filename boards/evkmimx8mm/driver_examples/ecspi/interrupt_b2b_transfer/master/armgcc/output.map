@@ -1,0 +1,1365 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-errno.o)
+                              CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/utilities/fsl_sbrk.c.obj (__errno)
+/home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-exit.o)
+                              /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o (exit)
+/home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-impure.o)
+                              /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-exit.o) (_global_impure_ptr)
+/home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-init.o)
+                              /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o (__libc_init_array)
+/home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-malloc.o)
+                              CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_common.c.obj (malloc)
+/home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memcpy-stub.o)
+                              CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/utilities/debug_console_lite/fsl_debug_console.c.obj (memcpy)
+/home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
+                              /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o (memset)
+/home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-freer.o)
+                              /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-malloc.o) (_free_r)
+/home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-mallocr.o)
+                              /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-malloc.o) (_malloc_r)
+/home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-sbrkr.o)
+                              /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-mallocr.o) (_sbrk_r)
+/home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-strlen.o)
+                              CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/utilities/debug_console_lite/fsl_debug_console.c.obj (strlen)
+/home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-mlock.o)
+                              /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-freer.o) (__malloc_lock)
+/home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-reent.o)
+                              /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-sbrkr.o) (errno)
+/home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_ldivmod.o)
+                              CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_clock.c.obj (__aeabi_ldivmod)
+/home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+                              CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_common_arm.c.obj (__aeabi_uldivmod)
+/home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+                              /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_ldivmod.o) (__udivmoddi4)
+/home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+                              /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_ldivmod.o) (__aeabi_ldiv0)
+/home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(_exit.o)
+                              /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-exit.o) (_exit)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/crti.o
+ .data          0x0000000000000000        0x0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/crti.o
+ .bss           0x0000000000000000        0x0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/crti.o
+ .text          0x0000000000000000        0x0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .data          0x0000000000000000        0x0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .bss           0x0000000000000000        0x0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .rodata.all_implied_fbits
+                0x0000000000000000       0x24 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .data.__dso_handle
+                0x0000000000000000        0x4 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .data          0x0000000000000000        0x0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .bss           0x0000000000000000        0x0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .ARM.extab     0x0000000000000000        0x0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .text          0x0000000000000000        0x0 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/boards/evkmimx8mm/driver_examples/ecspi/interrupt_b2b_transfer/master/ecspi_interrupt_b2b_transfer_master.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/boards/evkmimx8mm/driver_examples/ecspi/interrupt_b2b_transfer/master/ecspi_interrupt_b2b_transfer_master.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/boards/evkmimx8mm/driver_examples/ecspi/interrupt_b2b_transfer/master/ecspi_interrupt_b2b_transfer_master.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/boards/evkmimx8mm/driver_examples/ecspi/interrupt_b2b_transfer/master/pin_mux.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/boards/evkmimx8mm/driver_examples/ecspi/interrupt_b2b_transfer/master/pin_mux.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/boards/evkmimx8mm/driver_examples/ecspi/interrupt_b2b_transfer/master/pin_mux.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/boards/evkmimx8mm/driver_examples/ecspi/interrupt_b2b_transfer/master/board.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/boards/evkmimx8mm/driver_examples/ecspi/interrupt_b2b_transfer/master/board.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/boards/evkmimx8mm/driver_examples/ecspi/interrupt_b2b_transfer/master/board.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/boards/evkmimx8mm/driver_examples/ecspi/interrupt_b2b_transfer/master/clock_config.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/boards/evkmimx8mm/driver_examples/ecspi/interrupt_b2b_transfer/master/clock_config.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/boards/evkmimx8mm/driver_examples/ecspi/interrupt_b2b_transfer/master/clock_config.c.obj
+ .rodata.g_sysPll1Config
+                0x0000000000000000        0xc CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/boards/evkmimx8mm/driver_examples/ecspi/interrupt_b2b_transfer/master/clock_config.c.obj
+ .rodata.g_sysPll2Config
+                0x0000000000000000        0xc CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/boards/evkmimx8mm/driver_examples/ecspi/interrupt_b2b_transfer/master/clock_config.c.obj
+ .rodata.g_sysPll3Config
+                0x0000000000000000        0xc CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/boards/evkmimx8mm/driver_examples/ecspi/interrupt_b2b_transfer/master/clock_config.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/boards/evkmimx8mm/driver_examples/ecspi/interrupt_b2b_transfer/master/empty_rsc_table.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/boards/evkmimx8mm/driver_examples/ecspi/interrupt_b2b_transfer/master/empty_rsc_table.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/boards/evkmimx8mm/driver_examples/ecspi/interrupt_b2b_transfer/master/empty_rsc_table.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/utilities/debug_console_lite/fsl_debug_console.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/utilities/debug_console_lite/fsl_debug_console.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/utilities/debug_console_lite/fsl_debug_console.c.obj
+ .text.DbgConsole_ScanIgnoreWhiteSpace
+                0x0000000000000000       0x20 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/utilities/debug_console_lite/fsl_debug_console.c.obj
+ .text.DbgConsole_Deinit
+                0x0000000000000000       0x1c CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/utilities/debug_console_lite/fsl_debug_console.c.obj
+ .text.DbgConsole_Scanf
+                0x0000000000000000      0x318 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/utilities/debug_console_lite/fsl_debug_console.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/components/uart/fsl_adapter_iuart.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/components/uart/fsl_adapter_iuart.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/components/uart/fsl_adapter_iuart.c.obj
+ .text.HAL_UartDeinit
+                0x0000000000000000       0x18 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/components/uart/fsl_adapter_iuart.c.obj
+ .text.HAL_UartEnterLowpower
+                0x0000000000000000        0x4 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/components/uart/fsl_adapter_iuart.c.obj
+ .text.HAL_UartExitLowpower
+                0x0000000000000000        0x4 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/components/uart/fsl_adapter_iuart.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_common.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_common.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_common.c.obj
+ .text.SDK_Malloc
+                0x0000000000000000       0x42 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_common.c.obj
+ .text.SDK_Free
+                0x0000000000000000       0x18 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_common.c.obj
+ .comment       0x0000000000000000       0x58 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_common.c.obj
+ .ARM.attributes
+                0x0000000000000000       0x34 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_common.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_common_arm.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_common_arm.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_common_arm.c.obj
+ .text.SDK_DelayAtLeastUs
+                0x0000000000000000       0x20 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_common_arm.c.obj
+ .comment       0x0000000000000000       0x58 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_common_arm.c.obj
+ .ARM.attributes
+                0x0000000000000000       0x34 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_common_arm.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_clock.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_clock.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_clock.c.obj
+ .text.CLOCK_DeinitArmPll
+                0x0000000000000000       0x14 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_clock.c.obj
+ .text.CLOCK_DeinitAudioPll1
+                0x0000000000000000       0x10 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_clock.c.obj
+ .text.CLOCK_DeinitAudioPll2
+                0x0000000000000000       0x10 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_clock.c.obj
+ .text.CLOCK_DeinitVideoPll1
+                0x0000000000000000       0x10 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_clock.c.obj
+ .text.CLOCK_DeinitSysPll1
+                0x0000000000000000       0x14 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_clock.c.obj
+ .text.CLOCK_DeinitSysPll2
+                0x0000000000000000       0x14 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_clock.c.obj
+ .text.CLOCK_DeinitSysPll3
+                0x0000000000000000       0x14 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_clock.c.obj
+ .text.CLOCK_InitVideoPll1
+                0x0000000000000000       0x2c CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_clock.c.obj
+ .text.CLOCK_InitIntegerPll
+                0x0000000000000000       0x50 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_clock.c.obj
+ .text.CLOCK_InitArmPll
+                0x0000000000000000       0x38 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_clock.c.obj
+ .text.CLOCK_InitSysPll1
+                0x0000000000000000       0x38 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_clock.c.obj
+ .text.CLOCK_InitSysPll2
+                0x0000000000000000       0x38 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_clock.c.obj
+ .text.CLOCK_InitSysPll3
+                0x0000000000000000       0x38 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_clock.c.obj
+ .text.CLOCK_GetCoreM4Freq
+                0x0000000000000000       0x8c CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_clock.c.obj
+ .text.CLOCK_GetAxiFreq
+                0x0000000000000000       0x88 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_clock.c.obj
+ .text.CLOCK_GetAhbFreq
+                0x0000000000000000       0x88 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_clock.c.obj
+ .text.CLOCK_GetFreq
+                0x0000000000000000       0x44 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_clock.c.obj
+ .text.CLOCK_UpdateRoot
+                0x0000000000000000       0x2c CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_clock.c.obj
+ .text.CLOCK_DisableClock
+                0x0000000000000000       0x24 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_clock.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_uart.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_uart.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_uart.c.obj
+ .text.UART_TransferGetRxRingBufferLength
+                0x0000000000000000       0x26 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_uart.c.obj
+ .text.UART_TransferIsRxRingBufferFull
+                0x0000000000000000       0x14 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_uart.c.obj
+ .text.UART_Deinit
+                0x0000000000000000       0x2c CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_uart.c.obj
+ .text.UART_EnableInterrupts
+                0x0000000000000000      0x108 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_uart.c.obj
+ .text.UART_DisableInterrupts
+                0x0000000000000000      0x110 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_uart.c.obj
+ .text.UART_TransferHandleIRQ
+                0x0000000000000000      0x370 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_uart.c.obj
+ .text.UART_GetEnabledInterrupts
+                0x0000000000000000      0x188 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_uart.c.obj
+ .text.UART_GetStatusFlag
+                0x0000000000000000       0x10 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_uart.c.obj
+ .text.UART_ClearStatusFlag
+                0x0000000000000000        0xe CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_uart.c.obj
+ .text.UART_TransferCreateHandle
+                0x0000000000000000       0x68 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_uart.c.obj
+ .text.UART_TransferStartRingBuffer
+                0x0000000000000000       0x14 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_uart.c.obj
+ .text.UART_TransferStopRingBuffer
+                0x0000000000000000       0x24 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_uart.c.obj
+ .text.UART_TransferSendNonBlocking
+                0x0000000000000000       0x2e CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_uart.c.obj
+ .text.UART_TransferAbortSend
+                0x0000000000000000       0x16 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_uart.c.obj
+ .text.UART_TransferGetSendCount
+                0x0000000000000000       0x16 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_uart.c.obj
+ .text.UART_TransferReceiveNonBlocking
+                0x0000000000000000       0xd4 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_uart.c.obj
+ .text.UART_TransferAbortReceive
+                0x0000000000000000       0x20 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_uart.c.obj
+ .text.UART_TransferGetReceiveCount
+                0x0000000000000000       0x1e CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_uart.c.obj
+ .rodata.s_uartIRQ
+                0x0000000000000000        0x5 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_uart.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/utilities/debug_console_lite/fsl_assert.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/utilities/debug_console_lite/fsl_assert.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/utilities/debug_console_lite/fsl_assert.c.obj
+ .comment       0x0000000000000000       0x58 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/utilities/debug_console_lite/fsl_assert.c.obj
+ .ARM.attributes
+                0x0000000000000000       0x34 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/utilities/debug_console_lite/fsl_assert.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_ecspi.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_ecspi.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_ecspi.c.obj
+ .text.ECSPI_SlaveGetDefaultConfig
+                0x0000000000000000       0x32 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_ecspi.c.obj
+ .text.ECSPI_Deinit
+                0x0000000000000000       0x20 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_ecspi.c.obj
+ .text.ECSPI_SlaveInit
+                0x0000000000000000       0x58 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_ecspi.c.obj
+ .text.ECSPI_WriteBlocking
+                0x0000000000000000       0x26 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_ecspi.c.obj
+ .text.ECSPI_MasterTransferBlocking
+                0x0000000000000000       0xa6 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_ecspi.c.obj
+ .text.ECSPI_MasterTransferGetCount
+                0x0000000000000000       0x24 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_ecspi.c.obj
+ .text.ECSPI_SlaveTransferHandleIRQ
+                0x0000000000000000        0x4 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_ecspi.c.obj
+ .text.ECSPI_SlaveTransferCreateHandle
+                0x0000000000000000       0x18 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_ecspi.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_rdc.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_rdc.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_rdc.c.obj
+ .text.RDC_GetInstance
+                0x0000000000000000       0x10 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_rdc.c.obj
+ .text.RDC_Init
+                0x0000000000000000        0xc CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_rdc.c.obj
+ .text.RDC_Deinit
+                0x0000000000000000        0xc CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_rdc.c.obj
+ .text.RDC_GetHardwareConfig
+                0x0000000000000000        0x6 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_rdc.c.obj
+ .text.RDC_GetDefaultMasterDomainAssignment
+                0x0000000000000000        0x6 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_rdc.c.obj
+ .text.RDC_SetPeriphAccessConfig
+                0x0000000000000000       0x24 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_rdc.c.obj
+ .text.RDC_GetDefaultPeriphAccessConfig
+                0x0000000000000000       0x18 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_rdc.c.obj
+ .text.RDC_SetMemAccessConfig
+                0x0000000000000000       0x2e CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_rdc.c.obj
+ .text.RDC_GetDefaultMemAccessConfig
+                0x0000000000000000       0x22 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_rdc.c.obj
+ .text.RDC_GetMemViolationStatus
+                0x0000000000000000       0x20 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_rdc.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/components/lists/fsl_component_generic_list.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/components/lists/fsl_component_generic_list.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/components/lists/fsl_component_generic_list.c.obj
+ .text.LIST_Init
+                0x0000000000000000        0xc CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/components/lists/fsl_component_generic_list.c.obj
+ .text.LIST_GetList
+                0x0000000000000000        0x4 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/components/lists/fsl_component_generic_list.c.obj
+ .text.LIST_AddTail
+                0x0000000000000000       0x36 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/components/lists/fsl_component_generic_list.c.obj
+ .text.LIST_AddHead
+                0x0000000000000000       0x30 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/components/lists/fsl_component_generic_list.c.obj
+ .text.LIST_RemoveHead
+                0x0000000000000000       0x2c CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/components/lists/fsl_component_generic_list.c.obj
+ .text.LIST_GetHead
+                0x0000000000000000        0x4 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/components/lists/fsl_component_generic_list.c.obj
+ .text.LIST_GetNext
+                0x0000000000000000        0x4 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/components/lists/fsl_component_generic_list.c.obj
+ .text.LIST_GetPrev
+                0x0000000000000000        0x4 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/components/lists/fsl_component_generic_list.c.obj
+ .text.LIST_RemoveElement
+                0x0000000000000000       0x40 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/components/lists/fsl_component_generic_list.c.obj
+ .text.LIST_AddPrevElement
+                0x0000000000000000       0x52 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/components/lists/fsl_component_generic_list.c.obj
+ .text.LIST_GetSize
+                0x0000000000000000        0x4 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/components/lists/fsl_component_generic_list.c.obj
+ .text.LIST_GetAvailableSize
+                0x0000000000000000        0x8 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/components/lists/fsl_component_generic_list.c.obj
+ .comment       0x0000000000000000       0x58 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/components/lists/fsl_component_generic_list.c.obj
+ .ARM.attributes
+                0x0000000000000000       0x34 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/components/lists/fsl_component_generic_list.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/gcc/startup_MIMX8MM6_cm4.S.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/gcc/startup_MIMX8MM6_cm4.S.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/system_MIMX8MM6_cm4.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/system_MIMX8MM6_cm4.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/system_MIMX8MM6_cm4.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/utilities/fsl_sbrk.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/utilities/fsl_sbrk.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/utilities/fsl_sbrk.c.obj
+ .text._sbrk    0x0000000000000000       0x38 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/utilities/fsl_sbrk.c.obj
+ .bss.heap_end.0
+                0x0000000000000000        0x4 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/utilities/fsl_sbrk.c.obj
+ .comment       0x0000000000000000       0x58 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/utilities/fsl_sbrk.c.obj
+ .ARM.attributes
+                0x0000000000000000       0x34 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/utilities/fsl_sbrk.c.obj
+ .text          0x0000000000000000        0x0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-errno.o)
+ .data          0x0000000000000000        0x0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-errno.o)
+ .bss           0x0000000000000000        0x0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-errno.o)
+ .text.__errno  0x0000000000000000        0xc /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-errno.o)
+ .debug_info    0x0000000000000000      0x751 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-errno.o)
+ .debug_abbrev  0x0000000000000000      0x15e /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-errno.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-errno.o)
+ .debug_rnglists
+                0x0000000000000000       0x13 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-errno.o)
+ .debug_line    0x0000000000000000      0x176 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-errno.o)
+ .debug_str     0x0000000000000000      0x56c /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-errno.o)
+ .comment       0x0000000000000000       0x58 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-errno.o)
+ .debug_frame   0x0000000000000000       0x20 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-errno.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-errno.o)
+ .text          0x0000000000000000        0x0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-exit.o)
+ .data          0x0000000000000000        0x0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-exit.o)
+ .bss           0x0000000000000000        0x0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-exit.o)
+ .text          0x0000000000000000        0x0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-impure.o)
+ .data          0x0000000000000000        0x0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-impure.o)
+ .bss           0x0000000000000000        0x0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x0000000000000000        0x4 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-impure.o)
+ .text          0x0000000000000000        0x0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-init.o)
+ .data          0x0000000000000000        0x0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-init.o)
+ .bss           0x0000000000000000        0x0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-init.o)
+ .text          0x0000000000000000        0x0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-malloc.o)
+ .data          0x0000000000000000        0x0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-malloc.o)
+ .bss           0x0000000000000000        0x0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-malloc.o)
+ .text.malloc   0x0000000000000000       0x10 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-malloc.o)
+ .text.free     0x0000000000000000       0x10 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-malloc.o)
+ .debug_info    0x0000000000000000      0x7ea /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-malloc.o)
+ .debug_abbrev  0x0000000000000000      0x1cf /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-malloc.o)
+ .debug_loclists
+                0x0000000000000000       0x48 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-malloc.o)
+ .debug_aranges
+                0x0000000000000000       0x28 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-malloc.o)
+ .debug_rnglists
+                0x0000000000000000       0x19 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-malloc.o)
+ .debug_line    0x0000000000000000      0x1f3 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-malloc.o)
+ .debug_str     0x0000000000000000      0x598 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-malloc.o)
+ .comment       0x0000000000000000       0x58 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-malloc.o)
+ .debug_frame   0x0000000000000000       0x30 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-malloc.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-malloc.o)
+ .text          0x0000000000000000        0x0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memcpy-stub.o)
+ .data          0x0000000000000000        0x0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memcpy-stub.o)
+ .bss           0x0000000000000000        0x0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memcpy-stub.o)
+ .text          0x0000000000000000        0x0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
+ .data          0x0000000000000000        0x0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
+ .bss           0x0000000000000000        0x0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
+ .text          0x0000000000000000        0x0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-freer.o)
+ .data          0x0000000000000000        0x0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-freer.o)
+ .bss           0x0000000000000000        0x0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-freer.o)
+ .text._free_r  0x0000000000000000       0x98 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-freer.o)
+ .debug_info    0x0000000000000000      0x89c /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-freer.o)
+ .debug_abbrev  0x0000000000000000      0x23b /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-freer.o)
+ .debug_loclists
+                0x0000000000000000       0xd4 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-freer.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-freer.o)
+ .debug_rnglists
+                0x0000000000000000       0x20 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-freer.o)
+ .debug_line    0x0000000000000000      0x307 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-freer.o)
+ .debug_str     0x0000000000000000      0x5fa /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-freer.o)
+ .comment       0x0000000000000000       0x58 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-freer.o)
+ .debug_frame   0x0000000000000000       0x38 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-freer.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-freer.o)
+ .text          0x0000000000000000        0x0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-mallocr.o)
+ .data          0x0000000000000000        0x0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-mallocr.o)
+ .bss           0x0000000000000000        0x0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-mallocr.o)
+ .text.sbrk_aligned
+                0x0000000000000000       0x40 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-mallocr.o)
+ .text._malloc_r
+                0x0000000000000000       0xe8 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-mallocr.o)
+ .bss.__malloc_free_list
+                0x0000000000000000        0x4 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-mallocr.o)
+ .bss.__malloc_sbrk_start
+                0x0000000000000000        0x4 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-mallocr.o)
+ .debug_info    0x0000000000000000      0xa12 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-mallocr.o)
+ .debug_abbrev  0x0000000000000000      0x24a /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-mallocr.o)
+ .debug_loclists
+                0x0000000000000000      0x254 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-mallocr.o)
+ .debug_aranges
+                0x0000000000000000       0x28 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-mallocr.o)
+ .debug_rnglists
+                0x0000000000000000       0x26 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-mallocr.o)
+ .debug_line    0x0000000000000000      0x48f /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-mallocr.o)
+ .debug_str     0x0000000000000000      0x659 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-mallocr.o)
+ .comment       0x0000000000000000       0x58 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-mallocr.o)
+ .debug_frame   0x0000000000000000       0x4c /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-mallocr.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-nano-mallocr.o)
+ .text          0x0000000000000000        0x0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-sbrkr.o)
+ .data          0x0000000000000000        0x0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-sbrkr.o)
+ .bss           0x0000000000000000        0x0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-sbrkr.o)
+ .text._sbrk_r  0x0000000000000000       0x20 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-sbrkr.o)
+ .debug_info    0x0000000000000000      0x7d2 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-sbrkr.o)
+ .debug_abbrev  0x0000000000000000      0x1da /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-sbrkr.o)
+ .debug_loclists
+                0x0000000000000000       0x4c /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-sbrkr.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-sbrkr.o)
+ .debug_rnglists
+                0x0000000000000000       0x13 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-sbrkr.o)
+ .debug_line    0x0000000000000000      0x20d /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-sbrkr.o)
+ .debug_str     0x0000000000000000      0x57b /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-sbrkr.o)
+ .comment       0x0000000000000000       0x58 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-sbrkr.o)
+ .debug_frame   0x0000000000000000       0x2c /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-sbrkr.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-sbrkr.o)
+ .data          0x0000000000000000        0x0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-strlen.o)
+ .bss           0x0000000000000000        0x0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-strlen.o)
+ .text          0x0000000000000000        0x0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-mlock.o)
+ .data          0x0000000000000000        0x0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-mlock.o)
+ .bss           0x0000000000000000        0x0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-mlock.o)
+ .text.__malloc_lock
+                0x0000000000000000        0x2 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-mlock.o)
+ .text.__malloc_unlock
+                0x0000000000000000        0x2 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-mlock.o)
+ .debug_info    0x0000000000000000      0x77c /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-mlock.o)
+ .debug_abbrev  0x0000000000000000      0x192 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-mlock.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-mlock.o)
+ .debug_rnglists
+                0x0000000000000000       0x13 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-mlock.o)
+ .debug_line    0x0000000000000000      0x1cb /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-mlock.o)
+ .debug_str     0x0000000000000000      0x591 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-mlock.o)
+ .comment       0x0000000000000000       0x58 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-mlock.o)
+ .debug_frame   0x0000000000000000       0x30 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-mlock.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-mlock.o)
+ .text          0x0000000000000000        0x0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-reent.o)
+ .data          0x0000000000000000        0x0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-reent.o)
+ .bss           0x0000000000000000        0x0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-reent.o)
+ .text.cleanup_glue
+                0x0000000000000000       0x1a /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-reent.o)
+ .text._reclaim_reent
+                0x0000000000000000       0xb8 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-reent.o)
+ .bss.errno     0x0000000000000000        0x4 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-reent.o)
+ .debug_info    0x0000000000000000      0x92c /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-reent.o)
+ .debug_abbrev  0x0000000000000000      0x233 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-reent.o)
+ .debug_loclists
+                0x0000000000000000       0xcd /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-reent.o)
+ .debug_aranges
+                0x0000000000000000       0x28 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-reent.o)
+ .debug_rnglists
+                0x0000000000000000       0x2c /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-reent.o)
+ .debug_line    0x0000000000000000      0x312 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-reent.o)
+ .debug_str     0x0000000000000000      0x5a3 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-reent.o)
+ .comment       0x0000000000000000       0x58 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-reent.o)
+ .debug_frame   0x0000000000000000       0x5c /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-reent.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-reent.o)
+ .text          0x0000000000000000       0xa0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_ldivmod.o)
+ .data          0x0000000000000000        0x0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_ldivmod.o)
+ .bss           0x0000000000000000        0x0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_ldivmod.o)
+ .debug_line    0x0000000000000000       0x6c /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_ldivmod.o)
+ .debug_line_str
+                0x0000000000000000       0x9e /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_ldivmod.o)
+ .debug_info    0x0000000000000000       0x25 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_ldivmod.o)
+ .debug_abbrev  0x0000000000000000       0x14 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_ldivmod.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_ldivmod.o)
+ .debug_str     0x0000000000000000       0x87 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_ldivmod.o)
+ .debug_frame   0x0000000000000000       0x44 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_ldivmod.o)
+ .ARM.attributes
+                0x0000000000000000       0x1e /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_ldivmod.o)
+ .data          0x0000000000000000        0x0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+ .bss           0x0000000000000000        0x0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+ .text          0x0000000000000000        0x0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .data          0x0000000000000000        0x0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .bss           0x0000000000000000        0x0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .ARM.extab.text.__udivmoddi4
+                0x0000000000000000        0x0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .data          0x0000000000000000        0x0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+ .bss           0x0000000000000000        0x0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+ .text          0x0000000000000000        0x0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(_exit.o)
+ .data          0x0000000000000000        0x0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(_exit.o)
+ .bss           0x0000000000000000        0x0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(_exit.o)
+ .text          0x0000000000000000        0x0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/crtend.o
+ .data          0x0000000000000000        0x0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/crtend.o
+ .bss           0x0000000000000000        0x0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/crtend.o
+ .rodata.all_implied_fbits
+                0x0000000000000000       0x24 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/crtend.o
+ .eh_frame      0x0000000000000000        0x4 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/crtend.o
+ .text          0x0000000000000000        0x0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/crtn.o
+ .data          0x0000000000000000        0x0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/crtn.o
+ .bss           0x0000000000000000        0x0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+m_interrupts     0x000000001ffe0000 0x0000000000000240 xr
+m_text           0x000000001ffe0240 0x000000000001fdc0 xr
+m_data           0x0000000020000000 0x0000000000020000 rw
+m_data2          0x0000000080000000 0x0000000001000000 rw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/crti.o
+LOAD /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+LOAD /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+LOAD CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/boards/evkmimx8mm/driver_examples/ecspi/interrupt_b2b_transfer/master/ecspi_interrupt_b2b_transfer_master.c.obj
+LOAD CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/boards/evkmimx8mm/driver_examples/ecspi/interrupt_b2b_transfer/master/pin_mux.c.obj
+LOAD CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/boards/evkmimx8mm/driver_examples/ecspi/interrupt_b2b_transfer/master/board.c.obj
+LOAD CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/boards/evkmimx8mm/driver_examples/ecspi/interrupt_b2b_transfer/master/clock_config.c.obj
+LOAD CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/boards/evkmimx8mm/driver_examples/ecspi/interrupt_b2b_transfer/master/empty_rsc_table.c.obj
+LOAD CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/utilities/debug_console_lite/fsl_debug_console.c.obj
+LOAD CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/components/uart/fsl_adapter_iuart.c.obj
+LOAD CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_common.c.obj
+LOAD CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_common_arm.c.obj
+LOAD CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_clock.c.obj
+LOAD CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_uart.c.obj
+LOAD CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/utilities/debug_console_lite/fsl_assert.c.obj
+LOAD CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_ecspi.c.obj
+LOAD CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_rdc.c.obj
+LOAD CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/components/lists/fsl_component_generic_list.c.obj
+LOAD CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/gcc/startup_MIMX8MM6_cm4.S.obj
+LOAD CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/system_MIMX8MM6_cm4.c.obj
+LOAD CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/utilities/fsl_sbrk.c.obj
+START GROUP
+LOAD /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a
+LOAD /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a
+END GROUP
+START GROUP
+LOAD /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a
+END GROUP
+START GROUP
+LOAD /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a
+LOAD /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a
+END GROUP
+START GROUP
+LOAD /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a
+LOAD /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a
+END GROUP
+LOAD /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/crtend.o
+LOAD /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/crtn.o
+                0x0000000000000400                HEAP_SIZE = DEFINED (__heap_size__)?__heap_size__:0x400
+                0x0000000000000400                STACK_SIZE = DEFINED (__stack_size__)?__stack_size__:0x400
+
+.interrupts     0x000000001ffe0000      0x240
+                0x000000001ffe0000                __VECTOR_TABLE = .
+                0x000000001ffe0000                __Vectors = .
+                0x000000001ffe0000                . = ALIGN (0x4)
+ *(.isr_vector)
+ .isr_vector    0x000000001ffe0000      0x240 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/gcc/startup_MIMX8MM6_cm4.S.obj
+                0x000000001ffe0000                __isr_vector
+                0x000000001ffe0240                . = ALIGN (0x4)
+
+.resource_table
+                0x000000001ffe0240       0x10
+                0x000000001ffe0240                . = ALIGN (0x8)
+ *(.resource_table)
+ .resource_table
+                0x000000001ffe0240       0x10 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/boards/evkmimx8mm/driver_examples/ecspi/interrupt_b2b_transfer/master/empty_rsc_table.c.obj
+                0x000000001ffe0240                resource_table
+                0x000000001ffe0250                . = ALIGN (0x8)
+
+.text           0x000000001ffe0250     0x1f2c
+                0x000000001ffe0250                . = ALIGN (0x4)
+ *(.text)
+ .text          0x000000001ffe0250       0x7c /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+                0x000000001ffe0250                _stack_init
+                0x000000001ffe0258                _mainCRTStartup
+                0x000000001ffe0258                _start
+ .text          0x000000001ffe02cc      0x1a0 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/gcc/startup_MIMX8MM6_cm4.S.obj
+                0x000000001ffe02cc                Reset_Handler
+                0x000000001ffe0358                Reserved96_IRQHandler
+                0x000000001ffe0358                SJC_IRQHandler
+                0x000000001ffe0358                DebugMon_Handler
+                0x000000001ffe0358                DDR_PerformanceMonitor_IRQHandler
+                0x000000001ffe0358                SRC_IRQHandler
+                0x000000001ffe0358                GPIO2_Combined_0_15_IRQHandler
+                0x000000001ffe0358                GPIO1_INT2_IRQHandler
+                0x000000001ffe0358                PWM1_IRQHandler
+                0x000000001ffe0358                CAAM_IRQ1_IRQHandler
+                0x000000001ffe0358                CPU_Error_L2RAM_IRQHandler
+                0x000000001ffe0358                CAAM_ERROR_IRQHandler
+                0x000000001ffe0358                GPIO1_INT7_IRQHandler
+                0x000000001ffe0358                Reserved59_IRQHandler
+                0x000000001ffe0358                PCIE_CTRL1_IRQ0_IRQHandler
+                0x000000001ffe0358                Reserved29_IRQHandler
+                0x000000001ffe0358                QOS_IRQHandler
+                0x000000001ffe0358                PDM_HWVAD_ERROR_IRQHandler
+                0x000000001ffe0358                I2S2_DriverIRQHandler
+                0x000000001ffe0358                GPIO5_Combined_0_15_IRQHandler
+                0x000000001ffe0358                MIPI_DSI_IRQHandler
+                0x000000001ffe0358                I2C3_DriverIRQHandler
+                0x000000001ffe0358                USB1_IRQHandler
+                0x000000001ffe0358                ENET_1588_DriverIRQHandler
+                0x000000001ffe0358                SNVS_IRQHandler
+                0x000000001ffe0358                Reserved116_IRQHandler
+                0x000000001ffe0358                SRC_Combined_IRQHandler
+                0x000000001ffe0358                GPIO4_Combined_0_15_IRQHandler
+                0x000000001ffe0358                Reserved92_IRQHandler
+                0x000000001ffe0358                VPU_G1_IRQHandler
+                0x000000001ffe0358                PERFMON1_IRQHandler
+                0x000000001ffe0358                SCTR_IRQ0_IRQHandler
+                0x000000001ffe0358                PWM3_IRQHandler
+                0x000000001ffe0358                I2C2_DriverIRQHandler
+                0x000000001ffe0358                GPU2D_IRQHandler
+                0x000000001ffe0358                HS_CP0_IRQHandler
+                0x000000001ffe0358                UsageFault_Handler
+                0x000000001ffe0358                WDOG1_IRQHandler
+                0x000000001ffe0358                DAP_IRQHandler
+                0x000000001ffe0358                TEMPMON_LOW_IRQHandler
+                0x000000001ffe0358                GPT1_IRQHandler
+                0x000000001ffe0358                DefaultISR
+                0x000000001ffe0358                VPU_G2_IRQHandler
+                0x000000001ffe0358                Reserved58_IRQHandler
+                0x000000001ffe0358                I2S3_DriverIRQHandler
+                0x000000001ffe0358                SDMA2_DriverIRQHandler
+                0x000000001ffe0358                GPT3_IRQHandler
+                0x000000001ffe0358                SNVS_Security_IRQHandler
+                0x000000001ffe0358                USDHC1_DriverIRQHandler
+                0x000000001ffe0358                GPIO1_INT0_IRQHandler
+                0x000000001ffe0358                CCM_IRQ1_IRQHandler
+                0x000000001ffe0358                CSU_IRQHandler
+                0x000000001ffe0358                ENET_MAC0_Rx_Tx_Done2_DriverIRQHandler
+                0x000000001ffe0358                SDMA1_DriverIRQHandler
+                0x000000001ffe0358                ENET_DriverIRQHandler
+                0x000000001ffe0358                MIPI_CSI1_IRQHandler
+                0x000000001ffe0358                GPIO1_Combined_16_31_IRQHandler
+                0x000000001ffe0358                CPU_CTI_Trigger_IRQHandler
+                0x000000001ffe0358                PERFMON2_IRQHandler
+                0x000000001ffe0358                QSPI_DriverIRQHandler
+                0x000000001ffe0358                GPIO3_Combined_16_31_IRQHandler
+                0x000000001ffe0358                CPU_Error_AXI_IRQHandler
+                0x000000001ffe0358                CSI1_IRQHandler
+                0x000000001ffe0358                RDC_IRQHandler
+                0x000000001ffe0358                WDOG2_IRQHandler
+                0x000000001ffe0358                GPIO1_INT5_IRQHandler
+                0x000000001ffe0358                PWM2_IRQHandler
+                0x000000001ffe0358                GPIO1_INT6_IRQHandler
+                0x000000001ffe0358                SNVS_Consolidated_IRQHandler
+                0x000000001ffe0358                I2S1_DriverIRQHandler
+                0x000000001ffe0358                GPR_IRQ_IRQHandler
+                0x000000001ffe0358                PCIE_CTRL1_IRQ1_IRQHandler
+                0x000000001ffe0358                GPC_IRQHandler
+                0x000000001ffe0358                GPIO3_Combined_0_15_IRQHandler
+                0x000000001ffe0358                I2S56_DriverIRQHandler
+                0x000000001ffe0358                SCTR_IRQ1_IRQHandler
+                0x000000001ffe0358                GPMI_IRQHandler
+                0x000000001ffe0358                GPIO5_Combined_16_31_IRQHandler
+                0x000000001ffe0358                CPU_PerformanceUnit_IRQHandler
+                0x000000001ffe0358                ENET_MAC0_Rx_Tx_Done1_DriverIRQHandler
+                0x000000001ffe0358                PWM4_IRQHandler
+                0x000000001ffe0358                TZASC_IRQHandler
+                0x000000001ffe0358                MU_A53_IRQHandler
+                0x000000001ffe0358                USDHC3_DriverIRQHandler
+                0x000000001ffe0358                GPIO1_INT1_IRQHandler
+                0x000000001ffe0358                DDR_IRQHandler
+                0x000000001ffe0358                MU_M4_IRQHandler
+                0x000000001ffe0358                PCIE_CTRL1_IRQHandler
+                0x000000001ffe0358                HS_CP1_IRQHandler
+                0x000000001ffe0358                GPIO1_INT4_IRQHandler
+                0x000000001ffe0358                USDHC2_DriverIRQHandler
+                0x000000001ffe0358                MemManage_Handler
+                0x000000001ffe0358                Reserved90_IRQHandler
+                0x000000001ffe0358                GPT4_IRQHandler
+                0x000000001ffe0358                Reserved133_IRQHandler
+                0x000000001ffe0358                PDM_EVENT_DriverIRQHandler
+                0x000000001ffe0358                I2C4_DriverIRQHandler
+                0x000000001ffe0358                USB2_IRQHandler
+                0x000000001ffe0358                PDM_HWVAD_EVENT_IRQHandler
+                0x000000001ffe0358                BCH_IRQHandler
+                0x000000001ffe0358                Reserved142_IRQHandler
+                0x000000001ffe0358                VPU_H1_IRQHandler
+                0x000000001ffe0358                GPIO1_INT3_IRQHandler
+                0x000000001ffe0358                GPIO1_Combined_0_15_IRQHandler
+                0x000000001ffe0358                I2C1_DriverIRQHandler
+                0x000000001ffe0358                Reserved91_IRQHandler
+                0x000000001ffe0358                Reserved127_IRQHandler
+                0x000000001ffe0358                SDMA3_DriverIRQHandler
+                0x000000001ffe0358                PCIE_CTRL1_IRQ3_IRQHandler
+                0x000000001ffe0358                PCIE_CTRL1_IRQ2_IRQHandler
+                0x000000001ffe0358                GPU3D_IRQHandler
+                0x000000001ffe0358                APBHDMA_DriverIRQHandler
+                0x000000001ffe0358                GPIO2_Combined_16_31_IRQHandler
+                0x000000001ffe0358                SPDIF1_DriverIRQHandler
+                0x000000001ffe0358                CAAM_IRQ2_IRQHandler
+                0x000000001ffe0358                GPT2_IRQHandler
+                0x000000001ffe0358                RTIC_IRQHandler
+                0x000000001ffe0358                PDM_ERROR_IRQHandler
+                0x000000001ffe0358                GPT5_IRQHandler
+                0x000000001ffe0358                BusFault_Handler
+                0x000000001ffe0358                GPIO4_Combined_16_31_IRQHandler
+                0x000000001ffe0358                Reserved93_IRQHandler
+                0x000000001ffe0358                GPT6_IRQHandler
+                0x000000001ffe0358                CAAM_IRQ0_IRQHandler
+                0x000000001ffe0358                CCM_IRQ2_IRQHandler
+                0x000000001ffe0358                WDOG3_IRQHandler
+                0x000000001ffe0358                LCDIF_IRQHandler
+                0x000000001ffe035c                NMI_Handler
+                0x000000001ffe0360                HardFault_Handler
+                0x000000001ffe0364                SVC_Handler
+                0x000000001ffe0368                PendSV_Handler
+                0x000000001ffe0370                SDMA1_IRQHandler
+                0x000000001ffe0374                SPDIF1_IRQHandler
+                0x000000001ffe0378                APBHDMA_IRQHandler
+                0x000000001ffe037c                USDHC1_IRQHandler
+                0x000000001ffe0380                USDHC2_IRQHandler
+                0x000000001ffe0384                USDHC3_IRQHandler
+                0x000000001ffe0388                UART1_IRQHandler
+                0x000000001ffe038c                UART2_IRQHandler
+                0x000000001ffe0390                UART3_IRQHandler
+                0x000000001ffe0394                UART4_IRQHandler
+                0x000000001ffe0398                ECSPI1_IRQHandler
+                0x000000001ffe039c                ECSPI2_IRQHandler
+                0x000000001ffe03a0                ECSPI3_IRQHandler
+                0x000000001ffe03a4                SDMA3_IRQHandler
+                0x000000001ffe03a8                I2C1_IRQHandler
+                0x000000001ffe03ac                I2C2_IRQHandler
+                0x000000001ffe03b0                I2C3_IRQHandler
+                0x000000001ffe03b4                I2C4_IRQHandler
+                0x000000001ffe03b8                I2S3_IRQHandler
+                0x000000001ffe03bc                I2S56_IRQHandler
+                0x000000001ffe03c0                I2S1_IRQHandler
+                0x000000001ffe03c4                I2S2_IRQHandler
+                0x000000001ffe03c8                SDMA2_IRQHandler
+                0x000000001ffe03cc                QSPI_IRQHandler
+                0x000000001ffe03d0                PDM_EVENT_IRQHandler
+                0x000000001ffe03d4                ENET_MAC0_Rx_Tx_Done1_IRQHandler
+                0x000000001ffe03d8                ENET_MAC0_Rx_Tx_Done2_IRQHandler
+                0x000000001ffe03dc                ENET_IRQHandler
+                0x000000001ffe03e0                ENET_1588_IRQHandler
+ .text          0x000000001ffe046c       0x10 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-strlen.o)
+                0x000000001ffe046c                strlen
+ .text          0x000000001ffe047c       0x30 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+                0x000000001ffe047c                __aeabi_uldivmod
+ .text          0x000000001ffe04ac        0x4 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+                0x000000001ffe04ac                __aeabi_ldiv0
+                0x000000001ffe04ac                __aeabi_idiv0
+ *(.text*)
+ .text.deregister_tm_clones
+                0x000000001ffe04b0       0x1c /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .text.register_tm_clones
+                0x000000001ffe04cc       0x24 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .text.__do_global_dtors_aux
+                0x000000001ffe04f0       0x28 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .text.frame_dummy
+                0x000000001ffe0518       0x24 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .text.ECSPI_MasterUserCallback
+                0x000000001ffe053c       0x24 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/boards/evkmimx8mm/driver_examples/ecspi/interrupt_b2b_transfer/master/ecspi_interrupt_b2b_transfer_master.c.obj
+                0x000000001ffe053c                ECSPI_MasterUserCallback
+ .text.SysTick_Handler
+                0x000000001ffe0560       0x14 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/boards/evkmimx8mm/driver_examples/ecspi/interrupt_b2b_transfer/master/ecspi_interrupt_b2b_transfer_master.c.obj
+                0x000000001ffe0560                SysTick_Handler
+ .text.startup.main
+                0x000000001ffe0574      0x27c CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/boards/evkmimx8mm/driver_examples/ecspi/interrupt_b2b_transfer/master/ecspi_interrupt_b2b_transfer_master.c.obj
+                0x000000001ffe0574                main
+ .text.BOARD_InitPins
+                0x000000001ffe07f0       0x4c CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/boards/evkmimx8mm/driver_examples/ecspi/interrupt_b2b_transfer/master/pin_mux.c.obj
+                0x000000001ffe07f0                BOARD_InitPins
+ .text.BOARD_InitBootPins
+                0x000000001ffe083c        0x4 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/boards/evkmimx8mm/driver_examples/ecspi/interrupt_b2b_transfer/master/pin_mux.c.obj
+                0x000000001ffe083c                BOARD_InitBootPins
+ .text.BOARD_InitDebugConsole
+                0x000000001ffe0840       0x50 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/boards/evkmimx8mm/driver_examples/ecspi/interrupt_b2b_transfer/master/board.c.obj
+                0x000000001ffe0840                BOARD_InitDebugConsole
+ .text.BOARD_InitMemory
+                0x000000001ffe0890       0xb0 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/boards/evkmimx8mm/driver_examples/ecspi/interrupt_b2b_transfer/master/board.c.obj
+                0x000000001ffe0890                BOARD_InitMemory
+ .text.BOARD_RdcInit
+                0x000000001ffe0940       0x90 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/boards/evkmimx8mm/driver_examples/ecspi/interrupt_b2b_transfer/master/board.c.obj
+                0x000000001ffe0940                BOARD_RdcInit
+ .text.BOARD_BootClockRUN
+                0x000000001ffe09d0      0x110 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/boards/evkmimx8mm/driver_examples/ecspi/interrupt_b2b_transfer/master/clock_config.c.obj
+                0x000000001ffe09d0                BOARD_BootClockRUN
+ .text.DbgConsole_ConvertRadixNumToString.constprop.0
+                0x000000001ffe0ae0       0x48 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/utilities/debug_console_lite/fsl_debug_console.c.obj
+ .text.DbgConsole_Init
+                0x000000001ffe0b28       0x48 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/utilities/debug_console_lite/fsl_debug_console.c.obj
+                0x000000001ffe0b28                DbgConsole_Init
+ .text.DbgConsole_Putchar
+                0x000000001ffe0b70       0x24 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/utilities/debug_console_lite/fsl_debug_console.c.obj
+                0x000000001ffe0b70                DbgConsole_Putchar
+ .text.DbgConsole_Vprintf
+                0x000000001ffe0b94      0x208 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/utilities/debug_console_lite/fsl_debug_console.c.obj
+                0x000000001ffe0b94                DbgConsole_Vprintf
+ .text.DbgConsole_Printf
+                0x000000001ffe0d9c       0x1a CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/utilities/debug_console_lite/fsl_debug_console.c.obj
+                0x000000001ffe0d9c                DbgConsole_Printf
+ *fill*         0x000000001ffe0db6        0x2 
+ .text.DbgConsole_Getchar
+                0x000000001ffe0db8       0x2c CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/utilities/debug_console_lite/fsl_debug_console.c.obj
+                0x000000001ffe0db8                DbgConsole_Getchar
+ .text.HAL_UartInit
+                0x000000001ffe0de4       0x6c CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/components/uart/fsl_adapter_iuart.c.obj
+                0x000000001ffe0de4                HAL_UartInit
+ .text.HAL_UartReceiveBlocking
+                0x000000001ffe0e50       0x20 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/components/uart/fsl_adapter_iuart.c.obj
+                0x000000001ffe0e50                HAL_UartReceiveBlocking
+ .text.HAL_UartSendBlocking
+                0x000000001ffe0e70       0x18 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/components/uart/fsl_adapter_iuart.c.obj
+                0x000000001ffe0e70                HAL_UartSendBlocking
+ .text.CLOCK_GetPllRefClkFreq
+                0x000000001ffe0e88       0x20 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_clock.c.obj
+                0x000000001ffe0e88                CLOCK_GetPllRefClkFreq
+ .text.CLOCK_InitFracPll
+                0x000000001ffe0ea8       0x54 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_clock.c.obj
+                0x000000001ffe0ea8                CLOCK_InitFracPll
+ .text.CLOCK_InitAudioPll1
+                0x000000001ffe0efc       0x28 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_clock.c.obj
+                0x000000001ffe0efc                CLOCK_InitAudioPll1
+ .text.CLOCK_InitAudioPll2
+                0x000000001ffe0f24       0x2c CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_clock.c.obj
+                0x000000001ffe0f24                CLOCK_InitAudioPll2
+ .text.CLOCK_GetFracPllFreq
+                0x000000001ffe0f50       0x40 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_clock.c.obj
+                0x000000001ffe0f50                CLOCK_GetFracPllFreq
+ .text.CLOCK_GetIntegerPllFreq
+                0x000000001ffe0f90       0x36 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_clock.c.obj
+                0x000000001ffe0f90                CLOCK_GetIntegerPllFreq
+ *fill*         0x000000001ffe0fc6        0x2 
+ .text.CLOCK_GetPllFreq
+                0x000000001ffe0fc8       0xe0 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_clock.c.obj
+                0x000000001ffe0fc8                CLOCK_GetPllFreq
+ .text.CLOCK_SetRootDivider
+                0x000000001ffe10a8       0x20 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_clock.c.obj
+                0x000000001ffe10a8                CLOCK_SetRootDivider
+ .text.CLOCK_EnableClock
+                0x000000001ffe10c8       0x26 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_clock.c.obj
+                0x000000001ffe10c8                CLOCK_EnableClock
+ *fill*         0x000000001ffe10ee        0x2 
+ .text.UART_GetInstance
+                0x000000001ffe10f0       0x38 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_uart.c.obj
+                0x000000001ffe10f0                UART_GetInstance
+ .text.UART_GetDefaultConfig
+                0x000000001ffe1128       0x28 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_uart.c.obj
+                0x000000001ffe1128                UART_GetDefaultConfig
+ .text.UART_SetBaudRate
+                0x000000001ffe1150      0x138 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_uart.c.obj
+                0x000000001ffe1150                UART_SetBaudRate
+ .text.UART_Init
+                0x000000001ffe1288      0x154 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_uart.c.obj
+                0x000000001ffe1288                UART_Init
+ .text.UART_WriteBlocking
+                0x000000001ffe13dc       0x22 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_uart.c.obj
+                0x000000001ffe13dc                UART_WriteBlocking
+ .text.UART_ReadBlocking
+                0x000000001ffe13fe       0x66 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_uart.c.obj
+                0x000000001ffe13fe                UART_ReadBlocking
+ .text.UART1_DriverIRQHandler
+                0x000000001ffe1464       0x20 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_uart.c.obj
+                0x000000001ffe1464                UART1_DriverIRQHandler
+ .text.UART2_DriverIRQHandler
+                0x000000001ffe1484       0x20 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_uart.c.obj
+                0x000000001ffe1484                UART2_DriverIRQHandler
+ .text.UART3_DriverIRQHandler
+                0x000000001ffe14a4       0x20 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_uart.c.obj
+                0x000000001ffe14a4                UART3_DriverIRQHandler
+ .text.UART4_DriverIRQHandler
+                0x000000001ffe14c4       0x20 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_uart.c.obj
+                0x000000001ffe14c4                UART4_DriverIRQHandler
+ .text.ECSPI_CommonIRQHandler
+                0x000000001ffe14e4       0x28 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_ecspi.c.obj
+ .text.ECSPI_SendTransfer
+                0x000000001ffe150c       0x46 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_ecspi.c.obj
+ *fill*         0x000000001ffe1552        0x2 
+ .text.ECSPI_GetInstance
+                0x000000001ffe1554       0x2c CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_ecspi.c.obj
+                0x000000001ffe1554                ECSPI_GetInstance
+ .text.ECSPI_MasterGetDefaultConfig
+                0x000000001ffe1580       0x3c CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_ecspi.c.obj
+                0x000000001ffe1580                ECSPI_MasterGetDefaultConfig
+ .text.ECSPI_SetBaudRate
+                0x000000001ffe15bc       0x60 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_ecspi.c.obj
+                0x000000001ffe15bc                ECSPI_SetBaudRate
+ .text.ECSPI_SetChannelConfig
+                0x000000001ffe161c      0x120 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_ecspi.c.obj
+                0x000000001ffe161c                ECSPI_SetChannelConfig
+ .text.ECSPI_MasterInit
+                0x000000001ffe173c       0x88 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_ecspi.c.obj
+                0x000000001ffe173c                ECSPI_MasterInit
+ .text.ECSPI_MasterTransferCreateHandle
+                0x000000001ffe17c4       0x48 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_ecspi.c.obj
+                0x000000001ffe17c4                ECSPI_MasterTransferCreateHandle
+ .text.ECSPI_MasterTransferNonBlocking
+                0x000000001ffe180c       0x5a CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_ecspi.c.obj
+                0x000000001ffe180c                ECSPI_MasterTransferNonBlocking
+ .text.ECSPI_MasterTransferAbort
+                0x000000001ffe1866       0x1e CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_ecspi.c.obj
+                0x000000001ffe1866                ECSPI_MasterTransferAbort
+ .text.ECSPI_MasterTransferHandleIRQ
+                0x000000001ffe1884       0x92 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_ecspi.c.obj
+                0x000000001ffe1884                ECSPI_MasterTransferHandleIRQ
+ *fill*         0x000000001ffe1916        0x2 
+ .text.ECSPI1_DriverIRQHandler
+                0x000000001ffe1918       0x14 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_ecspi.c.obj
+                0x000000001ffe1918                ECSPI1_DriverIRQHandler
+ .text.ECSPI2_DriverIRQHandler
+                0x000000001ffe192c       0x14 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_ecspi.c.obj
+                0x000000001ffe192c                ECSPI2_DriverIRQHandler
+ .text.ECSPI3_DriverIRQHandler
+                0x000000001ffe1940       0x14 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_ecspi.c.obj
+                0x000000001ffe1940                ECSPI3_DriverIRQHandler
+ .text.RDC_SetMasterDomainAssignment
+                0x000000001ffe1954        0xa CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_rdc.c.obj
+                0x000000001ffe1954                RDC_SetMasterDomainAssignment
+ *fill*         0x000000001ffe195e        0x2 
+ .text.GetFracPllFreq
+                0x000000001ffe1960       0x44 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/system_MIMX8MM6_cm4.c.obj
+                0x000000001ffe1960                GetFracPllFreq
+ .text.GetIntegerPllFreq
+                0x000000001ffe19a4       0x44 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/system_MIMX8MM6_cm4.c.obj
+                0x000000001ffe19a4                GetIntegerPllFreq
+ .text.SystemCoreClockUpdate
+                0x000000001ffe19e8       0x9c CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/system_MIMX8MM6_cm4.c.obj
+                0x000000001ffe19e8                SystemCoreClockUpdate
+ .text.SystemInitHook
+                0x000000001ffe1a84        0x2 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/system_MIMX8MM6_cm4.c.obj
+                0x000000001ffe1a84                SystemInitHook
+ *fill*         0x000000001ffe1a86        0x2 
+ .text.SystemInit
+                0x000000001ffe1a88       0x74 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/system_MIMX8MM6_cm4.c.obj
+                0x000000001ffe1a88                SystemInit
+ .text.exit     0x000000001ffe1afc       0x28 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-exit.o)
+                0x000000001ffe1afc                exit
+ .text.__libc_init_array
+                0x000000001ffe1b24       0x48 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-init.o)
+                0x000000001ffe1b24                __libc_init_array
+ .text.memcpy   0x000000001ffe1b6c       0x1c /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memcpy-stub.o)
+                0x000000001ffe1b6c                memcpy
+ .text.memset   0x000000001ffe1b88       0x10 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
+                0x000000001ffe1b88                memset
+ .text.__udivmoddi4
+                0x000000001ffe1b98      0x2c8 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+                0x000000001ffe1b98                __udivmoddi4
+ .text._exit    0x000000001ffe1e60        0x4 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(_exit.o)
+                0x000000001ffe1e60                _exit
+ *(.rodata)
+ *(.rodata*)
+ .rodata.ECSPI_MasterUserCallback.str1.1
+                0x000000001ffe1e64       0x30 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/boards/evkmimx8mm/driver_examples/ecspi/interrupt_b2b_transfer/master/ecspi_interrupt_b2b_transfer_master.c.obj
+ .rodata.main.str1.1
+                0x000000001ffe1e94      0x265 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/boards/evkmimx8mm/driver_examples/ecspi/interrupt_b2b_transfer/master/ecspi_interrupt_b2b_transfer_master.c.obj
+                                        0x268 (size before relaxing)
+ *fill*         0x000000001ffe20f9        0x3 
+ .rodata.g_audioPll1Config
+                0x000000001ffe20fc       0x10 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/boards/evkmimx8mm/driver_examples/ecspi/interrupt_b2b_transfer/master/clock_config.c.obj
+                0x000000001ffe20fc                g_audioPll1Config
+ .rodata.g_audioPll2Config
+                0x000000001ffe210c       0x10 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/boards/evkmimx8mm/driver_examples/ecspi/interrupt_b2b_transfer/master/clock_config.c.obj
+                0x000000001ffe210c                g_audioPll2Config
+ .rodata.s_UartAdapterBase
+                0x000000001ffe211c       0x14 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/components/uart/fsl_adapter_iuart.c.obj
+ .rodata.CSWTCH.36
+                0x000000001ffe2130        0x6 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_uart.c.obj
+ *fill*         0x000000001ffe2136        0x2 
+ .rodata.s_uartClock
+                0x000000001ffe2138       0x14 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_uart.c.obj
+ .rodata.s_ecspiClock
+                0x000000001ffe214c       0x10 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_ecspi.c.obj
+ .rodata.s_ecspiIRQ
+                0x000000001ffe215c        0x4 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_ecspi.c.obj
+ .rodata._global_impure_ptr
+                0x000000001ffe2160        0x4 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-impure.o)
+                0x000000001ffe2160                _global_impure_ptr
+ *(.glue_7)
+ .glue_7        0x000000001ffe2164        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x000000001ffe2164        0x0 linker stubs
+ *(.eh_frame)
+ .eh_frame      0x000000001ffe2164        0x0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ *(.init)
+ .init          0x000000001ffe2164        0x4 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/crti.o
+                0x000000001ffe2164                _init
+ .init          0x000000001ffe2168        0x8 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/crtn.o
+ *(.fini)
+ .fini          0x000000001ffe2170        0x4 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/crti.o
+                0x000000001ffe2170                _fini
+ .fini          0x000000001ffe2174        0x8 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/crtn.o
+                0x000000001ffe217c                . = ALIGN (0x4)
+
+.vfp11_veneer   0x000000001ffe217c        0x0
+ .vfp11_veneer  0x000000001ffe217c        0x0 linker stubs
+
+.v4_bx          0x000000001ffe217c        0x0
+ .v4_bx         0x000000001ffe217c        0x0 linker stubs
+
+.iplt           0x000000001ffe217c        0x0
+ .iplt          0x000000001ffe217c        0x0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+
+.ARM            0x000000001ffe217c        0x8
+                0x000000001ffe217c                __exidx_start = .
+ *(.ARM.exidx*)
+ .ARM.exidx     0x000000001ffe217c        0x8 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+                                         0x10 (size before relaxing)
+ .ARM.exidx.text.__udivmoddi4
+                0x000000001ffe2184        0x0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+                                          0x8 (size before relaxing)
+                0x000000001ffe2184                __exidx_end = .
+
+.rel.dyn        0x000000001ffe2184        0x0
+ .rel.iplt      0x000000001ffe2184        0x0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+
+.ctors          0x000000001ffe2184        0x0
+                0x000000001ffe2184                __CTOR_LIST__ = .
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+                0x000000001ffe2184                __CTOR_END__ = .
+
+.dtors          0x000000001ffe2184        0x0
+                0x000000001ffe2184                __DTOR_LIST__ = .
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+                0x000000001ffe2184                __DTOR_END__ = .
+
+.preinit_array  0x000000001ffe2184        0x0
+                0x000000001ffe2184                PROVIDE (__preinit_array_start = .)
+ *(.preinit_array*)
+                0x000000001ffe2184                PROVIDE (__preinit_array_end = .)
+
+.init_array     0x000000001ffe2184        0x4
+                0x000000001ffe2184                PROVIDE (__init_array_start = .)
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array*)
+ .init_array    0x000000001ffe2184        0x4 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+                0x000000001ffe2188                PROVIDE (__init_array_end = .)
+
+.fini_array     0x000000001ffe2188        0x4
+                [!provide]                        PROVIDE (__fini_array_start = .)
+ *(SORT_BY_NAME(.fini_array.*))
+ *(.fini_array*)
+ .fini_array    0x000000001ffe2188        0x4 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+                [!provide]                        PROVIDE (__fini_array_end = .)
+                0x000000001ffe218c                __etext = .
+                0x000000001ffe218c                __DATA_ROM = .
+
+.data           0x0000000020000000       0x68 load address 0x000000001ffe218c
+                0x0000000020000000                . = ALIGN (0x4)
+                0x0000000020000000                __DATA_RAM = .
+                0x0000000020000000                __data_start__ = .
+ *(.data)
+ *(.data*)
+ .data.g_systickCounter
+                0x0000000020000000        0x4 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/boards/evkmimx8mm/driver_examples/ecspi/interrupt_b2b_transfer/master/ecspi_interrupt_b2b_transfer_master.c.obj
+                0x0000000020000000                g_systickCounter
+ .data.SystemCoreClock
+                0x0000000020000004        0x4 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/system_MIMX8MM6_cm4.c.obj
+                0x0000000020000004                SystemCoreClock
+ .data.impure_data
+                0x0000000020000008       0x60 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-impure.o)
+ *(.jcr*)
+                0x0000000020000068                . = ALIGN (0x4)
+                0x0000000020000068                __data_end__ = .
+                0x000000001ffe0000                __CACHE_REGION_START = ORIGIN (m_interrupts)
+                0x0000000000000000                __CACHE_REGION_SIZE = 0x0
+                0x000000001ffe21f4                __NDATA_ROM = (__DATA_ROM + SIZEOF (.data))
+
+.tm_clone_table
+                0x0000000020000068        0x0 load address 0x000000001ffe21f4
+ .tm_clone_table
+                0x0000000020000068        0x0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .tm_clone_table
+                0x0000000020000068        0x0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/crtend.o
+
+.igot.plt       0x0000000020000068        0x0 load address 0x000000001ffe21f4
+ .igot.plt      0x0000000020000068        0x0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+
+.ncache.init    0x0000000080000000        0x0 load address 0x000000001ffe21f4
+                0x0000000080000000                __noncachedata_start__ = .
+ *(NonCacheable.init)
+                0x0000000080000000                . = ALIGN (0x4)
+                0x0000000080000000                __noncachedata_init_end__ = .
+                0x0000000080000000                . = __noncachedata_init_end__
+
+.ncache         0x0000000080000000        0x0
+ *(NonCacheable)
+                0x0000000080000000                . = ALIGN (0x4)
+                0x0000000080000000                __noncachedata_end__ = .
+                0x000000001ffe21f4                __DATA_END = (__DATA_ROM + (__data_end__ - __data_start__))
+                0x0000000020000000                text_end = (ORIGIN (m_text) + LENGTH (m_text))
+                0x0000000000000001                ASSERT ((__DATA_END <= text_end), region m_text overflowed with text and data)
+
+.bss            0x0000000020000068      0x288 load address 0x000000001ffe21f4
+                0x0000000020000068                . = ALIGN (0x4)
+                0x0000000020000068                __START_BSS = .
+                0x0000000020000068                __bss_start__ = .
+ *(.bss)
+ *(.bss*)
+ .bss.completed.1
+                0x0000000020000068        0x1 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ *fill*         0x0000000020000069        0x3 
+ .bss.object.0  0x000000002000006c       0x18 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .bss.g_m_handle
+                0x0000000020000084       0x24 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/boards/evkmimx8mm/driver_examples/ecspi/interrupt_b2b_transfer/master/ecspi_interrupt_b2b_transfer_master.c.obj
+                0x0000000020000084                g_m_handle
+ .bss.isTransferCompleted
+                0x00000000200000a8        0x1 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/boards/evkmimx8mm/driver_examples/ecspi/interrupt_b2b_transfer/master/ecspi_interrupt_b2b_transfer_master.c.obj
+                0x00000000200000a8                isTransferCompleted
+ *fill*         0x00000000200000a9        0x3 
+ .bss.masterRxData
+                0x00000000200000ac      0x100 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/boards/evkmimx8mm/driver_examples/ecspi/interrupt_b2b_transfer/master/ecspi_interrupt_b2b_transfer_master.c.obj
+                0x00000000200000ac                masterRxData
+ .bss.masterTxData
+                0x00000000200001ac      0x100 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/boards/evkmimx8mm/driver_examples/ecspi/interrupt_b2b_transfer/master/ecspi_interrupt_b2b_transfer_master.c.obj
+                0x00000000200001ac                masterTxData
+ .bss.s_debugConsole
+                0x00000000200002ac       0x14 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/utilities/debug_console_lite/fsl_debug_console.c.obj
+ .bss.s_uartHandle
+                0x00000000200002c0       0x14 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_uart.c.obj
+                0x00000000200002c0                s_uartHandle
+ .bss.s_uartIsr
+                0x00000000200002d4        0x4 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_uart.c.obj
+                0x00000000200002d4                s_uartIsr
+ .bss.s_ecspiHandle
+                0x00000000200002d8       0x10 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_ecspi.c.obj
+ .bss.s_ecspiMasterIsr
+                0x00000000200002e8        0x4 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_ecspi.c.obj
+ .bss.s_ecspiSlaveIsr
+                0x00000000200002ec        0x4 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_ecspi.c.obj
+ *(COMMON)
+                0x00000000200002f0                . = ALIGN (0x4)
+                0x00000000200002f0                __bss_end__ = .
+                0x00000000200002f0                __END_BSS = .
+
+.heap           0x00000000200002f0      0x400 load address 0x000000001ffe247c
+                0x00000000200002f0                . = ALIGN (0x8)
+                0x00000000200002f0                __end__ = .
+                0x00000000200002f0                PROVIDE (end = .)
+                0x00000000200002f0                __HeapBase = .
+                0x00000000200006f0                . = (. + HEAP_SIZE)
+ *fill*         0x00000000200002f0      0x400 
+                0x00000000200006f0                __HeapLimit = .
+                0x00000000200006f0                __heap_limit = .
+
+.stack          0x00000000200006f0      0x400 load address 0x000000001ffe287c
+                0x00000000200006f0                . = ALIGN (0x8)
+                0x0000000020000af0                . = (. + STACK_SIZE)
+ *fill*         0x00000000200006f0      0x400 
+                0x0000000020020000                __StackTop = (ORIGIN (m_data) + LENGTH (m_data))
+                0x000000002001fc00                __StackLimit = (__StackTop - STACK_SIZE)
+                0x0000000020020000                PROVIDE (__stack = __StackTop)
+
+.ARM.attributes
+                0x0000000000000000       0x30
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x0000000000000000       0x1e /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/crti.o
+ .ARM.attributes
+                0x000000000000001e       0x34 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .ARM.attributes
+                0x0000000000000052       0x1c /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .ARM.attributes
+                0x000000000000006e       0x34 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/boards/evkmimx8mm/driver_examples/ecspi/interrupt_b2b_transfer/master/ecspi_interrupt_b2b_transfer_master.c.obj
+ .ARM.attributes
+                0x00000000000000a2       0x34 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/boards/evkmimx8mm/driver_examples/ecspi/interrupt_b2b_transfer/master/pin_mux.c.obj
+ .ARM.attributes
+                0x00000000000000d6       0x34 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/boards/evkmimx8mm/driver_examples/ecspi/interrupt_b2b_transfer/master/board.c.obj
+ .ARM.attributes
+                0x000000000000010a       0x34 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/boards/evkmimx8mm/driver_examples/ecspi/interrupt_b2b_transfer/master/clock_config.c.obj
+ .ARM.attributes
+                0x000000000000013e       0x34 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/boards/evkmimx8mm/driver_examples/ecspi/interrupt_b2b_transfer/master/empty_rsc_table.c.obj
+ .ARM.attributes
+                0x0000000000000172       0x34 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/utilities/debug_console_lite/fsl_debug_console.c.obj
+ .ARM.attributes
+                0x00000000000001a6       0x34 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/components/uart/fsl_adapter_iuart.c.obj
+ .ARM.attributes
+                0x00000000000001da       0x34 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_clock.c.obj
+ .ARM.attributes
+                0x000000000000020e       0x34 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_uart.c.obj
+ .ARM.attributes
+                0x0000000000000242       0x34 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_ecspi.c.obj
+ .ARM.attributes
+                0x0000000000000276       0x34 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_rdc.c.obj
+ .ARM.attributes
+                0x00000000000002aa       0x1f CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/gcc/startup_MIMX8MM6_cm4.S.obj
+ .ARM.attributes
+                0x00000000000002c9       0x34 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/system_MIMX8MM6_cm4.c.obj
+ .ARM.attributes
+                0x00000000000002fd       0x34 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-exit.o)
+ .ARM.attributes
+                0x0000000000000331       0x34 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-impure.o)
+ .ARM.attributes
+                0x0000000000000365       0x34 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-init.o)
+ .ARM.attributes
+                0x0000000000000399       0x34 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memcpy-stub.o)
+ .ARM.attributes
+                0x00000000000003cd       0x34 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
+ .ARM.attributes
+                0x0000000000000401       0x17 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-strlen.o)
+ .ARM.attributes
+                0x0000000000000418       0x1e /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+ .ARM.attributes
+                0x0000000000000436       0x34 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .ARM.attributes
+                0x000000000000046a       0x1e /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x0000000000000488       0x34 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(_exit.o)
+ .ARM.attributes
+                0x00000000000004bc       0x34 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/crtend.o
+ .ARM.attributes
+                0x00000000000004f0       0x1e /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/crtn.o
+                0x0000000000000001                ASSERT ((__StackLimit >= __HeapLimit), region m_data overflowed with stack and heap)
+OUTPUT(release/ecspi_interrupt_b2b_transfer_master.elf elf32-littlearm)
+LOAD linker stubs
+
+.comment        0x0000000000000000       0x57
+ .comment       0x0000000000000000       0x57 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+                                         0x58 (size before relaxing)
+ .comment       0x0000000000000057       0x58 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/boards/evkmimx8mm/driver_examples/ecspi/interrupt_b2b_transfer/master/ecspi_interrupt_b2b_transfer_master.c.obj
+ .comment       0x0000000000000057       0x58 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/boards/evkmimx8mm/driver_examples/ecspi/interrupt_b2b_transfer/master/pin_mux.c.obj
+ .comment       0x0000000000000057       0x58 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/boards/evkmimx8mm/driver_examples/ecspi/interrupt_b2b_transfer/master/board.c.obj
+ .comment       0x0000000000000057       0x58 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/boards/evkmimx8mm/driver_examples/ecspi/interrupt_b2b_transfer/master/clock_config.c.obj
+ .comment       0x0000000000000057       0x58 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/boards/evkmimx8mm/driver_examples/ecspi/interrupt_b2b_transfer/master/empty_rsc_table.c.obj
+ .comment       0x0000000000000057       0x58 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/utilities/debug_console_lite/fsl_debug_console.c.obj
+ .comment       0x0000000000000057       0x58 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/components/uart/fsl_adapter_iuart.c.obj
+ .comment       0x0000000000000057       0x58 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_clock.c.obj
+ .comment       0x0000000000000057       0x58 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_uart.c.obj
+ .comment       0x0000000000000057       0x58 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_ecspi.c.obj
+ .comment       0x0000000000000057       0x58 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_rdc.c.obj
+ .comment       0x0000000000000057       0x58 CMakeFiles/ecspi_interrupt_b2b_transfer_master.elf.dir/home/foronz/Desktop/NXP-MCUXpresso/devices/MIMX8MM6/system_MIMX8MM6_cm4.c.obj
+ .comment       0x0000000000000057       0x58 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-exit.o)
+ .comment       0x0000000000000057       0x58 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-impure.o)
+ .comment       0x0000000000000057       0x58 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-init.o)
+ .comment       0x0000000000000057       0x58 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memcpy-stub.o)
+ .comment       0x0000000000000057       0x58 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
+ .comment       0x0000000000000057       0x58 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .comment       0x0000000000000057       0x58 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(_exit.o)
+ .comment       0x0000000000000057       0x58 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/crtend.o
+
+.debug_line     0x0000000000000000      0xf97
+ .debug_line    0x0000000000000000       0x76 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .debug_line    0x0000000000000076      0x1fa /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-exit.o)
+ .debug_line    0x0000000000000270      0x154 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-impure.o)
+ .debug_line    0x00000000000003c4      0x178 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-init.o)
+ .debug_line    0x000000000000053c      0x18a /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memcpy-stub.o)
+ .debug_line    0x00000000000006c6      0x16f /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
+ .debug_line    0x0000000000000835       0x4f /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-strlen.o)
+ .debug_line    0x0000000000000884       0x4e /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+ .debug_line    0x00000000000008d2      0x5e5 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .debug_line    0x0000000000000eb7       0x4a /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+ .debug_line    0x0000000000000f01       0x96 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(_exit.o)
+
+.debug_line_str
+                0x0000000000000000      0x118
+ .debug_line_str
+                0x0000000000000000       0x53 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+                                         0xa6 (size before relaxing)
+ .debug_line_str
+                0x0000000000000053       0x6a /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-strlen.o)
+                                         0xd4 (size before relaxing)
+ .debug_line_str
+                0x00000000000000bd       0x4f /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+                                         0x9e (size before relaxing)
+ .debug_line_str
+                0x000000000000010c        0xc /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+                                         0xa6 (size before relaxing)
+
+.debug_info     0x0000000000000000     0x1aa8
+ .debug_info    0x0000000000000000       0x24 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .debug_info    0x0000000000000024      0x7cb /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-exit.o)
+ .debug_info    0x00000000000007ef      0x7fc /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-impure.o)
+ .debug_info    0x0000000000000feb      0x10b /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-init.o)
+ .debug_info    0x00000000000010f6      0x121 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memcpy-stub.o)
+ .debug_info    0x0000000000001217       0xe0 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
+ .debug_info    0x00000000000012f7       0x24 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-strlen.o)
+ .debug_info    0x000000000000131b       0x24 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+ .debug_info    0x000000000000133f      0x6e3 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .debug_info    0x0000000000001a22       0x24 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+ .debug_info    0x0000000000001a46       0x62 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(_exit.o)
+
+.debug_abbrev   0x0000000000000000      0x76e
+ .debug_abbrev  0x0000000000000000       0x14 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .debug_abbrev  0x0000000000000014      0x1d2 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-exit.o)
+ .debug_abbrev  0x00000000000001e6      0x15a /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-impure.o)
+ .debug_abbrev  0x0000000000000340       0xc9 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-init.o)
+ .debug_abbrev  0x0000000000000409       0xc1 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memcpy-stub.o)
+ .debug_abbrev  0x00000000000004ca       0x9e /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
+ .debug_abbrev  0x0000000000000568       0x14 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-strlen.o)
+ .debug_abbrev  0x000000000000057c       0x14 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+ .debug_abbrev  0x0000000000000590      0x16a /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .debug_abbrev  0x00000000000006fa       0x14 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+ .debug_abbrev  0x000000000000070e       0x60 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(_exit.o)
+
+.debug_aranges  0x0000000000000000      0x158
+ .debug_aranges
+                0x0000000000000000       0x20 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .debug_aranges
+                0x0000000000000020       0x20 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-exit.o)
+ .debug_aranges
+                0x0000000000000040       0x18 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-impure.o)
+ .debug_aranges
+                0x0000000000000058       0x20 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-init.o)
+ .debug_aranges
+                0x0000000000000078       0x20 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memcpy-stub.o)
+ .debug_aranges
+                0x0000000000000098       0x20 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
+ .debug_aranges
+                0x00000000000000b8       0x20 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-strlen.o)
+ .debug_aranges
+                0x00000000000000d8       0x20 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+ .debug_aranges
+                0x00000000000000f8       0x20 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .debug_aranges
+                0x0000000000000118       0x20 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+ .debug_aranges
+                0x0000000000000138       0x20 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(_exit.o)
+
+.debug_str      0x0000000000000000     0x11a2
+ .debug_str     0x0000000000000000       0x9c /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .debug_str     0x000000000000009c      0x51f /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-exit.o)
+                                        0x58d (size before relaxing)
+ .debug_str     0x00000000000005bb      0x12a /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-impure.o)
+                                        0x5c3 (size before relaxing)
+ .debug_str     0x00000000000006e5      0x148 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-init.o)
+                                        0x270 (size before relaxing)
+ .debug_str     0x000000000000082d      0x10b /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memcpy-stub.o)
+                                        0x234 (size before relaxing)
+ .debug_str     0x0000000000000938       0xe8 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
+                                        0x211 (size before relaxing)
+ .debug_str     0x0000000000000a20       0x13 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-strlen.o)
+                                         0xaa (size before relaxing)
+ .debug_str     0x0000000000000a33       0x7b /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+                                         0x87 (size before relaxing)
+ .debug_str     0x0000000000000aae      0x595 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+                                        0x69d (size before relaxing)
+ .debug_str     0x0000000000001043        0xc /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+                                         0x8b (size before relaxing)
+ .debug_str     0x000000000000104f      0x153 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(_exit.o)
+                                        0x159 (size before relaxing)
+
+.debug_loclists
+                0x0000000000000000      0xc60
+ .debug_loclists
+                0x0000000000000000       0x20 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-exit.o)
+ .debug_loclists
+                0x0000000000000020       0x44 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-init.o)
+ .debug_loclists
+                0x0000000000000064       0x8f /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memcpy-stub.o)
+ .debug_loclists
+                0x00000000000000f3       0x47 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
+ .debug_loclists
+                0x000000000000013a      0xb0f /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .debug_loclists
+                0x0000000000000c49       0x17 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(_exit.o)
+
+.debug_rnglists
+                0x0000000000000000       0xf1
+ .debug_rnglists
+                0x0000000000000000       0x13 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-exit.o)
+ .debug_rnglists
+                0x0000000000000013       0x13 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-init.o)
+ .debug_rnglists
+                0x0000000000000026       0x13 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memcpy-stub.o)
+ .debug_rnglists
+                0x0000000000000039       0x13 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
+ .debug_rnglists
+                0x000000000000004c       0x92 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .debug_rnglists
+                0x00000000000000de       0x13 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(_exit.o)
+
+.debug_frame    0x0000000000000000      0x11c
+ .debug_frame   0x0000000000000000       0x28 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-exit.o)
+ .debug_frame   0x0000000000000028       0x2c /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-init.o)
+ .debug_frame   0x0000000000000054       0x28 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x000000000000007c       0x20 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
+ .debug_frame   0x000000000000009c       0x2c /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+ .debug_frame   0x00000000000000c8       0x34 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .debug_frame   0x00000000000000fc       0x20 /home/foronz/opt/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(_exit.o)

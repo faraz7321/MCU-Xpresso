@@ -1,4 +1,4 @@
-include_guard()
+include_guard(GLOBAL)
 message("driver_ii2c_freertos component is included.")
 
 target_sources(${MCUX_SDK_PROJECT_NAME} PRIVATE

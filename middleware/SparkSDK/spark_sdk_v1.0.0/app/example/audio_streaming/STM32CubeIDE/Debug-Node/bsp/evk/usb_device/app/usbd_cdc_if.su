@@ -1,0 +1,11 @@
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/hardware/evk/usb_device/app/usbd_cdc_if.c:178:15:CDC_DeInit_FS	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/hardware/evk/usb_device/app/usbd_cdc_if.c:193:15:CDC_Control_FS	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/hardware/evk/usb_device/app/usbd_cdc_if.c:334:15:CDC_TransmitCplt_FS	8	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/hardware/evk/usb_device/app/usbd_cdc_if.c:362:8:default_init_callback	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/hardware/evk/usb_device/app/usbd_cdc_if.c:367:8:default_txrx_callback	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/hardware/evk/usb_device/app/usbd_cdc_if.c:276:15:CDC_Receive_FS	16	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/hardware/evk/usb_device/app/usbd_cdc_if.c:162:15:CDC_Init_FS	8	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/hardware/evk/usb_device/app/usbd_cdc_if.c:304:9:CDC_Transmit_FS	8	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/hardware/evk/usb_device/app/usbd_cdc_if.c:347:6:usbd_cdc_init_rx_cb	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/hardware/evk/usb_device/app/usbd_cdc_if.c:352:6:usbd_cdc_init_tx_cb	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/hardware/evk/usb_device/app/usbd_cdc_if.c:357:6:usbd_cdc_init_init_cb	0	static

@@ -1,0 +1,10 @@
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/lib/spark/resampling/resampling.c:424:17:get_ptr_addr.isra	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/lib/spark/resampling/resampling.c:397:13:cast_type_write.isra	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/lib/spark/resampling/resampling.c:366:16:cast_type_read.isra	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/lib/spark/resampling/resampling.c:287:17:interp_linear	48	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/lib/spark/resampling/resampling.c:246:17:resample_bypass	48	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/lib/spark/resampling/resampling.c:31:21:resampling_init	48	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/lib/spark/resampling/resampling.c:74:6:resampling_start	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/lib/spark/resampling/resampling.c:80:10:resample	72	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/lib/spark/resampling/resampling.c:102:21:resample_get_state	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/lib/spark/resampling/resampling.c:107:9:resample_get_channel_count	0	static

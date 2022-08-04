@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2013-2020 Arm Limited. All rights reserved.
+ * Copyright (c) 2013-2018 Arm Limited. All rights reserved.
  *
  * SPDX-License-Identifier: Apache-2.0
  *
@@ -18,7 +18,7 @@
  
 #include "Driver_I2C.h"
 
-#define ARM_I2C_DRV_VERSION    ARM_DRIVER_VERSION_MAJOR_MINOR(1, 0) /* driver version */
+#define ARM_I2C_DRV_VERSION    ARM_DRIVER_VERSION_MAJOR_MINOR(2, 0) /* driver version */
 
 /* Driver Version */
 static const ARM_DRIVER_VERSION DriverVersion = {
@@ -35,25 +35,23 @@ static const ARM_I2C_CAPABILITIES DriverCapabilities = {
 //  Functions
 //
 
-static ARM_DRIVER_VERSION ARM_I2C_GetVersion(void)
-{
-  return DriverVersion;
-}
-
-static ARM_I2C_CAPABILITIES ARM_I2C_GetCapabilities(void)
-{
-  return DriverCapabilities;
-}
-
-static int32_t ARM_I2C_Initialize(ARM_I2C_SignalEvent_t cb_event)
+ARM_DRIVER_VERSION ARM_I2C_GetVersion(void)
 {
 }
 
-static int32_t ARM_I2C_Uninitialize(void)
+ARM_I2C_CAPABILITIES ARM_I2C_GetCapabilities(void)
 {
 }
 
-static int32_t ARM_I2C_PowerControl(ARM_POWER_STATE state)
+int32_t ARM_I2C_Initialize(ARM_I2C_SignalEvent_t cb_event)
+{
+}
+
+int32_t ARM_I2C_Uninitialize(void)
+{
+}
+
+int32_t ARM_I2C_PowerControl(ARM_POWER_STATE state)
 {
     switch (state)
     {
@@ -65,31 +63,33 @@ static int32_t ARM_I2C_PowerControl(ARM_POWER_STATE state)
 
     case ARM_POWER_FULL:
         break;
+
+    default:
+        return ARM_DRIVER_ERROR_UNSUPPORTED;
     }
-    return ARM_DRIVER_OK;
 }
 
-static int32_t ARM_I2C_MasterTransmit(uint32_t addr, const uint8_t *data, uint32_t num, bool xfer_pending)
+int32_t ARM_I2C_MasterTransmit(uint32_t addr, const uint8_t *data, uint32_t num, bool xfer_pending)
 {
 }
 
-static int32_t ARM_I2C_MasterReceive(uint32_t addr, uint8_t *data, uint32_t num, bool xfer_pending)
+int32_t ARM_I2C_MasterReceive(uint32_t addr, uint8_t *data, uint32_t num, bool xfer_pending)
 {
 }
 
-static int32_t ARM_I2C_SlaveTransmit(const uint8_t *data, uint32_t num)
+int32_t ARM_I2C_SlaveTransmit(const uint8_t *data, uint32_t num)
 {
 }
 
-static int32_t ARM_I2C_SlaveReceive(uint8_t *data, uint32_t num)
+int32_t ARM_I2C_SlaveReceive(uint8_t *data, uint32_t num)
 {
 }
 
-static int32_t ARM_I2C_GetDataCount(void)
+int32_t ARM_I2C_GetDataCount(void)
 {
 }
 
-static int32_t ARM_I2C_Control(uint32_t control, uint32_t arg)
+int32_t ARM_I2C_Control(uint32_t control, uint32_t arg)
 {
     switch (control)
     {
@@ -121,20 +121,18 @@ static int32_t ARM_I2C_Control(uint32_t control, uint32_t arg)
     }
 }
 
-static ARM_I2C_STATUS ARM_I2C_GetStatus(void)
+ARM_I2C_STATUS ARM_I2C_GetStatus(void)
 {
 }
 
-static void ARM_I2C_SignalEvent(uint32_t event)
+void ARM_I2C_SignalEvent(uint32_t event)
 {
     // function body
 }
 
 // End I2C Interface
 
-extern \
-ARM_DRIVER_I2C Driver_I2C0;
-ARM_DRIVER_I2C Driver_I2C0 = {
+ARM_DRIVER_I2C Driver_I2C = {
     ARM_I2C_GetVersion,
     ARM_I2C_GetCapabilities,
     ARM_I2C_Initialize,

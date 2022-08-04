@@ -32,7 +32,7 @@
   <td id="projectlogo"><img alt="Logo" src="fs_logo.gif"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">MCUXpresso SDK API Reference Manual
-   &#160;<span id="projectnumber">Rev 2.12.0</span>
+   &#160;<span id="projectnumber">Rev 2.11.0</span>
    </div>
    <div id="projectbrief">NXP Semiconductors</div>
   </td>
@@ -139,28 +139,28 @@ typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" 
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
 Driver version</h2></td></tr>
 <tr class="memitem:ga800c1ed8e21055ea66e482ee4ddec955"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga800c1ed8e21055ea66e482ee4ddec955"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00021.html#ga800c1ed8e21055ea66e482ee4ddec955">FSL_SAI_SDMA_DRIVER_VERSION</a>&#160;&#160;&#160;(<a class="el" href="a00105.html#ga812138aa3315b0c6953c1a26130bcc37">MAKE_VERSION</a>(2, 5, 0))</td></tr>
-<tr class="memdesc:ga800c1ed8e21055ea66e482ee4ddec955"><td class="mdescLeft">&#160;</td><td class="mdescRight">Version 2.5.0. <br/></td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00021.html#ga800c1ed8e21055ea66e482ee4ddec955">FSL_SAI_SDMA_DRIVER_VERSION</a>&#160;&#160;&#160;(<a class="el" href="a00105.html#ga812138aa3315b0c6953c1a26130bcc37">MAKE_VERSION</a>(2, 4, 1))</td></tr>
+<tr class="memdesc:ga800c1ed8e21055ea66e482ee4ddec955"><td class="mdescLeft">&#160;</td><td class="mdescRight">Version 2.4.1. <br/></td></tr>
 <tr class="separator:ga800c1ed8e21055ea66e482ee4ddec955"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
 SDMA Transactional</h2></td></tr>
-<tr class="memitem:gafb886e079a1ae38f0a4c52adeeea1562"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00021.html#gafb886e079a1ae38f0a4c52adeeea1562">SAI_TransferTxCreateHandleSDMA</a> (I2S_Type *base, sai_sdma_handle_t *handle, <a class="el" href="a00021.html#ga545e9717e512139934c92ce20cec1b49">sai_sdma_callback_t</a> callback, void *userData, <a class="el" href="a00022.html#a00186">sdma_handle_t</a> *dmaHandle, uint32_t eventSource)</td></tr>
+<tr class="memitem:gafb886e079a1ae38f0a4c52adeeea1562"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00021.html#gafb886e079a1ae38f0a4c52adeeea1562">SAI_TransferTxCreateHandleSDMA</a> (I2S_Type *base, sai_sdma_handle_t *handle, <a class="el" href="a00021.html#ga545e9717e512139934c92ce20cec1b49">sai_sdma_callback_t</a> callback, void *userData, <a class="el" href="a00022.html#a00185">sdma_handle_t</a> *dmaHandle, uint32_t eventSource)</td></tr>
 <tr class="memdesc:gafb886e079a1ae38f0a4c52adeeea1562"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the SAI SDMA handle.  <a href="#gafb886e079a1ae38f0a4c52adeeea1562">More...</a><br/></td></tr>
 <tr class="separator:gafb886e079a1ae38f0a4c52adeeea1562"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaedef533756eb45a6da16346540b64243"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00021.html#gaedef533756eb45a6da16346540b64243">SAI_TransferRxCreateHandleSDMA</a> (I2S_Type *base, sai_sdma_handle_t *handle, <a class="el" href="a00021.html#ga545e9717e512139934c92ce20cec1b49">sai_sdma_callback_t</a> callback, void *userData, <a class="el" href="a00022.html#a00186">sdma_handle_t</a> *dmaHandle, uint32_t eventSource)</td></tr>
+<tr class="memitem:gaedef533756eb45a6da16346540b64243"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00021.html#gaedef533756eb45a6da16346540b64243">SAI_TransferRxCreateHandleSDMA</a> (I2S_Type *base, sai_sdma_handle_t *handle, <a class="el" href="a00021.html#ga545e9717e512139934c92ce20cec1b49">sai_sdma_callback_t</a> callback, void *userData, <a class="el" href="a00022.html#a00185">sdma_handle_t</a> *dmaHandle, uint32_t eventSource)</td></tr>
 <tr class="memdesc:gaedef533756eb45a6da16346540b64243"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the SAI Rx SDMA handle.  <a href="#gaedef533756eb45a6da16346540b64243">More...</a><br/></td></tr>
 <tr class="separator:gaedef533756eb45a6da16346540b64243"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7f23840aefe5af07667d7b186a614d7d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00021.html#ga7f23840aefe5af07667d7b186a614d7d">SAI_TransferTxSetFormatSDMA</a> (I2S_Type *base, sai_sdma_handle_t *handle, <a class="el" href="a00020.html#a00180">sai_transfer_format_t</a> *format, uint32_t mclkSourceClockHz, uint32_t bclkSourceClockHz)</td></tr>
+<tr class="memitem:ga7f23840aefe5af07667d7b186a614d7d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00021.html#ga7f23840aefe5af07667d7b186a614d7d">SAI_TransferTxSetFormatSDMA</a> (I2S_Type *base, sai_sdma_handle_t *handle, <a class="el" href="a00020.html#a00179">sai_transfer_format_t</a> *format, uint32_t mclkSourceClockHz, uint32_t bclkSourceClockHz)</td></tr>
 <tr class="memdesc:ga7f23840aefe5af07667d7b186a614d7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configures the SAI Tx audio format.  <a href="#ga7f23840aefe5af07667d7b186a614d7d">More...</a><br/></td></tr>
 <tr class="separator:ga7f23840aefe5af07667d7b186a614d7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga312b402c963205382c36383956777d08"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00021.html#ga312b402c963205382c36383956777d08">SAI_TransferRxSetFormatSDMA</a> (I2S_Type *base, sai_sdma_handle_t *handle, <a class="el" href="a00020.html#a00180">sai_transfer_format_t</a> *format, uint32_t mclkSourceClockHz, uint32_t bclkSourceClockHz)</td></tr>
+<tr class="memitem:ga312b402c963205382c36383956777d08"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00021.html#ga312b402c963205382c36383956777d08">SAI_TransferRxSetFormatSDMA</a> (I2S_Type *base, sai_sdma_handle_t *handle, <a class="el" href="a00020.html#a00179">sai_transfer_format_t</a> *format, uint32_t mclkSourceClockHz, uint32_t bclkSourceClockHz)</td></tr>
 <tr class="memdesc:ga312b402c963205382c36383956777d08"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configures the SAI Rx audio format.  <a href="#ga312b402c963205382c36383956777d08">More...</a><br/></td></tr>
 <tr class="separator:ga312b402c963205382c36383956777d08"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga445bbddd33d0433b17ff60e51a084d4f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="a00105.html#gaaabdaf7ee58ca7269bd4bf24efcde092">status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00021.html#ga445bbddd33d0433b17ff60e51a084d4f">SAI_TransferSendSDMA</a> (I2S_Type *base, sai_sdma_handle_t *handle, <a class="el" href="a00020.html#a00181">sai_transfer_t</a> *xfer)</td></tr>
+<tr class="memitem:ga445bbddd33d0433b17ff60e51a084d4f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="a00105.html#gaaabdaf7ee58ca7269bd4bf24efcde092">status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00021.html#ga445bbddd33d0433b17ff60e51a084d4f">SAI_TransferSendSDMA</a> (I2S_Type *base, sai_sdma_handle_t *handle, <a class="el" href="a00020.html#a00180">sai_transfer_t</a> *xfer)</td></tr>
 <tr class="memdesc:ga445bbddd33d0433b17ff60e51a084d4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs a non-blocking SAI transfer using DMA.  <a href="#ga445bbddd33d0433b17ff60e51a084d4f">More...</a><br/></td></tr>
 <tr class="separator:ga445bbddd33d0433b17ff60e51a084d4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8ac119494447713bbbecd02475f335e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="a00105.html#gaaabdaf7ee58ca7269bd4bf24efcde092">status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00021.html#ga8ac119494447713bbbecd02475f335e9">SAI_TransferReceiveSDMA</a> (I2S_Type *base, sai_sdma_handle_t *handle, <a class="el" href="a00020.html#a00181">sai_transfer_t</a> *xfer)</td></tr>
+<tr class="memitem:ga8ac119494447713bbbecd02475f335e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="a00105.html#gaaabdaf7ee58ca7269bd4bf24efcde092">status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00021.html#ga8ac119494447713bbbecd02475f335e9">SAI_TransferReceiveSDMA</a> (I2S_Type *base, sai_sdma_handle_t *handle, <a class="el" href="a00020.html#a00180">sai_transfer_t</a> *xfer)</td></tr>
 <tr class="memdesc:ga8ac119494447713bbbecd02475f335e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs a non-blocking SAI receive using SDMA.  <a href="#ga8ac119494447713bbbecd02475f335e9">More...</a><br/></td></tr>
 <tr class="separator:ga8ac119494447713bbbecd02475f335e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaa102f6b25395920a22e84468e38a63b5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00021.html#gaa102f6b25395920a22e84468e38a63b5">SAI_TransferAbortSendSDMA</a> (I2S_Type *base, sai_sdma_handle_t *handle)</td></tr>
@@ -169,16 +169,10 @@ SDMA Transactional</h2></td></tr>
 <tr class="memitem:ga93db8e9103fdcfc4c7f64c572288d151"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00021.html#ga93db8e9103fdcfc4c7f64c572288d151">SAI_TransferAbortReceiveSDMA</a> (I2S_Type *base, sai_sdma_handle_t *handle)</td></tr>
 <tr class="memdesc:ga93db8e9103fdcfc4c7f64c572288d151"><td class="mdescLeft">&#160;</td><td class="mdescRight">Aborts a SAI receive using SDMA.  <a href="#ga93db8e9103fdcfc4c7f64c572288d151">More...</a><br/></td></tr>
 <tr class="separator:ga93db8e9103fdcfc4c7f64c572288d151"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga08bcefd2a1ef564438b2bf996703a9db"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00021.html#ga08bcefd2a1ef564438b2bf996703a9db">SAI_TransferTerminateReceiveSDMA</a> (I2S_Type *base, sai_sdma_handle_t *handle)</td></tr>
-<tr class="memdesc:ga08bcefd2a1ef564438b2bf996703a9db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Terminate all the SAI sdma receive transfer.  <a href="#ga08bcefd2a1ef564438b2bf996703a9db">More...</a><br/></td></tr>
-<tr class="separator:ga08bcefd2a1ef564438b2bf996703a9db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad5cd6f638792215065929bb0abd008dc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00021.html#gad5cd6f638792215065929bb0abd008dc">SAI_TransferTerminateSendSDMA</a> (I2S_Type *base, sai_sdma_handle_t *handle)</td></tr>
-<tr class="memdesc:gad5cd6f638792215065929bb0abd008dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Terminate all the SAI sdma send transfer.  <a href="#gad5cd6f638792215065929bb0abd008dc">More...</a><br/></td></tr>
-<tr class="separator:gad5cd6f638792215065929bb0abd008dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad667d44770096d3d683fb92b77f2663e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00021.html#gad667d44770096d3d683fb92b77f2663e">SAI_TransferRxSetConfigSDMA</a> (I2S_Type *base, sai_sdma_handle_t *handle, <a class="el" href="a00020.html#a00179">sai_transceiver_t</a> *saiConfig)</td></tr>
+<tr class="memitem:gad667d44770096d3d683fb92b77f2663e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00021.html#gad667d44770096d3d683fb92b77f2663e">SAI_TransferRxSetConfigSDMA</a> (I2S_Type *base, sai_sdma_handle_t *handle, <a class="el" href="a00020.html#a00178">sai_transceiver_t</a> *saiConfig)</td></tr>
 <tr class="memdesc:gad667d44770096d3d683fb92b77f2663e"><td class="mdescLeft">&#160;</td><td class="mdescRight">brief Configures the SAI RX.  <a href="#gad667d44770096d3d683fb92b77f2663e">More...</a><br/></td></tr>
 <tr class="separator:gad667d44770096d3d683fb92b77f2663e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab96d2c96aa6452cb79d54fdf264811a5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00021.html#gab96d2c96aa6452cb79d54fdf264811a5">SAI_TransferTxSetConfigSDMA</a> (I2S_Type *base, sai_sdma_handle_t *handle, <a class="el" href="a00020.html#a00179">sai_transceiver_t</a> *saiConfig)</td></tr>
+<tr class="memitem:gab96d2c96aa6452cb79d54fdf264811a5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00021.html#gab96d2c96aa6452cb79d54fdf264811a5">SAI_TransferTxSetConfigSDMA</a> (I2S_Type *base, sai_sdma_handle_t *handle, <a class="el" href="a00020.html#a00178">sai_transceiver_t</a> *saiConfig)</td></tr>
 <tr class="memdesc:gab96d2c96aa6452cb79d54fdf264811a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">brief Configures the SAI Tx.  <a href="#gab96d2c96aa6452cb79d54fdf264811a5">More...</a><br/></td></tr>
 <tr class="separator:gab96d2c96aa6452cb79d54fdf264811a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -195,7 +189,7 @@ SDMA Transactional</h2></td></tr>
 <div class="textblock"></div><table class="memberdecls">
 <tr><td colspan="2"><h3>Data Fields</h3></td></tr>
 <tr class="memitem:a7771c623613c03018e26d1b9744e384b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7771c623613c03018e26d1b9744e384b"></a>
-<a class="el" href="a00022.html#a00186">sdma_handle_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00021.html#a7771c623613c03018e26d1b9744e384b">dmaHandle</a></td></tr>
+<a class="el" href="a00022.html#a00185">sdma_handle_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00021.html#a7771c623613c03018e26d1b9744e384b">dmaHandle</a></td></tr>
 <tr class="memdesc:a7771c623613c03018e26d1b9744e384b"><td class="mdescLeft">&#160;</td><td class="mdescRight">DMA handler for SAI send. <br/></td></tr>
 <tr class="separator:a7771c623613c03018e26d1b9744e384b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd9f526b0ce960a0501bc496db79eaa1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abd9f526b0ce960a0501bc496db79eaa1"></a>
@@ -238,10 +232,10 @@ uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="
 void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00021.html#a9230b0f355a69422000dbb1f9d0cf1b6">userData</a></td></tr>
 <tr class="memdesc:a9230b0f355a69422000dbb1f9d0cf1b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">User callback parameter. <br/></td></tr>
 <tr class="separator:a9230b0f355a69422000dbb1f9d0cf1b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00d61e5f96c85026e7905efa4c3130e8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="a00022.html#a00182">sdma_buffer_descriptor_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00021.html#a00d61e5f96c85026e7905efa4c3130e8">bdPool</a> [<a class="el" href="a00020.html#ga580bf35fe1f08d7bb054bee399f8b085">SAI_XFER_QUEUE_SIZE</a>]</td></tr>
+<tr class="memitem:a00d61e5f96c85026e7905efa4c3130e8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="a00022.html#a00181">sdma_buffer_descriptor_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00021.html#a00d61e5f96c85026e7905efa4c3130e8">bdPool</a> [<a class="el" href="a00020.html#ga580bf35fe1f08d7bb054bee399f8b085">SAI_XFER_QUEUE_SIZE</a>]</td></tr>
 <tr class="memdesc:a00d61e5f96c85026e7905efa4c3130e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">BD pool for SDMA transfer.  <a href="#a00d61e5f96c85026e7905efa4c3130e8">More...</a><br/></td></tr>
 <tr class="separator:a00d61e5f96c85026e7905efa4c3130e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac116902bf38baaf075f08f514ee633cb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="a00020.html#a00181">sai_transfer_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00021.html#ac116902bf38baaf075f08f514ee633cb">saiQueue</a> [<a class="el" href="a00020.html#ga580bf35fe1f08d7bb054bee399f8b085">SAI_XFER_QUEUE_SIZE</a>]</td></tr>
+<tr class="memitem:ac116902bf38baaf075f08f514ee633cb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="a00020.html#a00180">sai_transfer_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00021.html#ac116902bf38baaf075f08f514ee633cb">saiQueue</a> [<a class="el" href="a00020.html#ga580bf35fe1f08d7bb054bee399f8b085">SAI_XFER_QUEUE_SIZE</a>]</td></tr>
 <tr class="memdesc:ac116902bf38baaf075f08f514ee633cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transfer queue storing queued transfer.  <a href="#ac116902bf38baaf075f08f514ee633cb">More...</a><br/></td></tr>
 <tr class="separator:ac116902bf38baaf075f08f514ee633cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5c7cd4554d17def82716d8b32b641a6d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5c7cd4554d17def82716d8b32b641a6d"></a>
@@ -262,7 +256,7 @@ volatile uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="a00022.html#a00182">sdma_buffer_descriptor_t</a> sai_sdma_handle_t::bdPool[<a class="el" href="a00020.html#ga580bf35fe1f08d7bb054bee399f8b085">SAI_XFER_QUEUE_SIZE</a>]</td>
+          <td class="memname"><a class="el" href="a00022.html#a00181">sdma_buffer_descriptor_t</a> sai_sdma_handle_t::bdPool[<a class="el" href="a00020.html#ga580bf35fe1f08d7bb054bee399f8b085">SAI_XFER_QUEUE_SIZE</a>]</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -274,7 +268,7 @@ volatile uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="a00020.html#a00181">sai_transfer_t</a> sai_sdma_handle_t::saiQueue[<a class="el" href="a00020.html#ga580bf35fe1f08d7bb054bee399f8b085">SAI_XFER_QUEUE_SIZE</a>]</td>
+          <td class="memname"><a class="el" href="a00020.html#a00180">sai_transfer_t</a> sai_sdma_handle_t::saiQueue[<a class="el" href="a00020.html#ga580bf35fe1f08d7bb054bee399f8b085">SAI_XFER_QUEUE_SIZE</a>]</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -328,7 +322,7 @@ volatile uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="a00022.html#a00186">sdma_handle_t</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="a00022.html#a00185">sdma_handle_t</a> *&#160;</td>
           <td class="paramname"><em>dmaHandle</em>, </td>
         </tr>
         <tr>
@@ -391,7 +385,7 @@ volatile uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="a00022.html#a00186">sdma_handle_t</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="a00022.html#a00185">sdma_handle_t</a> *&#160;</td>
           <td class="paramname"><em>dmaHandle</em>, </td>
         </tr>
         <tr>
@@ -442,7 +436,7 @@ volatile uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="a00020.html#a00180">sai_transfer_format_t</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="a00020.html#a00179">sai_transfer_format_t</a> *&#160;</td>
           <td class="paramname"><em>format</em>, </td>
         </tr>
         <tr>
@@ -504,7 +498,7 @@ volatile uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="a00020.html#a00180">sai_transfer_format_t</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="a00020.html#a00179">sai_transfer_format_t</a> *&#160;</td>
           <td class="paramname"><em>format</em>, </td>
         </tr>
         <tr>
@@ -566,7 +560,7 @@ volatile uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="a00020.html#a00181">sai_transfer_t</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="a00020.html#a00180">sai_transfer_t</a> *&#160;</td>
           <td class="paramname"><em>xfer</em>&#160;</td>
         </tr>
         <tr>
@@ -615,7 +609,7 @@ volatile uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="a00020.html#a00181">sai_transfer_t</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="a00020.html#a00180">sai_transfer_t</a> *&#160;</td>
           <td class="paramname"><em>xfer</em>&#160;</td>
         </tr>
         <tr>
@@ -711,72 +705,6 @@ volatile uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el
 
 </div>
 </div>
-<a class="anchor" id="ga08bcefd2a1ef564438b2bf996703a9db"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void SAI_TransferTerminateReceiveSDMA </td>
-          <td>(</td>
-          <td class="paramtype">I2S_Type *&#160;</td>
-          <td class="paramname"><em>base</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">sai_sdma_handle_t *&#160;</td>
-          <td class="paramname"><em>handle</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">base</td><td>SAI base pointer. </td></tr>
-    <tr><td class="paramname">handle</td><td>SAI SDMA handle pointer. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a class="anchor" id="gad5cd6f638792215065929bb0abd008dc"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void SAI_TransferTerminateSendSDMA </td>
-          <td>(</td>
-          <td class="paramtype">I2S_Type *&#160;</td>
-          <td class="paramname"><em>base</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">sai_sdma_handle_t *&#160;</td>
-          <td class="paramname"><em>handle</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">base</td><td>SAI base pointer. </td></tr>
-    <tr><td class="paramname">handle</td><td>SAI SDMA handle pointer. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
 <a class="anchor" id="gad667d44770096d3d683fb92b77f2663e"></a>
 <div class="memitem">
 <div class="memproto">
@@ -796,7 +724,7 @@ volatile uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="a00020.html#a00179">sai_transceiver_t</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="a00020.html#a00178">sai_transceiver_t</a> *&#160;</td>
           <td class="paramname"><em>saiConfig</em>&#160;</td>
         </tr>
         <tr>
@@ -829,7 +757,7 @@ volatile uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="a00020.html#a00179">sai_transceiver_t</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="a00020.html#a00178">sai_transceiver_t</a> *&#160;</td>
           <td class="paramname"><em>saiConfig</em>&#160;</td>
         </tr>
         <tr>

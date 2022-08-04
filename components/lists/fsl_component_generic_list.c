@@ -1,5 +1,5 @@
 /*
- * Copyright 2018-2019, 2022 NXP
+ * Copyright 2018-2019 NXP
  * All rights reserved.
  *
  *
@@ -63,7 +63,7 @@ static list_status_t LIST_Error_Check(list_handle_t list, list_element_handle_t 
 *************************************************************************************
 ********************************************************************************** */
 /*! *********************************************************************************
- * \brief     Initializes the list descriptor.
+ * \brief     Initialises the list descriptor.
  *
  * \param[in] list - LIST_ handle to init.
  *            max - Maximum number of elements in list. 0 for unlimited.
@@ -81,7 +81,7 @@ void LIST_Init(list_handle_t list, uint32_t max)
 {
     list->head = NULL;
     list->tail = NULL;
-    list->max  = max;
+    list->max  = (uint16_t)max;
     list->size = 0;
 }
 
@@ -489,5 +489,5 @@ uint32_t LIST_GetSize(list_handle_t list)
  ********************************************************************************** */
 uint32_t LIST_GetAvailableSize(list_handle_t list)
 {
-    return (list->max - list->size); /*Gets the number of free places in the list*/
+    return ((uint32_t)list->max - (uint32_t)list->size); /*Gets the number of free places in the list*/
 }

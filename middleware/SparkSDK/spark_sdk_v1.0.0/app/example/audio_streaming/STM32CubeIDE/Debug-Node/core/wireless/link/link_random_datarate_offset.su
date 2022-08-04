@@ -1,0 +1,4 @@
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/link/link_random_datarate_offset.c:24:6:link_rdo_init	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/link/link_random_datarate_offset.c:36:6:link_rdo_send_offset	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/link/link_random_datarate_offset.c:48:6:link_rdo_set_offset	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/link/link_random_datarate_offset.c:59:10:link_rdo_get_offset	0	static

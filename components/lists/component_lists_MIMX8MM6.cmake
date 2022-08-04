@@ -1,4 +1,4 @@
-include_guard()
+include_guard(GLOBAL)
 message("component_lists component is included.")
 
 target_sources(${MCUX_SDK_PROJECT_NAME} PRIVATE

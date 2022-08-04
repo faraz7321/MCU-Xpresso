@@ -1,0 +1,13 @@
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/interface/audio_core/iface_audio_evk.c:129:13:ep_max98091_stop_produce	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/interface/audio_core/iface_audio_evk.c:204:17:ep_swc_consume	24	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/interface/audio_core/iface_audio_evk.c:181:17:ep_swc_produce	24	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/interface/audio_core/iface_audio_evk.c:167:13:ep_max98091_stop_consume	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/interface/audio_core/iface_audio_evk.c:156:13:ep_max98091_start_consume	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/interface/audio_core/iface_audio_evk.c:143:17:ep_max98091_action_consume	8	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/interface/audio_core/iface_audio_evk.c:118:13:ep_max98091_start_produce	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/interface/audio_core/iface_audio_evk.c:93:17:ep_max98091_action_produce	64	dynamic
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/interface/audio_core/iface_audio_evk.c:236:13:ep_swc_stop	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/interface/audio_core/iface_audio_evk.c:227:13:ep_swc_start	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/interface/audio_core/iface_audio_evk.c:41:6:iface_audio_swc_endpoint_init	4	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/interface/audio_core/iface_audio_evk.c:59:6:iface_audio_max98091_endpoint_init	4	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/interface/audio_core/iface_audio_evk.c:78:6:iface_audio_critical_section_init	0	static

@@ -1,0 +1,12 @@
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/link/sr1000/link_tdma_sync.c:30:6:link_tdma_sync_init	32	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/link/sr1000/link_tdma_sync.c:71:6:link_tdma_sync_update_tx	8	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/link/sr1000/link_tdma_sync.c:86:6:link_tdma_sync_update_rx	8	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/link/sr1000/link_tdma_sync.c:101:6:link_tdma_sync_slave_adjust	16	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/link/sr1000/link_tdma_sync.c:116:6:link_tdma_sync_slave_find	16	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/link/sr1000/link_tdma_sync.c:131:10:link_tdma_sync_get_sleep_cycles	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/link/sr1000/link_tdma_sync.c:136:10:link_tdma_sync_get_timeout	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/link/sr1000/link_tdma_sync.c:141:10:link_tdma_sync_get_pwr_up	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/link/sr1000/link_tdma_sync.c:146:6:link_tdma_sync_is_slave_synced	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/link/sr1000/link_tdma_sync.c:151:9:link_tdma_sync_get_isi_mitigation_pauses	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/link/sr1000/link_tdma_sync.c:158:10:link_tdma_get_preamble_length	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/link/sr1000/link_tdma_sync.c:165:10:link_tdma_get_syncword_length	0	static

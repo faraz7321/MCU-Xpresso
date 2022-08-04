@@ -1,0 +1,9 @@
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/link/link_saw_arq.c:14:6:link_saw_arq_init	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/link/link_saw_arq.c:25:6:link_saw_arq_is_frame_timeout	12	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/link/link_saw_arq.c:57:6:link_saw_arq_get_seq_num	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/link/link_saw_arq.c:62:6:link_saw_arq_inc_seq_num	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/link/link_saw_arq.c:67:6:link_saw_arq_update_rx_seq_num	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/link/link_saw_arq.c:73:6:link_saw_arq_is_rx_frame_duplicate	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/link/link_saw_arq.c:86:10:link_saw_arq_get_duplicate_count	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/link/link_saw_arq.c:91:10:link_saw_arq_get_retry_count	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/core/wireless/link/link_saw_arq.c:96:6:link_saw_arq_reset_stats	0	static

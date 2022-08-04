@@ -1,0 +1,2 @@
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/hardware/evk/evk.c:49:6:evk_init	104	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/hardware/evk/evk.c:86:6:evk_system_reset	0	static,ignoring_inline_asm

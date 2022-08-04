@@ -1,0 +1,10 @@
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/hardware/evk/usb_device/evk_usb_device.c:115:13:usb_irq_callback	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/hardware/evk/usb_device/evk_usb_device.c:26:6:evk_usb_device_cdc_init_rx_cb	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/hardware/evk/usb_device/evk_usb_device.c:31:6:evk_usb_device_cdc_init_tx_cb	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/hardware/evk/usb_device/evk_usb_device.c:36:6:evk_usb_device_cdc_init_init_cb	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/hardware/evk/usb_device/evk_usb_device.c:41:6:evk_usb_device_cdc_init	8	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/hardware/evk/usb_device/evk_usb_device.c:69:6:evk_usb_device_deinit	8	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/hardware/evk/usb_device/evk_usb_device.c:82:6:evk_usb_device_connect	8	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/hardware/evk/usb_device/evk_usb_device.c:92:6:evk_usb_device_disconnect	8	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/hardware/evk/usb_device/evk_usb_device.c:102:6:evk_usb_device_cdc_putc	16	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/hardware/evk/usb_device/evk_usb_device.c:107:6:evk_usb_device_cdc_send_buf	0	static

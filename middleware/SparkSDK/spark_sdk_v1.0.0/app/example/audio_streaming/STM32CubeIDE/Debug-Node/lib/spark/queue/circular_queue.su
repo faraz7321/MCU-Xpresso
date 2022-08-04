@@ -1,0 +1,14 @@
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/lib/spark/queue/circular_queue.c:16:6:circular_queue_init	4	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/lib/spark/queue/circular_queue.c:27:8:circular_queue_front_raw	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/lib/spark/queue/circular_queue.c:32:7:circular_queue_front	0	static,ignoring_inline_asm
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/lib/spark/queue/circular_queue.c:47:7:circular_queue_get_free_slot_raw	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/lib/spark/queue/circular_queue.c:52:7:circular_queue_get_free_slot	0	static,ignoring_inline_asm
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/lib/spark/queue/circular_queue.c:68:6:circular_queue_enqueue_raw	4	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/lib/spark/queue/circular_queue.c:78:6:circular_queue_enqueue	4	static,ignoring_inline_asm
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/lib/spark/queue/circular_queue.c:93:6:circular_queue_dequeue_raw	4	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/lib/spark/queue/circular_queue.c:103:6:circular_queue_dequeue	8	static,ignoring_inline_asm
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/lib/spark/queue/circular_queue.c:118:10:circular_queue_size	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/lib/spark/queue/circular_queue.c:123:10:circular_queue_capacity	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/lib/spark/queue/circular_queue.c:128:10:circular_queue_free_space	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/lib/spark/queue/circular_queue.c:133:6:circular_queue_is_empty	0	static
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/lib/spark/queue/circular_queue.c:138:6:circular_queue_is_full	0	static
