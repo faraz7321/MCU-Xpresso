@@ -1,0 +1,21 @@
+Scanning dependencies of target main.elf
+[  9%] Building C object CMakeFiles/main.elf.dir/home/foronz/NXP-MCUXpresso/boards/evkmimx8mm/demo_apps/main/clock_config.c.obj
+[  9%] Building C object CMakeFiles/main.elf.dir/home/foronz/NXP-MCUXpresso/boards/evkmimx8mm/demo_apps/main/pin_mux.c.obj
+[ 14%] Building C object CMakeFiles/main.elf.dir/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/hardware/evk/evk_audio.c.obj
+[ 19%] Building C object CMakeFiles/main.elf.dir/home/foronz/NXP-MCUXpresso/devices/MIMX8MM6/utilities/debug_console_lite/fsl_debug_console.c.obj
+[ 23%] Building C object CMakeFiles/main.elf.dir/home/foronz/NXP-MCUXpresso/boards/evkmimx8mm/demo_apps/main/empty_rsc_table.c.obj
+[ 28%] Building C object CMakeFiles/main.elf.dir/home/foronz/NXP-MCUXpresso/boards/evkmimx8mm/demo_apps/main/board.c.obj
+[ 33%] Building C object CMakeFiles/main.elf.dir/home/foronz/NXP-MCUXpresso/boards/evkmimx8mm/demo_apps/main/main.c.obj
+[ 38%] Building C object CMakeFiles/main.elf.dir/home/foronz/NXP-MCUXpresso/components/uart/fsl_adapter_iuart.c.obj
+[ 42%] Building C object CMakeFiles/main.elf.dir/home/foronz/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_common.c.obj
+In file included from /home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/hardware/evk/evk_audio.h:13,
+                 from /home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/hardware/evk/evk_audio.c:11:
+/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/hardware/evk/evk_def.h:15:10: fatal error: stm32g4xx_hal.h: No such file or directory
+   15 | #include "stm32g4xx_hal.h"
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+make[2]: *** [CMakeFiles/main.elf.dir/build.make:128: CMakeFiles/main.elf.dir/home/foronz/NXP-MCUXpresso/middleware/SparkSDK/spark_sdk_v1.0.0/bsp/hardware/evk/evk_audio.c.obj] Error 1
+make[2]: *** Waiting for unfinished jobs....
+[ 47%] Building C object CMakeFiles/main.elf.dir/home/foronz/NXP-MCUXpresso/devices/MIMX8MM6/drivers/fsl_common_arm.c.obj
+make[1]: *** [CMakeFiles/Makefile2:76: CMakeFiles/main.elf.dir/all] Error 2
+make: *** [Makefile:84: all] Error 2

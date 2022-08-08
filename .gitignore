@@ -7,3 +7,4 @@ boards/evkmimx8mm/demo_apps/hello_world/armgcc/output.map
 boards/evkmimx8mm/demo_apps/hello_world/armgcc/build_log.txt
 boards/evkmimx8mm/demo_apps/sai_low_power_audio/armgcc/build_log.txt
 boards/evkmimx8mm/demo_apps/sai_low_power_audio/armgcc/output.map
+boards/evkmimx8mm/demo_apps/main/armgcc/output.map
