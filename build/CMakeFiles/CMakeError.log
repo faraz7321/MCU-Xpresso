@@ -299,3 +299,347 @@ make: *** [Makefile:121: cmTC_e3fde/fast] Error 2
 
 
 
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/arm-none-eabi-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): in function `exit':
+/build/newlib-CVVEyx/newlib-3.3.0/build/arm-none-eabi/newlib/libc/stdlib/../../../../../newlib/libc/stdlib/exit.c:64: undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/arm-none-eabi-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): in function `exit':
+/build/newlib-CVVEyx/newlib-3.3.0/build/arm-none-eabi/newlib/libc/stdlib/../../../../../newlib/libc/stdlib/exit.c:64: undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/foronz/NXP-MCUXpresso/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d0266/fast && /usr/bin/make -f CMakeFiles/cmTC_d0266.dir/build.make CMakeFiles/cmTC_d0266.dir/build
+make[1]: Entering directory '/home/foronz/NXP-MCUXpresso/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d0266.dir/testCCompiler.c.obj
+/usr/bin/arm-none-eabi-gcc    -o CMakeFiles/cmTC_d0266.dir/testCCompiler.c.obj   -c /home/foronz/NXP-MCUXpresso/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_d0266
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0266.dir/link.txt --verbose=1
+/usr/bin/arm-none-eabi-gcc      CMakeFiles/cmTC_d0266.dir/testCCompiler.c.obj  -o cmTC_d0266 
+/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): in function `exit':
+/build/newlib-CVVEyx/newlib-3.3.0/build/arm-none-eabi/newlib/libc/stdlib/../../../../../newlib/libc/stdlib/exit.c:64: undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_d0266.dir/build.make:87: cmTC_d0266] Error 1
+make[1]: Leaving directory '/home/foronz/NXP-MCUXpresso/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_d0266/fast] Error 2
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/arm-none-eabi-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): in function `exit':
+/build/newlib-CVVEyx/newlib-3.3.0/build/arm-none-eabi/newlib/libc/stdlib/../../../../../newlib/libc/stdlib/exit.c:64: undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/arm-none-eabi-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): in function `exit':
+/build/newlib-CVVEyx/newlib-3.3.0/build/arm-none-eabi/newlib/libc/stdlib/../../../../../newlib/libc/stdlib/exit.c:64: undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/foronz/NXP-MCUXpresso/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_56902/fast && /usr/bin/make -f CMakeFiles/cmTC_56902.dir/build.make CMakeFiles/cmTC_56902.dir/build
+make[1]: Entering directory '/home/foronz/NXP-MCUXpresso/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_56902.dir/testCCompiler.c.obj
+/usr/bin/arm-none-eabi-gcc    -o CMakeFiles/cmTC_56902.dir/testCCompiler.c.obj   -c /home/foronz/NXP-MCUXpresso/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_56902
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56902.dir/link.txt --verbose=1
+/usr/bin/arm-none-eabi-gcc      CMakeFiles/cmTC_56902.dir/testCCompiler.c.obj  -o cmTC_56902 
+/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): in function `exit':
+/build/newlib-CVVEyx/newlib-3.3.0/build/arm-none-eabi/newlib/libc/stdlib/../../../../../newlib/libc/stdlib/exit.c:64: undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_56902.dir/build.make:87: cmTC_56902] Error 1
+make[1]: Leaving directory '/home/foronz/NXP-MCUXpresso/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_56902/fast] Error 2
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/arm-none-eabi-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): in function `exit':
+/build/newlib-CVVEyx/newlib-3.3.0/build/arm-none-eabi/newlib/libc/stdlib/../../../../../newlib/libc/stdlib/exit.c:64: undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/arm-none-eabi-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): in function `exit':
+/build/newlib-CVVEyx/newlib-3.3.0/build/arm-none-eabi/newlib/libc/stdlib/../../../../../newlib/libc/stdlib/exit.c:64: undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/foronz/NXP-MCUXpresso/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_658a8/fast && /usr/bin/make -f CMakeFiles/cmTC_658a8.dir/build.make CMakeFiles/cmTC_658a8.dir/build
+make[1]: Entering directory '/home/foronz/NXP-MCUXpresso/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_658a8.dir/testCCompiler.c.obj
+/usr/bin/arm-none-eabi-gcc    -o CMakeFiles/cmTC_658a8.dir/testCCompiler.c.obj   -c /home/foronz/NXP-MCUXpresso/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_658a8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_658a8.dir/link.txt --verbose=1
+/usr/bin/arm-none-eabi-gcc      CMakeFiles/cmTC_658a8.dir/testCCompiler.c.obj  -o cmTC_658a8 
+/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): in function `exit':
+/build/newlib-CVVEyx/newlib-3.3.0/build/arm-none-eabi/newlib/libc/stdlib/../../../../../newlib/libc/stdlib/exit.c:64: undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_658a8.dir/build.make:87: cmTC_658a8] Error 1
+make[1]: Leaving directory '/home/foronz/NXP-MCUXpresso/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_658a8/fast] Error 2
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/arm-none-eabi-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): in function `exit':
+/build/newlib-CVVEyx/newlib-3.3.0/build/arm-none-eabi/newlib/libc/stdlib/../../../../../newlib/libc/stdlib/exit.c:64: undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/arm-none-eabi-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): in function `exit':
+/build/newlib-CVVEyx/newlib-3.3.0/build/arm-none-eabi/newlib/libc/stdlib/../../../../../newlib/libc/stdlib/exit.c:64: undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/foronz/NXP-MCUXpresso/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_87b68/fast && /usr/bin/make -f CMakeFiles/cmTC_87b68.dir/build.make CMakeFiles/cmTC_87b68.dir/build
+make[1]: Entering directory '/home/foronz/NXP-MCUXpresso/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_87b68.dir/testCCompiler.c.obj
+/usr/bin/arm-none-eabi-gcc    -o CMakeFiles/cmTC_87b68.dir/testCCompiler.c.obj   -c /home/foronz/NXP-MCUXpresso/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_87b68
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_87b68.dir/link.txt --verbose=1
+/usr/bin/arm-none-eabi-gcc      CMakeFiles/cmTC_87b68.dir/testCCompiler.c.obj  -o cmTC_87b68 
+/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): in function `exit':
+/build/newlib-CVVEyx/newlib-3.3.0/build/arm-none-eabi/newlib/libc/stdlib/../../../../../newlib/libc/stdlib/exit.c:64: undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_87b68.dir/build.make:87: cmTC_87b68] Error 1
+make[1]: Leaving directory '/home/foronz/NXP-MCUXpresso/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_87b68/fast] Error 2
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/arm-none-eabi-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): in function `exit':
+/build/newlib-CVVEyx/newlib-3.3.0/build/arm-none-eabi/newlib/libc/stdlib/../../../../../newlib/libc/stdlib/exit.c:64: undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/arm-none-eabi-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): in function `exit':
+/build/newlib-CVVEyx/newlib-3.3.0/build/arm-none-eabi/newlib/libc/stdlib/../../../../../newlib/libc/stdlib/exit.c:64: undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/foronz/NXP-MCUXpresso/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ccd1b/fast && /usr/bin/make -f CMakeFiles/cmTC_ccd1b.dir/build.make CMakeFiles/cmTC_ccd1b.dir/build
+make[1]: Entering directory '/home/foronz/NXP-MCUXpresso/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ccd1b.dir/testCCompiler.c.obj
+/usr/bin/arm-none-eabi-gcc    -o CMakeFiles/cmTC_ccd1b.dir/testCCompiler.c.obj   -c /home/foronz/NXP-MCUXpresso/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_ccd1b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ccd1b.dir/link.txt --verbose=1
+/usr/bin/arm-none-eabi-gcc      CMakeFiles/cmTC_ccd1b.dir/testCCompiler.c.obj  -o cmTC_ccd1b 
+/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): in function `exit':
+/build/newlib-CVVEyx/newlib-3.3.0/build/arm-none-eabi/newlib/libc/stdlib/../../../../../newlib/libc/stdlib/exit.c:64: undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_ccd1b.dir/build.make:87: cmTC_ccd1b] Error 1
+make[1]: Leaving directory '/home/foronz/NXP-MCUXpresso/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_ccd1b/fast] Error 2
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/arm-none-eabi-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): in function `exit':
+/build/newlib-CVVEyx/newlib-3.3.0/build/arm-none-eabi/newlib/libc/stdlib/../../../../../newlib/libc/stdlib/exit.c:64: undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/arm-none-eabi-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): in function `exit':
+/build/newlib-CVVEyx/newlib-3.3.0/build/arm-none-eabi/newlib/libc/stdlib/../../../../../newlib/libc/stdlib/exit.c:64: undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/foronz/NXP-MCUXpresso/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b0871/fast && /usr/bin/make -f CMakeFiles/cmTC_b0871.dir/build.make CMakeFiles/cmTC_b0871.dir/build
+make[1]: Entering directory '/home/foronz/NXP-MCUXpresso/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b0871.dir/testCCompiler.c.obj
+/usr/bin/arm-none-eabi-gcc    -o CMakeFiles/cmTC_b0871.dir/testCCompiler.c.obj   -c /home/foronz/NXP-MCUXpresso/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_b0871
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b0871.dir/link.txt --verbose=1
+/usr/bin/arm-none-eabi-gcc      CMakeFiles/cmTC_b0871.dir/testCCompiler.c.obj  -o cmTC_b0871 
+/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): in function `exit':
+/build/newlib-CVVEyx/newlib-3.3.0/build/arm-none-eabi/newlib/libc/stdlib/../../../../../newlib/libc/stdlib/exit.c:64: undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_b0871.dir/build.make:87: cmTC_b0871] Error 1
+make[1]: Leaving directory '/home/foronz/NXP-MCUXpresso/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_b0871/fast] Error 2
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/arm-none-eabi-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): in function `exit':
+/build/newlib-CVVEyx/newlib-3.3.0/build/arm-none-eabi/newlib/libc/stdlib/../../../../../newlib/libc/stdlib/exit.c:64: undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/arm-none-eabi-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): in function `exit':
+/build/newlib-CVVEyx/newlib-3.3.0/build/arm-none-eabi/newlib/libc/stdlib/../../../../../newlib/libc/stdlib/exit.c:64: undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/foronz/NXP-MCUXpresso/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1eebd/fast && /usr/bin/make -f CMakeFiles/cmTC_1eebd.dir/build.make CMakeFiles/cmTC_1eebd.dir/build
+make[1]: Entering directory '/home/foronz/NXP-MCUXpresso/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1eebd.dir/testCCompiler.c.obj
+/usr/bin/arm-none-eabi-gcc    -o CMakeFiles/cmTC_1eebd.dir/testCCompiler.c.obj   -c /home/foronz/NXP-MCUXpresso/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_1eebd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1eebd.dir/link.txt --verbose=1
+/usr/bin/arm-none-eabi-gcc      CMakeFiles/cmTC_1eebd.dir/testCCompiler.c.obj  -o cmTC_1eebd 
+/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): in function `exit':
+/build/newlib-CVVEyx/newlib-3.3.0/build/arm-none-eabi/newlib/libc/stdlib/../../../../../newlib/libc/stdlib/exit.c:64: undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_1eebd.dir/build.make:87: cmTC_1eebd] Error 1
+make[1]: Leaving directory '/home/foronz/NXP-MCUXpresso/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_1eebd/fast] Error 2
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/arm-none-eabi-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): in function `exit':
+/build/newlib-CVVEyx/newlib-3.3.0/build/arm-none-eabi/newlib/libc/stdlib/../../../../../newlib/libc/stdlib/exit.c:64: undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/arm-none-eabi-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): in function `exit':
+/build/newlib-CVVEyx/newlib-3.3.0/build/arm-none-eabi/newlib/libc/stdlib/../../../../../newlib/libc/stdlib/exit.c:64: undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/foronz/NXP-MCUXpresso/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_279aa/fast && /usr/bin/make -f CMakeFiles/cmTC_279aa.dir/build.make CMakeFiles/cmTC_279aa.dir/build
+make[1]: Entering directory '/home/foronz/NXP-MCUXpresso/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_279aa.dir/testCCompiler.c.obj
+/usr/bin/arm-none-eabi-gcc    -o CMakeFiles/cmTC_279aa.dir/testCCompiler.c.obj   -c /home/foronz/NXP-MCUXpresso/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_279aa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_279aa.dir/link.txt --verbose=1
+/usr/bin/arm-none-eabi-gcc      CMakeFiles/cmTC_279aa.dir/testCCompiler.c.obj  -o cmTC_279aa 
+/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): in function `exit':
+/build/newlib-CVVEyx/newlib-3.3.0/build/arm-none-eabi/newlib/libc/stdlib/../../../../../newlib/libc/stdlib/exit.c:64: undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_279aa.dir/build.make:87: cmTC_279aa] Error 1
+make[1]: Leaving directory '/home/foronz/NXP-MCUXpresso/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_279aa/fast] Error 2
+
+
+

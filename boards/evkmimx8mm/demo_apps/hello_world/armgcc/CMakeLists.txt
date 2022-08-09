@@ -40,10 +40,29 @@ add_executable(${MCUX_SDK_PROJECT_NAME}
 "${ProjDirPath}/../clock_config.h"
 "${ProjDirPath}/../fsl_iomuxc.h"
 "${ProjDirPath}/../empty_rsc_table.c"
+"${ProjDirPath}/../SR1020.h"
+"${ProjDirPath}/../SR1020.c"
+
 )
 
 target_include_directories(${MCUX_SDK_PROJECT_NAME} PRIVATE
     ${ProjDirPath}/..
+    ${ProjDirPath}/../wireless/api
+    ${ProjDirPath}/../wireless/cfg
+    ${ProjDirPath}/../wireless/link
+    ${ProjDirPath}/../wireless/link/sr1000
+    ${ProjDirPath}/../wireless/phy
+    ${ProjDirPath}/../wireless/phy/sr1000
+    #${ProjDirPath}/../wireless/phy/sr1000/multi_radio
+    ${ProjDirPath}/../wireless/phy/sr1000/single_radio
+    ${ProjDirPath}/../wireless/protocol_stack
+    ${ProjDirPath}/../wireless/protocol_stack/sr1000
+    ${ProjDirPath}/../wireless/transceiver
+    ${ProjDirPath}/../wireless/transceiver/sr1000
+    ${ProjDirPath}/../wireless/xlayer
+    ${ProjDirPath}/../wireless/queue
+    ${ProjDirPath}/../wireless/memory
+
 )
 
 set(CMAKE_MODULE_PATH
@@ -86,6 +105,7 @@ include(CMSIS_Include_core_cm_MIMX8MM6)
 include(utilities_misc_utilities_MIMX8MM6)
 
 include(device_MIMX8MM6_system_MIMX8MM6)
+
 
 
 TARGET_LINK_LIBRARIES(${MCUX_SDK_PROJECT_NAME} PRIVATE -Wl,--start-group)

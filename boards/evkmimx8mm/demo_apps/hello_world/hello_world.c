@@ -1,10 +1,9 @@
 #include "fsl_device_registers.h"
 #include "fsl_debug_console.h"
-#include "fsl_ecspi.h"
-#include "fsl_gpio.h"
 #include "pin_mux.h"
 #include "clock_config.h"
 #include "board.h"
+#include "SR1020.h"
 
 /* Definitions*/
 #define ECSPI_MASTER_BASEADDR ECSPI2
@@ -14,50 +13,42 @@
      (CLOCK_GetRootPostDivider(kCLOCK_RootEcspi2)))
 #define TRANSFER_SIZE 64U         /*! Transfer dataSize */
 #define TRANSFER_BAUDRATE 500000U /*! Transfer baudrate - 500k */
-// GPIO CONFIG
-#define GPIO GPIO5
-#define GPIO_PIN 13U // J103-p38
 
-/* Variables*/
-volatile bool isTransferCompleted = false;
-bool flag = false;
-volatile uint32_t g_systickCounter = 20U;
-uint8_t rx_data[TRANSFER_SIZE];
-uint8_t tx_data[TRANSFER_SIZE];
-
-ecspi_master_handle_t *handle;
-
-enum
-{
-    kECSPI_Idle = 0x0, /*!< ECSPI is idle state */
-    kECSPI_Busy        /*!< ECSPI is busy tranferring data. */
-};
-
-/* Prototypes */
-void init();
-
-void evk_radio_spi_set_cs(void);
-void evk_radio_spi_reset_cs(void);
-void evk_radio_spi_transfer_full_duplex_blocking(uint8_t *tx_data, uint8_t *rx_data, uint16_t size);
-void evk_radio_spi_transfer_full_duplex_non_blocking(uint8_t *tx_data, uint8_t *rx_data, uint16_t size);
-
-static void ECSPI_SendTransfer(ECSPI_Type *base, ecspi_master_handle_t *handle);
+void BOARD_Init_All(void);
 void ECSPI_MasterUserCallback(ECSPI_Type *base, ecspi_master_handle_t *handle, status_t status, void *userData);
+void GPIO3_Combined_16_31_IRQHandler(void);
 
+static void app_swc_core_init(swc_error_t *err);
+
+// Utility
 void delay(uint32_t Counter);
 void printData(uint8_t *tx_data, uint16_t size);
 bool checkData(uint8_t *tx_data, uint8_t *rx_data, uint16_t size);
 
+/* Variables*/
+volatile bool isTransferCompleted = false;
+volatile uint32_t g_systickCounter = 20U;
+
+uint8_t rx_data[TRANSFER_SIZE];
+uint8_t tx_data[TRANSFER_SIZE];
+uint32_t tx[TRANSFER_SIZE];
+uint32_t rx[TRANSFER_SIZE];
+
+ecspi_master_handle_t *handle;
+
+/* ** Wireless Core ** */
+static swc_hal_t hal;
+
 int main(void)
 {
-    init();
+    BOARD_Init_All();
 
-    PRINTF("\r\n\n\n\n\n\n******* SPI Transfer *******\r\n");
+    PRINTF("\r\n\n\n\n\n\n******* SPI Transfer2 *******\r\n");
 
     /* Set up the transfer data */
-
     while (1)
     {
+
         for (uint16_t i = 0; i < TRANSFER_SIZE; i++)
         {
             tx_data[i] = (uint8_t)i;
@@ -70,16 +61,10 @@ int main(void)
 
         isTransferCompleted = false;
         evk_radio_spi_transfer_full_duplex_non_blocking(tx_data, rx_data, TRANSFER_SIZE);
+
         while (!isTransferCompleted)
         {
-            // PRINTF("\r\nyo\r\n");
         }
-        uint32_t *buf = handle->rxData;
-        for (int i = 0; i < TRANSFER_SIZE; i++)
-        {
-            rx_data[i] = (uint8_t)*buf++;
-        }
-
         PRINTF("\r\nAfter Transfer\r\nTX=");
         printData(tx_data, TRANSFER_SIZE);
         PRINTF("\r\nRX=");
@@ -90,7 +75,39 @@ int main(void)
             PRINTF("\r\nLoopback successful\r\n");
         }
         GETCHAR();
+        // delay(10000);
     }
+}
+static void app_swc_core_init(swc_error_t *err)
+{
+    return;
+}
+void BOARD_Init_All(void)
+{
+    /* Board specific RDC settings */
+    BOARD_InitBootPins();
+    BOARD_BootClockRUN();
+    BOARD_InitDebugConsole();
+    BOARD_InitMemory();
+
+    CLOCK_SetRootMux(kCLOCK_RootEcspi2, kCLOCK_EcspiRootmuxSysPll1); /* Set ECSPI2 source to SYSTEM PLL1 800MHZ */
+    CLOCK_SetRootDivider(kCLOCK_RootEcspi2, 2U, 5U);                 /* Set root clock to 800MHZ / 10 = 80MHZ */
+    ecspi_master_config_t masterConfig;
+
+    ECSPI_MasterGetDefaultConfig(&masterConfig);
+    masterConfig.baudRate_Bps = TRANSFER_BAUDRATE;
+    // masterConfig.burstLength = 1;
+
+    ECSPI_MasterInit(ECSPI_MASTER_BASEADDR, &masterConfig, ECSPI_MASTER_CLK_FREQ);
+
+    gpio_pin_config_t CS_config = {kGPIO_DigitalOutput, 1, kGPIO_IntRisingEdge};
+    gpio_pin_config_t GPIO_config = {kGPIO_DigitalInput, 1, kGPIO_IntRisingEdge};
+    GPIO_PinInit(GPIO5, 13U, &CS_config);   // SPI chip select
+    GPIO_PinInit(GPIO3, 21U, &GPIO_config); // radio interrupt
+    GPIO_PortEnableInterrupts(GPIO3, (1 << 21U));
+    EnableIRQ(GPIO3_Combined_16_31_IRQn);
+
+    ECSPI_MasterTransferCreateHandle(ECSPI_MASTER_BASEADDR, handle, ECSPI_MasterUserCallback, NULL);
 }
 
 void evk_radio_spi_transfer_full_duplex_blocking(uint8_t *tx_data, uint8_t *rx_data, uint16_t size)
@@ -135,85 +152,31 @@ void evk_radio_spi_transfer_full_duplex_blocking(uint8_t *tx_data, uint8_t *rx_d
 
 void evk_radio_spi_transfer_full_duplex_non_blocking(uint8_t *tx_data, uint8_t *rx_data, uint16_t size)
 {
-    assert((handle != NULL));
+    ecspi_transfer_t masterXfer;
 
-    uint32_t txData[size];
-    uint32_t rxData[size];
-    for (int i = 0; i < size; i++)
+    for (uint16_t i = 0; i < size; i++)
     {
-        txData[i] = tx_data[i];
-        rxData[i] = rx_data[i];
+        tx[i] = tx_data[i];
+        rx[i] = rx_data[i];
     }
 
-    /* Check if ECSPI is busy */
-    if (handle->state == (uint32_t)kECSPI_Busy)
-    {
-        return;
-    }
-
-    /* Check if the input arguments valid */
-    if (((tx_data == NULL) && (rx_data == NULL)) || (size == 0U))
-    {
-        return;
-    }
-
-    /* Set the handle information */
-    handle->channel = kECSPI_Channel0;
-    handle->txData = txData;
-    handle->rxData = rxData;
-    handle->transferSize = size;
-    handle->txRemainingBytes = size;
-    handle->rxRemainingBytes = size;
-
-    /* Set the ECSPI state to busy */
-    handle->state = kECSPI_Busy;
-
-    ECSPI_SetChannelSelect(ECSPI_MASTER_BASEADDR, kECSPI_Channel0);
-
+    masterXfer.txData = tx;
+    masterXfer.rxData = rx;
+    masterXfer.dataSize = size;
+    masterXfer.channel = kECSPI_Channel0;
     evk_radio_spi_set_cs();
-    /* First send data to Tx FIFO to start a ECSPI transfer */
-    ECSPI_SendTransfer(ECSPI_MASTER_BASEADDR, handle);
-
-    if (NULL != rx_data)
-    {
-        ECSPI_EnableInterrupts(
-            ECSPI_MASTER_BASEADDR, (uint32_t)kECSPI_RxFifoReadyInterruptEnable | (uint32_t)kECSPI_RxFifoOverFlowInterruptEnable);
-    }
-    else
-    {
-        ECSPI_EnableInterrupts(ECSPI_MASTER_BASEADDR, kECSPI_TxFifoDataRequstInterruptEnable);
-    }
-}
-
-static void ECSPI_SendTransfer(ECSPI_Type *base, ecspi_master_handle_t *handle)
-{
-    assert(base != NULL);
-    assert(handle != NULL);
-
-    uint32_t dataCounts = 0U;
-    uint32_t txRemainingBytes = (uint32_t)(handle->txRemainingBytes);
-    /* Caculate the data size to send */
-    dataCounts = TRANSFER_SIZE;
-    //((uint32_t)FSL_FEATURE_ECSPI_TX_FIFO_SIZEn(base) - (uint32_t)ECSPI_GetTxFifoCount(base)) < txRemainingBytes ? ((uint32_t)FSL_FEATURE_ECSPI_TX_FIFO_SIZEn(base) - (uint32_t)ECSPI_GetTxFifoCount(base)) : txRemainingBytes;
-    uint32_t *buffer = handle->txData;
-    while ((dataCounts--) != 0UL)
-    {
-        if (buffer != NULL)
-        {
-            base->TXDATA = *buffer++;
-        }
-        if (NULL != handle->txData)
-        {
-            handle->txData += 1U;
-        }
-        handle->txRemainingBytes -= 1U;
-    }
+    ECSPI_MasterTransferNonBlocking(ECSPI_MASTER_BASEADDR, handle, &masterXfer);
 }
 void ECSPI_MasterUserCallback(ECSPI_Type *base, ecspi_master_handle_t *handle, status_t status, void *userData)
 {
     if (status == kStatus_Success)
     {
+        for (int i = 0; i < TRANSFER_SIZE; i++)
+        {
+            rx_data[i] = rx[i];
+        }
         isTransferCompleted = true;
+        radio1_dma_callback();
         evk_radio_spi_reset_cs();
     }
 
@@ -221,18 +184,6 @@ void ECSPI_MasterUserCallback(ECSPI_Type *base, ecspi_master_handle_t *handle, s
     {
         PRINTF("Hardware overflow occurred in this transfer. \r\n");
     }
-}
-
-void evk_radio_spi_set_cs(void)
-{
-    GPIO_PinWrite(GPIO, GPIO_PIN, 0U);
-    // PRINTF("CS-> SET \r\n");
-}
-
-void evk_radio_spi_reset_cs(void)
-{
-    GPIO_PinWrite(GPIO, GPIO_PIN, 1U);
-    // PRINTF("CS-> RESET \r\n");
 }
 
 void printData(uint8_t *data, uint16_t size)
@@ -257,28 +208,6 @@ bool checkData(uint8_t *tx_data, uint8_t *rx_data, uint16_t size)
     return flag;
 }
 
-/* Initialize board */
-void init()
-{
-    gpio_pin_config_t led_config = {kGPIO_DigitalOutput, 0, kGPIO_IntRisingEdge};
-    /* Board specific RDC settings */
-    BOARD_InitBootPins();
-    BOARD_BootClockRUN();
-    BOARD_InitDebugConsole();
-    BOARD_InitMemory();
-
-    CLOCK_SetRootMux(kCLOCK_RootEcspi2, kCLOCK_EcspiRootmuxSysPll1); /* Set ECSPI2 source to SYSTEM PLL1 800MHZ */
-    CLOCK_SetRootDivider(kCLOCK_RootEcspi2, 2U, 5U);                 /* Set root clock to 800MHZ / 10 = 80MHZ */
-    ecspi_master_config_t masterConfig;
-
-    ECSPI_MasterGetDefaultConfig(&masterConfig);
-    masterConfig.baudRate_Bps = TRANSFER_BAUDRATE;
-
-    ECSPI_MasterInit(ECSPI_MASTER_BASEADDR, &masterConfig, ECSPI_MASTER_CLK_FREQ);
-    GPIO_PinInit(GPIO, GPIO_PIN, &led_config);
-    ECSPI_MasterTransferCreateHandle(ECSPI_MASTER_BASEADDR, handle, ECSPI_MasterUserCallback, NULL);
-    evk_radio_spi_set_cs();
-}
 void SysTick_Handler(void)
 {
     if (g_systickCounter != 0U)

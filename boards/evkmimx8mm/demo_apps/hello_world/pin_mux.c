@@ -60,6 +60,10 @@ BOARD_InitPins:
  * END ****************************************************************************************************************/
 void BOARD_InitPins(void)
 { /*!< Function assigned for the core: Cortex-M4[m4] */
+
+    // radio int change pin to sai5 rxd pin 38 EXC
+    IOMUXC_SetPinMux(IOMUXC_SAI5_RXD0_GPIO3_IO21, IOMUXC_SW_PAD_CTL_PAD_PUE_MASK | IOMUXC_SW_PAD_CTL_PAD_PE_MASK);
+
     // GPIO
     // IOMUXC_SetPinMux(IOMUXC_SAI5_RXD0_GPIO3_IO21, 0U); // change pin to sai5 rxd pin 38 EXC
     IOMUXC_SetPinMux(IOMUXC_ECSPI2_SS0_GPIO5_IO13, IOMUXC_SW_PAD_CTL_PAD_PUE_MASK | IOMUXC_SW_PAD_CTL_PAD_PE_MASK);
