@@ -24,6 +24,7 @@ SET(LIBRARY_OUTPUT_PATH ${ProjDirPath}/${CMAKE_BUILD_TYPE})
 
 project(hello_world)
 
+
 set(MCUX_SDK_PROJECT_NAME hello_world.elf)
 
 include(${ProjDirPath}/flags.cmake)
@@ -42,6 +43,35 @@ add_executable(${MCUX_SDK_PROJECT_NAME}
 "${ProjDirPath}/../empty_rsc_table.c"
 "${ProjDirPath}/../SR1020.h"
 "${ProjDirPath}/../SR1020.c"
+"${ProjDirPath}/../wireless/link/link_scheduler.c"
+"${ProjDirPath}/../wireless/link/link_saw_arq.c"
+"${ProjDirPath}/../wireless/link/link_protocol.c"
+"${ProjDirPath}/../wireless/link/link_multi_radio.c"
+"${ProjDirPath}/../wireless/link/link_channel_hopping.c"
+"${ProjDirPath}/../wireless/link/sr1000/link_fallback.c"
+"${ProjDirPath}/../wireless/link/sr1000/link_cca.c"
+"${ProjDirPath}/../wireless/link/sr1000/link_lqi.c"
+"${ProjDirPath}/../wireless/link/sr1000/link_gain_loop.c"
+"${ProjDirPath}/../wireless/link/sr1000/link_tdma_sync.c"
+"${ProjDirPath}/../wireless/link/link_random_datarate_offset.c"
+"${ProjDirPath}/../wireless/protocol_stack/wps_process.c"
+"${ProjDirPath}/../wireless/protocol_stack/wps_mac.c"
+"${ProjDirPath}/../wireless/protocol_stack/wps_callback.c"
+"${ProjDirPath}/../wireless/protocol_stack/wps_phy.c"
+"${ProjDirPath}/../wireless/protocol_stack/wps_stats.c"
+"${ProjDirPath}/../wireless/protocol_stack/wps.c"
+"${ProjDirPath}/../wireless/protocol_stack/sr1000/wps_phy_common.c"
+"${ProjDirPath}/../wireless/protocol_stack/wps_utils.c"
+"${ProjDirPath}/../wireless/memory/mem_pool.c"
+"${ProjDirPath}/../wireless/api/swc_api.c"
+"${ProjDirPath}/../wireless/api/swc_stats.c"
+"${ProjDirPath}/../wireless/queue/circular_queue.c"
+"${ProjDirPath}/../wireless/queue/queue.c"
+"${ProjDirPath}/../wireless/phy/sr1000/sr_spectral.c"
+"${ProjDirPath}/../wireless/phy/sr1000/sr_nvm_private.c"
+"${ProjDirPath}/../wireless/phy/sr1000/sr_nvm.c"
+"${ProjDirPath}/../wireless/phy/sr1000/sr_calib.c"
+
 
 )
 
@@ -62,7 +92,6 @@ target_include_directories(${MCUX_SDK_PROJECT_NAME} PRIVATE
     ${ProjDirPath}/../wireless/xlayer
     ${ProjDirPath}/../wireless/queue
     ${ProjDirPath}/../wireless/memory
-
 )
 
 set(CMAKE_MODULE_PATH

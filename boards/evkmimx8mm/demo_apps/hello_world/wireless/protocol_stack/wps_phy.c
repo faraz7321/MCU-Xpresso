@@ -15,7 +15,7 @@ void wps_phy_init(wps_phy_t *wps_phy, wps_phy_cfg_t *cfg)
 {
     phy_init(wps_phy, cfg);
 }
-
+#include "fsl_debug_console.h"
 void wps_phy_connect(wps_phy_t *wps_phy)
 {
     uwb_set_radio_actions(wps_phy->radio, SET_RADIO_ACTIONS(RADIO_ACTIONS_CLEAR));
@@ -29,8 +29,12 @@ void wps_phy_connect(wps_phy_t *wps_phy)
     uwb_set_timer_config(wps_phy->radio, SET_TIMER_CFG(TIMER_CFG_CLEAR,
                                                        AUTOWAKE_UP_ENABLE,
                                                        WAKE_UP_ONCE_ENABLE));
+    //PRINTF("before phy_connect()");
     phy_connect(wps_phy);
+    //PRINTF("after phy_connect()");
     wps_phy->radio->radio_hal->context_switch();
+    
+    //PRINTF("after context_switch()");
 }
 
 void wps_phy_disconnect(wps_phy_t *wps_phy)

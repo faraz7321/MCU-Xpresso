@@ -62,9 +62,9 @@ int main(void)
     if (swc_err != SWC_ERR_NONE) {
         while (1);
     }
-
+    //iface_print_string("\r\nbefore swc");
     swc_connect();
-
+    //iface_print_string("\r\nafter");
     while (1) {
         swc_connection_get_payload_buffer(tx_conn, &hello_world_buf, &swc_err);
         if (hello_world_buf != NULL) {

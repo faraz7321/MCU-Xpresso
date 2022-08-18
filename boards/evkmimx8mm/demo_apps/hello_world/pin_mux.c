@@ -49,6 +49,8 @@ BOARD_InitPins:
   - {pin_num: B8, peripheral: ECSPI2, signal: ecspi_mosi, pin_signal: ECSPI2_MOSI, PE: Disabled, HYS: Enabled, SION: DISABLED, FSEL: SLOW0, DSE: X6_0}
   - {pin_num: A8, peripheral: ECSPI2, signal: ecspi_miso, pin_signal: ECSPI2_MISO, PE: Disabled, HYS: Enabled, SION: DISABLED, FSEL: SLOW0, DSE: X6_0}
   - {pin_num: AD18, peripheral: GPIO3, signal: 'gpio_io, 21', pin_signal: SAI5_RXD0}
+  - {pin_num: AC14, peripheral: GPIO3, signal: 'gpio_io, 22', pin_signal: SAI5_RXD1}
+  - {pin_num: AD13, peripheral: GPIO3, signal: 'gpio_io, 23', pin_signal: SAI5_RXD2}
  * BE CAREFUL MODIFYING THIS COMMENT - IT IS YAML SETTINGS FOR TOOLS ***********
  */
 
@@ -61,8 +63,10 @@ BOARD_InitPins:
 void BOARD_InitPins(void)
 { /*!< Function assigned for the core: Cortex-M4[m4] */
 
-    // radio int change pin to sai5 rxd pin 38 EXC
-    IOMUXC_SetPinMux(IOMUXC_SAI5_RXD0_GPIO3_IO21, IOMUXC_SW_PAD_CTL_PAD_PUE_MASK | IOMUXC_SW_PAD_CTL_PAD_PE_MASK);
+    // SR1020 control line
+    IOMUXC_SetPinMux(IOMUXC_SAI5_RXD0_GPIO3_IO21, IOMUXC_SW_PAD_CTL_PAD_PUE_MASK | IOMUXC_SW_PAD_CTL_PAD_PE_MASK); // INT
+    IOMUXC_SetPinMux(IOMUXC_SAI5_RXD1_GPIO3_IO22, 0U); // Reset
+    IOMUXC_SetPinMux(IOMUXC_SAI5_RXD2_GPIO3_IO23, 0U); // Shutdown
 
     // GPIO
     // IOMUXC_SetPinMux(IOMUXC_SAI5_RXD0_GPIO3_IO21, 0U); // change pin to sai5 rxd pin 38 EXC

@@ -49,7 +49,7 @@ static void mac_post(wps_t *wps);
  *  └────────────────────────────────────────────────────────────────┘
  *
  */
-
+#include "fsl_debug_console.h"
 static void enqueue_states(wps_t *wps, wps_process_state_t state);
 static void end_state(wps_t *wps);
 
@@ -93,11 +93,13 @@ void wps_process_callback(wps_t *wps)
  */
 static void idle(wps_t *wps)
 {
+    //PRINTF("return idle");
     if (wps->signal == WPS_CONNECT) {
         wps->process_signal = PROCESS_SIGNAL_EXECUTE;
         enqueue_states(wps, mac_pre);
     }
     end_state(wps);
+    
 }
 
 /** @brief State : MAC pre - Prepare PHY transfer in the MAC layer.
@@ -106,6 +108,7 @@ static void idle(wps_t *wps)
  */
 static void mac_pre(wps_t *wps)
 {
+    //PRINTF("mac_pre");
     wps->mac.input_signal.main_signal = MAC_SIGNAL_SCHEDULE;
     wps_mac_process(&wps->mac);
     set_signal_mac_to_phy(&wps->mac, wps->phy);
@@ -116,6 +119,7 @@ static void mac_pre(wps_t *wps)
     wps->process_signal = PROCESS_SIGNAL_EXECUTE;
     enqueue_states(wps, phy_handle);
     end_state(wps);
+    //PRINTF("return mac_pre");
 }
 
 /** @brief State : PHY handle - Handle PHY signals during SPI transfers with the radio and frame outcome reception.
@@ -124,12 +128,14 @@ static void mac_pre(wps_t *wps)
  */
 static void phy_handle(wps_t *wps)
 {
+    //PRINTF("running phy_handle");
     switch (wps_phy_get_main_signal(wps->phy)) {
     case PHY_SIGNAL_YIELD:
         wps->process_signal = PROCESS_SIGNAL_YIELD;
         break;
     case PHY_SIGNAL_PREPARE_DONE:
         wps->process_signal = PROCESS_SIGNAL_EXECUTE;
+        //PRINTF("enqueue yield");
         enqueue_states(wps, yield);
         end_state(wps);
         break;
@@ -141,17 +147,20 @@ static void phy_handle(wps_t *wps)
         wps->process_signal = PROCESS_SIGNAL_EXECUTE;
         set_signal_phy_to_mac(wps->phy, &wps->mac);
         wps_phy_end_process(wps->phy);
+        //PRINTF("enqueue mac_post");
         enqueue_states(wps, mac_post);
         end_state(wps);
         break;
     case PHY_SIGNAL_ERROR:
         wps->process_signal = PROCESS_SIGNAL_EXECUTE;
+        //PRINTF("enqueue error");
         enqueue_states(wps, error);
         end_state(wps);
         break;
     default:
         break;
     }
+    //PRINTF("return return");
 }
 
 /** @brief State : PHY error - Dectect erroneous signal from the phy and restart the state machine.
@@ -160,6 +169,7 @@ static void phy_handle(wps_t *wps)
  */
 static void error(wps_t *wps)
 {
+    PRINTF("running error");
     wps->mac.input_signal.main_signal = MAC_SIGNAL_SCHEDULE;
     wps_mac_reset(&wps->mac);
     wps_phy_disconnect(wps->phy);
@@ -170,6 +180,7 @@ static void error(wps_t *wps)
     wps_callback_enqueue(&wps->l7.callback_queue, wps->mac.main_xlayer);
 
     wps->process_signal = PROCESS_SIGNAL_EXECUTE;
+    //PRINTF("enqueue mac_pre");
     enqueue_states(wps, mac_pre);
     end_state(wps);
 }
@@ -180,6 +191,7 @@ static void error(wps_t *wps)
  */
 static void yield(wps_t *wps)
 {
+    //PRINTF("running yield");
     wps_request_info_t *request;
 
     wps->callback_context_switch();
@@ -193,6 +205,7 @@ static void yield(wps_t *wps)
     wps->process_signal = PROCESS_SIGNAL_YIELD;
     enqueue_states(wps, phy_handle);
     end_state(wps);
+    //PRINTF("return yield");
 }
 
 /** @brief State : MAC post - Process frame outcome in the MAC and enqueue proper application callbacks.
@@ -201,6 +214,7 @@ static void yield(wps_t *wps)
  */
 static void mac_post(wps_t *wps)
 {
+    //PRINTF("running mac_post");
     wps_mac_process(&wps->mac);
     set_signal_mac_to_wps(&wps->mac, wps);
 

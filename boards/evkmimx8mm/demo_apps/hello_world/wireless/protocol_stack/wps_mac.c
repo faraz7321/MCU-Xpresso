@@ -145,9 +145,10 @@ void wps_mac_reset(wps_mac_t *wps_mac)
     wps_mac->current_input  = MAC_SIGNAL_EMPTY;
     wps_mac->current_output = MAC_SIGNAL_WPS_EMPTY;
 }
-
+#include "fsl_debug_console.h"
 void wps_mac_process(wps_mac_t *wps_mac)
 {
+    //PRINTF("wps_mac_process");
     wps_mac->state_process_idx = 0;
     wps_mac->current_input     = wps_mac->input_signal.main_signal;
     wps_mac->current_output    = MAC_SIGNAL_WPS_EMPTY;
@@ -507,6 +508,7 @@ static void state_mac_prepare_frame(void *signal_data)
  */
 static void state_setup_primary_link(void *signal_data)
 {
+    //PRINTF("state_setup_primary_link");
     wps_mac_t *wps_mac      = (wps_mac_t *)signal_data;
     uint32_t next_channel = link_channel_hopping_get_channel(&wps_mac->channel_hopping);
     uint16_t rdo_value    = link_rdo_get_offset(&wps_mac->link_rdo);
@@ -563,6 +565,7 @@ static void state_setup_primary_link(void *signal_data)
     update_main_xlayer_link_parameter(wps_mac, wps_mac->main_xlayer);
     update_xlayer_sync(wps_mac, wps_mac->main_xlayer);
     update_xlayer_modem_feat(wps_mac, wps_mac->main_xlayer);
+    //PRINTF("r state_setup_primary_link");
 }
 
 /** @brief Setup ack link state.
@@ -1191,7 +1194,9 @@ static bool scheduling_needed(wps_mac_t *wps_mac)
 static void process_scheduler(wps_mac_t *wps_mac)
 {
     do {
+         //PRINTF("process_scheduler %d %d", wps_mac->current_input, wps_mac->state_process_idx);
         wps_mac->state_machine[wps_mac->current_input][wps_mac->state_process_idx++](wps_mac);
+
     } while (wps_mac->state_machine[wps_mac->current_input][wps_mac->state_process_idx] != end);
 }
 

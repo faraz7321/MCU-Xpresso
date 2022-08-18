@@ -150,13 +150,18 @@ typedef struct wps {
  *
  *  @param[in] wps  WPS instance.
  */
+#include "fsl_debug_console.h"
 static inline void wps_process(wps_t *wps)
 {
+    //PRINTF("ENTERING wps_process");
     wps->status = WPS_PROCESSING;
 
+    //PRINTF("BEFORE THE LOOP");
     do {
+        //PRINTF("iter");
         wps->current_state(wps);
     } while (wps->process_signal == PROCESS_SIGNAL_EXECUTE);
+    //PRINTF("AFTER THE LOOP");
 
     wps->status = WPS_IDLE;
 }

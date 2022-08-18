@@ -15,42 +15,38 @@
 #include "wps_stats.h"
 
 /* CONSTANTS ******************************************************************/
-#define WPS_DEFAULT_PREAMBLE_LEN 94
-#define WPS_DEFAULT_CRC 0xBAAD
-#define WPS_DEFAULT_SYNC_WORD_LEN SYNCWORD_LENGTH_32
-#define WPS_DEFAULT_CALLBACK_QUEUE_SIZE 20
-#define WPS_DEFAULT_FREQ_SHIFT true
-#define WPS_DEFAULT_PULSE_START_POS 2
-#define WPS_DEFAULT_RND_PHASE RND_PHASE_ENABLE
-#define WPS_DEFAULT_PULSE_SPACING 1
-#define WPS_DEFAULT_RDO_ROLLOVER_VAL 15
+#define WPS_DEFAULT_PREAMBLE_LEN         94
+#define WPS_DEFAULT_CRC                  0xBAAD
+#define WPS_DEFAULT_SYNC_WORD_LEN        SYNCWORD_LENGTH_32
+#define WPS_DEFAULT_CALLBACK_QUEUE_SIZE  20
+#define WPS_DEFAULT_FREQ_SHIFT           true
+#define WPS_DEFAULT_PULSE_START_POS      2
+#define WPS_DEFAULT_RND_PHASE            RND_PHASE_ENABLE
+#define WPS_DEFAULT_PULSE_SPACING        1
+#define WPS_DEFAULT_RDO_ROLLOVER_VAL     15
 
-#define WPS_INTEGGAIN_ONE_PULSE_VAL 1
-#define WPS_INTEGGAIN_MANY_PULSES_VAL 0
+#define WPS_INTEGGAIN_ONE_PULSE_VAL      1
+#define WPS_INTEGGAIN_MANY_PULSES_VAL    0
 
 /* MACROS *********************************************************************/
 #define HW_ADDR(net_id, node_id) ((net_id << 8) | node_id)
 #define NET_ID_FROM_PAN_ID(pan_id) (pan_id & 0x0ff)
 #define SYNCWORD_ID_FROM_PAN_ID(pan_id) ((pan_id & 0xf00) >> 8)
 
-#define MEM_ALLOC_CHECK_RETURN_NULL(ptr, size, err) \
-    {                                               \
-        ptr = mem_pool_malloc(&mem_pool, size);     \
-        if (ptr == NULL)                            \
-        {                                           \
-            *err = SWC_ERR_NOT_ENOUGH_MEMORY;       \
-            return NULL;                            \
-        }                                           \
-    }
-#define MEM_ALLOC_CHECK_RETURN_VOID(ptr, size, err) \
-    {                                               \
-        ptr = mem_pool_malloc(&mem_pool, size);     \
-        if (ptr == NULL)                            \
-        {                                           \
-            *err = SWC_ERR_NOT_ENOUGH_MEMORY;       \
-            return;                                 \
-        }                                           \
-    }
+#define MEM_ALLOC_CHECK_RETURN_NULL(ptr, size, err) { \
+    ptr = mem_pool_malloc(&mem_pool, size); \
+    if (ptr == NULL) { \
+        *err = SWC_ERR_NOT_ENOUGH_MEMORY; \
+        return NULL; \
+    } \
+}
+#define MEM_ALLOC_CHECK_RETURN_VOID(ptr, size, err) { \
+    ptr = mem_pool_malloc(&mem_pool, size); \
+    if (ptr == NULL) { \
+        *err = SWC_ERR_NOT_ENOUGH_MEMORY; \
+        return; \
+    } \
+}
 
 /* PRIVATE GLOBALS ************************************************************/
 static wps_t wps;
@@ -88,8 +84,7 @@ void swc_init(swc_cfg_t cfg, swc_hal_t *hal, swc_error_t *err)
     wps_multi_init(hal->multi_cfg, &wps_err);
 #endif
 
-    for (uint32_t i = 0; i < cfg.timeslot_sequence_length; i++)
-    {
+    for (uint32_t i = 0; i < cfg.timeslot_sequence_length; i++) {
         timeslot_sequence_pll_cycle[i] = wps_us_to_pll_cycle(cfg.timeslot_sequence[i], CHIP_RATE_20_48_MHZ);
     }
 
@@ -98,21 +93,15 @@ void swc_init(swc_cfg_t cfg, swc_hal_t *hal, swc_error_t *err)
 
     /* Enable/disable global miscellaneous WPS features */
 #if (WPS_RADIO_COUNT == 1)
-    if (cfg.fast_sync_enabled)
-    {
+    if (cfg.fast_sync_enabled) {
         wps_enable_fast_sync(&wps, &wps_err);
-    }
-    else
-    {
+    } else {
         wps_disable_fast_sync(&wps, &wps_err);
     }
 #endif
-    if (cfg.random_channel_sequence_enabled)
-    {
+    if (cfg.random_channel_sequence_enabled) {
         wps_enable_random_channel_sequence(&wps, &wps_err);
-    }
-    else
-    {
+    } else {
         wps_disable_random_channel_sequence(&wps, &wps_err);
     }
 
@@ -137,13 +126,13 @@ swc_node_t *swc_node_init(swc_node_cfg_t cfg, swc_error_t *err)
     node->radio_count = 0;
     node->cfg = cfg;
 
-    wps_node_cfg.role = cfg.role;
-    wps_node_cfg.preamble_len = WPS_DEFAULT_PREAMBLE_LEN;
-    wps_node_cfg.sleep_lvl = cfg.sleep_level;
+    wps_node_cfg.role           = cfg.role;
+    wps_node_cfg.preamble_len   = WPS_DEFAULT_PREAMBLE_LEN;
+    wps_node_cfg.sleep_lvl      = cfg.sleep_level;
     wps_node_cfg.crc_polynomial = WPS_DEFAULT_CRC;
-    wps_node_cfg.local_address = HW_ADDR(NET_ID_FROM_PAN_ID(cfg.pan_id), cfg.local_address);
-    wps_node_cfg.syncword = sync_word_table[SYNCWORD_ID_FROM_PAN_ID(cfg.pan_id)];
-    wps_node_cfg.syncword_len = WPS_DEFAULT_SYNC_WORD_LEN;
+    wps_node_cfg.local_address  = HW_ADDR(NET_ID_FROM_PAN_ID(cfg.pan_id), cfg.local_address);
+    wps_node_cfg.syncword       = sync_word_table[SYNCWORD_ID_FROM_PAN_ID(cfg.pan_id)];
+    wps_node_cfg.syncword_len   = WPS_DEFAULT_SYNC_WORD_LEN;
 
     wps_set_network_id(&wps, NET_ID_FROM_PAN_ID(cfg.pan_id), &wps_err);
     wps_set_syncing_address(&wps, HW_ADDR(NET_ID_FROM_PAN_ID(cfg.pan_id), cfg.coordinator_address), &wps_err);
@@ -159,9 +148,9 @@ void swc_node_add_radio(swc_node_t *node, swc_radio_cfg_t cfg, swc_hal_t *hal, s
 
     *err = SWC_ERR_NONE;
 
-    node->wps_radio_handle[radio_id].radio_hal = hal->radio_hal[radio_id];
+    node->wps_radio_handle[radio_id].radio_hal          = hal->radio_hal[radio_id];
     node->wps_radio_handle[radio_id].radio.irq_polarity = cfg.irq_polarity;
-    node->wps_radio_handle[radio_id].radio.std_spi = cfg.std_spi;
+    node->wps_radio_handle[radio_id].radio.std_spi      = cfg.std_spi;
 
     MEM_ALLOC_CHECK_RETURN_VOID(node->wps_radio_handle[radio_id].nvm, sizeof(nvm_t), err);
     MEM_ALLOC_CHECK_RETURN_VOID(node->wps_radio_handle[radio_id].spectral_calib_vars, sizeof(calib_vars_t), err);
@@ -188,7 +177,7 @@ swc_connection_t *swc_connection_init(swc_node_t *node, swc_connection_cfg_t cfg
     uint8_t *fallback_threshold = NULL;
     swc_connection_t *conn;
     xlayer_t *xlayer_queue;
-    rf_channel_t(*channel_buffer)[WPS_NB_RF_CHANNEL][WPS_RADIO_COUNT];
+    rf_channel_t (*channel_buffer)[WPS_NB_RF_CHANNEL][WPS_RADIO_COUNT];
 
     *err = SWC_ERR_NONE;
 
@@ -202,21 +191,20 @@ swc_connection_t *swc_connection_init(swc_node_t *node, swc_connection_cfg_t cfg
     wps_header_cfg.ranging_phase_provider = false;
 
     header_size = wps_get_connection_header_size(&wps, wps_header_cfg);
-    conn_frame_length = cfg.allocate_payload_memory ? cfg.max_payload_size + header_size + WPS_PAYLOAD_SIZE_BYTE_SIZE : header_size + WPS_PAYLOAD_SIZE_BYTE_SIZE;
+    conn_frame_length = cfg.allocate_payload_memory ? cfg.max_payload_size + header_size + WPS_PAYLOAD_SIZE_BYTE_SIZE :
+                                                      header_size + WPS_PAYLOAD_SIZE_BYTE_SIZE;
 
     /* Allocate memory */
     MEM_ALLOC_CHECK_RETURN_NULL(conn, sizeof(swc_connection_t), err);
     MEM_ALLOC_CHECK_RETURN_NULL(conn->wps_conn_handle, sizeof(wps_connection_t), err);
     MEM_ALLOC_CHECK_RETURN_NULL(xlayer_queue, sizeof(xlayer_t) * cfg.queue_size, err);
     MEM_ALLOC_CHECK_RETURN_NULL(frame_queue, sizeof(uint8_t) * cfg.queue_size * conn_frame_length, err);
-    if (cfg.fallback_enabled)
-    {
+    if (cfg.fallback_enabled) {
         threshold_count = 1;
         MEM_ALLOC_CHECK_RETURN_NULL(fallback_threshold, sizeof(uint8_t) * threshold_count, err);
         memcpy(fallback_threshold, &cfg.fallback_settings.threshold, threshold_count);
     }
-    if (cfg.throttling_enabled)
-    {
+    if (cfg.throttling_enabled) {
         MEM_ALLOC_CHECK_RETURN_NULL(conn->wps_conn_handle->pattern, sizeof(bool) * WPS_CONNECTION_THROTTLE_GRANULARITY, err);
     }
     MEM_ALLOC_CHECK_RETURN_NULL(channel_buffer, sizeof(rf_channel_t[WPS_NB_RF_CHANNEL][WPS_RADIO_COUNT]) * (threshold_count + 1), err);
@@ -224,17 +212,17 @@ swc_connection_t *swc_connection_init(swc_node_t *node, swc_connection_cfg_t cfg
     conn->channel_count = 0;
     conn->cfg = cfg;
 
-    wps_conn_cfg.source_address = HW_ADDR(NET_ID_FROM_PAN_ID(node->cfg.pan_id), cfg.source_address);
-    wps_conn_cfg.destination_address = HW_ADDR(NET_ID_FROM_PAN_ID(node->cfg.pan_id), cfg.destination_address);
-    wps_conn_cfg.header_length = header_size;
-    wps_conn_cfg.frame_length = conn_frame_length;
-    wps_conn_cfg.get_tick_quarter_ms = hal->get_tick_quarter_ms;
-    wps_conn_cfg.fifo_buffer = xlayer_queue;
-    wps_conn_cfg.fifo_buffer_size = cfg.queue_size;
-    wps_conn_cfg.frame_buffer = frame_queue;
-    wps_conn_cfg.fallback_count = threshold_count;
-    wps_conn_cfg.fallback_threshold = fallback_threshold;
-    wps_conn_cfg.channel_buffer = channel_buffer;
+    wps_conn_cfg.source_address       = HW_ADDR(NET_ID_FROM_PAN_ID(node->cfg.pan_id), cfg.source_address);
+    wps_conn_cfg.destination_address  = HW_ADDR(NET_ID_FROM_PAN_ID(node->cfg.pan_id), cfg.destination_address);
+    wps_conn_cfg.header_length        = header_size;
+    wps_conn_cfg.frame_length         = conn_frame_length;
+    wps_conn_cfg.get_tick_quarter_ms  = hal->get_tick_quarter_ms;
+    wps_conn_cfg.fifo_buffer          = xlayer_queue;
+    wps_conn_cfg.fifo_buffer_size     = cfg.queue_size;
+    wps_conn_cfg.frame_buffer         = frame_queue;
+    wps_conn_cfg.fallback_count       = threshold_count;
+    wps_conn_cfg.fallback_threshold   = fallback_threshold;
+    wps_conn_cfg.channel_buffer       = channel_buffer;
 
     wps_create_connection(conn->wps_conn_handle, node->wps_node_handle, &wps_conn_cfg, &wps_err);
 
@@ -242,46 +230,33 @@ swc_connection_t *swc_connection_init(swc_node_t *node, swc_connection_cfg_t cfg
 
     wps_connection_set_timeslot(conn->wps_conn_handle, &wps, cfg.timeslot_id, cfg.timeslot_count, &wps_err);
 
-    if (cfg.ack_enabled)
-    {
+    if (cfg.ack_enabled) {
         wps_connection_enable_ack(conn->wps_conn_handle, &wps_err);
-    }
-    else
-    {
+    } else {
         wps_connection_disable_ack(conn->wps_conn_handle, &wps_err);
     }
 
-    if (cfg.arq_enabled)
-    {
+    if (cfg.arq_enabled) {
         wps_connection_enable_stop_and_wait_arq(conn->wps_conn_handle, node->wps_node_handle->local_address,
                                                 cfg.arq_settings.retry_count, cfg.arq_settings.time_deadline, &wps_err);
-    }
-    else
-    {
+    } else {
         wps_connection_disable_stop_and_wait_arq(conn->wps_conn_handle, &wps_err);
     }
 
-    if (cfg.auto_sync_enabled)
-    {
+    if (cfg.auto_sync_enabled) {
         wps_connection_enable_auto_sync(conn->wps_conn_handle, &wps_err);
-    }
-    else
-    {
+    } else {
         wps_connection_disable_auto_sync(conn->wps_conn_handle, &wps_err);
     }
 
-    if (cfg.cca_enabled)
-    {
+    if (cfg.cca_enabled) {
         wps_connection_enable_cca(conn->wps_conn_handle, conn->cfg.cca_settings.threshold, conn->cfg.cca_settings.retry_time,
                                   conn->cfg.cca_settings.try_count, conn->cfg.cca_settings.fail_action, &wps_err);
-    }
-    else
-    {
+    } else {
         wps_connection_disable_cca(conn->wps_conn_handle, &wps_err);
     }
 
-    if (cfg.throttling_enabled)
-    {
+    if (cfg.throttling_enabled) {
         wps_init_connection_throttle(conn->wps_conn_handle, &wps_err);
     }
 
@@ -300,23 +275,22 @@ void swc_connection_add_channel(swc_connection_t *conn, swc_node_t *node, swc_ch
     MEM_ALLOC_CHECK_RETURN_VOID(wps_chann_cfg.power, sizeof(tx_power_settings_t), err);
 
     /* Configure RF channels the connection will use */
-    wps_chann_cfg.frequency = cfg.frequency;
+    wps_chann_cfg.frequency          = cfg.frequency;
     wps_chann_cfg.power->pulse_count = cfg.tx_pulse_count;
     wps_chann_cfg.power->pulse_width = cfg.tx_pulse_width;
-    wps_chann_cfg.power->tx_gain = cfg.tx_pulse_gain;
-    wps_chann_cfg.freq_shift_enable = WPS_DEFAULT_FREQ_SHIFT;
-    wps_chann_cfg.pulse_spacing = WPS_DEFAULT_PULSE_SPACING;
-    wps_chann_cfg.pulse_start_pos = WPS_DEFAULT_PULSE_START_POS;
-    wps_chann_cfg.rdn_phase_enable = WPS_DEFAULT_RND_PHASE;
-    wps_chann_cfg.integgain = (cfg.rx_pulse_count == 1) ? WPS_INTEGGAIN_ONE_PULSE_VAL : WPS_INTEGGAIN_MANY_PULSES_VAL;
+    wps_chann_cfg.power->tx_gain     = cfg.tx_pulse_gain;
+    wps_chann_cfg.freq_shift_enable  = WPS_DEFAULT_FREQ_SHIFT;
+    wps_chann_cfg.pulse_spacing      = WPS_DEFAULT_PULSE_SPACING;
+    wps_chann_cfg.pulse_start_pos    = WPS_DEFAULT_PULSE_START_POS;
+    wps_chann_cfg.rdn_phase_enable   = WPS_DEFAULT_RND_PHASE;
+    wps_chann_cfg.integgain          = (cfg.rx_pulse_count == 1) ? WPS_INTEGGAIN_ONE_PULSE_VAL : WPS_INTEGGAIN_MANY_PULSES_VAL;
 
     wps_connection_config_channel(conn->wps_conn_handle, node->wps_node_handle, conn->channel_count, 0, &wps_chann_cfg, &wps_err);
 
-    if (conn->cfg.fallback_enabled)
-    {
+    if (conn->cfg.fallback_enabled) {
         wps_chann_cfg.power->pulse_count += conn->cfg.fallback_settings.tx_pulse_count_offset;
         wps_chann_cfg.power->pulse_width += conn->cfg.fallback_settings.tx_pulse_width_offset;
-        wps_chann_cfg.power->tx_gain += conn->cfg.fallback_settings.tx_pulse_gain_offset;
+        wps_chann_cfg.power->tx_gain     += conn->cfg.fallback_settings.tx_pulse_gain_offset;
         wps_connection_config_channel(conn->wps_conn_handle, node->wps_node_handle, conn->channel_count, 1, &wps_chann_cfg, &wps_err);
     }
 
@@ -360,11 +334,10 @@ void swc_connection_get_payload_buffer(swc_connection_t *conn, uint8_t **payload
 {
     wps_error_t wps_err;
 
-    *err = SWC_ERR_NONE;
+   *err = SWC_ERR_NONE;
 
     wps_get_free_slot(conn->wps_conn_handle, payload_buffer, &wps_err);
-    if (wps_err != WPS_NO_ERROR)
-    {
+    if (wps_err != WPS_NO_ERROR) {
         *payload_buffer = NULL;
     }
 }
@@ -444,16 +417,20 @@ void swc_connection_callbacks_processing_handler(void)
 {
     wps_process_callback(&wps);
 }
-
+#include "fsl_debug_console.h"
 #if (WPS_RADIO_COUNT == 1)
 void swc_radio_irq_handler(void)
 {
+    PRINTF("swc_radio_irq_handler");
     wps_radio_irq(&wps);
+    PRINTF("after wps_radio_irq");
     wps_process(&wps);
+    PRINTF("after wps_process ");
 }
 
 void swc_radio_spi_receive_complete_handler(void)
 {
+    PRINTF("swc_radio_spi_receive_complete_handler");
     wps_transfer_complete(&wps);
     wps_process(&wps);
 }
@@ -505,14 +482,13 @@ static bool has_main_timeslot(int32_t *timeslot_id, uint32_t timeslot_count)
 {
     bool main_timeslot = false;
 
-    for (uint32_t i = 0; i < timeslot_count; i++)
-    {
+    for (uint32_t i = 0; i < timeslot_count; i++) {
         main_timeslot = !(timeslot_id[i] & BIT_AUTO_REPLY_TIMESLOT);
-        if (main_timeslot)
-        {
+        if (main_timeslot) {
             break;
         }
     }
 
     return main_timeslot;
 }
+
